@@ -1,11 +1,3 @@
----
-layout: default
-title: Projects
----
-
-<head><link rel="stylesheet" href="./doc/assets/css/style.css"/><script src="./doc/assets/js/main.js"></script></head>
-
-
 [//]: #(Reference)
 [prj_deploy_ep]: https://abelgacem.github.io/project/
 [url_jekyll]:    https://jekyllrb.com
