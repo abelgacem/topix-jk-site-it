@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Pubme
 ---
 
 <head><link rel="stylesheet" href="../md.css"/><script src="../md.js"></script></head>
