@@ -5,7 +5,7 @@ title: Herman
 
 
 [//]: #(Reference)
-[readme_home]:   ../index
+[readme_home]:   /index
 
 # [&larr;][readme_home] Project > Plearn
 # Decscription

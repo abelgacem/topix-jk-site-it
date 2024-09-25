@@ -5,7 +5,7 @@ title: Pubme
 
 
 [//]: #(Reference)
-[readme_home]:   ../index
+[readme_home]:   /index
 
 # [&larr;][readme_home] Project > Pubme
 # Decscription
