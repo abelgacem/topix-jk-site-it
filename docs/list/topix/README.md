@@ -3,29 +3,26 @@ layout: default
 title: Pubme
 ---
 
-
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]: {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Project > Topix
-# Decscription
+# Description
 
-create a documentation hub
+Create a documentation hub.
 
 # Purpose
 
-- Define a single point of reference for the documentation whatever the domain is.
-- Define a common terminology that is shared by all topics of all domains.
-- Unify the Writing and conception of the documentation to ensure a cohesive approach across technical guides, user manuals, project specifications, policies, terminologies, tutorials, procesceses, etc.
+- Define a single point of reference for the documentation.
+- Establish a common terminology shared by all topics.
+- Unify the writing and conception of documents to ensure a cohesive approach across technical guides, user manuals, project specifications, policies, tutorials, and processes.
 - Author documentation once in English and enable readers to access it in any language.
 - leverage the full capabilities of a Git repository and codebase (security, release, collaboration, review, ...).
-- Implement automation for generating cross-references between related documents within the hub, improving navigation and context for users.
+- Implement automation for generating cross-references between related documents, improving navigation and context.
 - Establish clear learning paths for users to explore:
   - Processes
   - Topics within specific domains
   - Tutorials
-
-
 
 # Documentation Structure
 
@@ -33,26 +30,24 @@ create a documentation hub
 - The codebase is managed with `Git`.
 
 ## Documentation Framework
-- Choose a documentation framework among: 
+- Choose a documentation framework from:
   - `Hugo`
   - `Jekyll`
   - `Docusaurus`
 
 ## Documentation Model
 - Organize documentation using the following objects:
-  - `Domain`:    the documentation is subdivided into domains and subdomains (eg. Math, IT, physics, psychology, history, etc).
-  - `Subdomain`: A specific subdivision of a domain that covers related topics.
-  - `Topic`:     Individual subjects within a subdomain.
-  - `List`:      A collection of related items or topics, possibly categorized by relevance or purpose.
-  - `Whatis`:    Definitions and explanations of terms or concepts.
-  - `Howto`:     Step-by-step guides or instructions for completing specific tasks.
+  - `Domain`: The documentation is subdivided into domains and subdomains (e.g., Math, IT, Physics, Psychology, History, etc.).
+  - `Subdomain`: A specific subdivision of a domain covering related topics.
+  - `Topic`: Individual subjects within a subdomain.
+  - `List`: A collection of related items or topics, categorized by relevance or purpose.
+  - `Whatis`: Definitions and explanations of terms or concepts.
+  - `Howto`: Step-by-step guides for completing specific tasks.
 
 ## Codebase Organization
-- Ensure the codebase clearly reflects these objects for intuitive organization and access.
+- Ensure the codebase reflects these objects for intuitive organization and access.
 
 ## Documentation Language
-- Use `Markdown` to write the documentation, it allow to use:
-  - `LaTeX`:   For mathematical and scientific expressions.
+- Use `Markdown` to write the documentation, allowing the use of:
+  - `LaTeX`: For mathematical and scientific expressions.
   - `Mermaid`: For creating diagrams and flowcharts.
-
-
