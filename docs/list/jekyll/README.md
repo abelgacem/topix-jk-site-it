@@ -5,7 +5,7 @@ title: Jekyll
 
 
 [//]: #(Reference)
-[homepage]:   index
+[homepage]:   /index
 
 # [&larr;][homepage] Project > Jeckyll
 
