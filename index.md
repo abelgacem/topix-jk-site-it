@@ -15,7 +15,7 @@ title: Projects
 This git repository document some IT projects.
 
 
-# project listo
+# project list
 
 |code name|Description|
 | - | - |
