@@ -8,9 +8,10 @@ title: Jekyll
 [readme_home]:   ../index
 
 # [&larr;][readme_home] Project > Jeckyll
-## Definition
+
+# Decscription
 Test a Jekyll website in 5 minutes
 
-## Purpose
+# Purpose
 - locally test your jekyll website before pushing it to Github
 

@@ -8,15 +8,15 @@ title: Herman
 [readme_home]:   ../index
 
 # [&larr;][readme_home] Project > Plearn
-## Definition
+# Decscription
 Create a Learning Platform
 
-## Purpose
+# Purpose
 Create a platform that:
 - Offers tutorials on various subjects and topics.
 - Allows users to learn and practice in pre-configured environments.
 
-## Platform Structure:
+# Platform Structure:
 
 1. **Available Tutorials:**
    - The platform offers a variety of tutorials covering different topics.
@@ -38,7 +38,7 @@ Create a platform that:
      - **Data:** Datasets required to run the tutorials.
      - **Tools:** Software, libraries, or frameworks needed to follow the tutorials.
 
-## Additional Features to Consider:
+# Additional Features to Consider:
 
 - **Easy Access to Environments:**
   - Users should be able to access the environments easily without having to configure them themselves.

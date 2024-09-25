@@ -8,16 +8,17 @@ title: Pubme
 [readme_home]:   ../index
 
 # [&larr;][readme_home] Project > Pubme
-## Definition
+# Decscription
+
 Create a free public IP to serve content
 
-## Purpose
+# Purpose
 - Quickly test real world access to a server runing in a vm, cloud or container.
 - Quickly publish and share content for a temporary collaboration.
 
-## Proposition
+# Proposition
 
-### 1. NgRock
+## 1. NgRock
 
 - create an account in https://ngrok.com/share-your-ngrok-story
 - install tool on a vm (eg. o1u)
@@ -44,7 +45,7 @@ ngrok config check
 ngrok config add-authtoken xxx
 ```
 
-### 2. Serveo
+## 2. Serveo
 
 - start a server on the vm (o1u)
   ```powershell
@@ -59,14 +60,14 @@ ngrok config add-authtoken xxx
   ssh -R 80:localhost:8000 serveo.net
   ```
 
-### 3. Github pages
+## 3. Github pages
 - create a public repository in https://github.com
 - GUI > repository > pages:
   - `deploy from a branch`
   - choose the branch > save
 - a push on branch:main trigger thje deployment
 
-### 4. from your mac
+## 4. from your mac
 
 - start a server on the vm (o1u)
   ```powershell
