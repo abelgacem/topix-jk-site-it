@@ -24,9 +24,9 @@ title: Projects
 |code name|Description|
 |-|-|
 |[`Plearn`][prj_plearn]|A Learning Platform|
+|[`Topix`][prj_topix]|A documentation Hub|
 |[`Pubme`][prj_pubme]|Publish and share any service via a free public IP|
 |[`Jekyll`][prj_jekyll]|Quickly Build, and test a Jekyll website|
-|[`Topix`][prj_topix]|A documentation Hub|
 |[`Django`][prj_django]|A time slot booking|
 
 <br>
