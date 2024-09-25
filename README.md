@@ -8,7 +8,7 @@
 - This git repository document some IT projects.
 - The  `docs` directory contains the documentation which is wrtten using the [Jekyll][url_jekyll] framework.
 - The static website is build and deployed to a [public IP][prj_deployed_ep] using [Github pages][url_githubpages].
-- A Git push to the repository update and published the website.
+- A Git push to the repository, update and published the website.
 
 
 
