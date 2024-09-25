@@ -9,12 +9,14 @@ title: Projects
 [//]: #(Reference)
 [prj_deploy_ep]: https://abelgacem.github.io/project/
 [url_jekyll]:    https://jekyllrb.com
+[url_githubpages]:    https://pages.github.com
 
 
 # Introduction
 - This git repository document some [IT projects][prj_deploy_ep].
-- The documentation is wrtten using the framework [url_jekyll].
-- A push to this repo trigger an auto deploy to github pages.
+- The folder `docs` contains the documentation
+- the documentation is wrtten using the framework [Jekyll][url_jekyll].
+- A push to this repo trigger an auto deploy of the documentation to [Github pages][url_githubpages].
 
 
 
