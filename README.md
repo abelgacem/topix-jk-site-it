@@ -12,7 +12,7 @@ This git repository document some IT projects.
 
 # project list 
 |code name|Description|
-|-|-|
-|[Hermann][prj_hermann]|Create a Learning Platform
+|--|--|
+|[Hermann][prj_hermann]|Create a Learning Platform|
 <br>
 
