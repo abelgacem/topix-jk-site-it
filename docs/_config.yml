@@ -2,4 +2,3 @@
 # baseurl: "project/docs" # /:repository/docs
 exclude:
   - docs/list/django/
-
