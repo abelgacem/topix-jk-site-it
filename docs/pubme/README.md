@@ -5,7 +5,7 @@ title: Pubme
 
 
 [//]: #(Reference)
-[readme_home]:   ../../README
+[readme_home]:   ../index
 
 # [&larr;][readme_home] Project description
 ## Definition

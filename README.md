@@ -7,21 +7,14 @@ title: Projects
 
 
 [//]: #(Reference)
-[prj_plearn]: ./docs/plearn/README
-[prj_pubme]:  ./docs/pubme/README
+[prj_deploy_ep]: https://abelgacem.github.io/project/
+[url_jekyll]:    https://jekyllrb.com
 
 
 # Introduction
-This git repository document some IT projects.
+- This git repository document some [IT projects][prj_deploy_ep].
+- The documentation is wrtten using the framework [url_jekyll].
+- A push to this repo trigger an auto deploy to github pages.
 
 
-# project list
-
-|code name|Description|
-|-|-|
-|[`Plearn`][prj_plearn]|Create a Learning Platform|
-|[`Pubme`][prj_pubme]|Create a free public IP to serve content|
-|[`Jekyll`][prj_pubme]|Test a Jekyll website in 5 minutes|
-
-<br>
 

@@ -4,8 +4,8 @@ title: Projects
 ---
 
 [//]: #(Reference)
-[prj_plearn]: ./hermann/README.html
-[prj_pubme]:   ./pubme/README
+[prj_plearn]: ./plearn/README
+[prj_pubme]:  ./pubme/README
 
 
 # Introduction
