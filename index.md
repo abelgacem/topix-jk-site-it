@@ -8,7 +8,7 @@ title: Projects
 
 [//]: #(Reference)
 [prj_hermann]: ./hermann
-[prj_pubme]:   ./pubme/README.md
+[prj_pubme]:   ./pubme/README.html
 
 
 # Introduction

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pubme
+permalink: /pubme/
 ---
 
 <head><link rel="stylesheet" href="../md.css"/><script src="../md.js"></script></head>
@@ -62,7 +63,10 @@ ngrok config add-authtoken xxx
 
 ### 3. Github pages
 - create a public repository in https://github.com
-- GUI > repository > pages > 
+- GUI > repository > pages:
+  - `deploy from a branch`
+  - choose the branch > save
+- a push on branch:main trigger thje deployment
 
 ### 4. from your mac
 
