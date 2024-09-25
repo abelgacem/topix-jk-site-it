@@ -1,14 +1,15 @@
 [//]: #(Reference)
-[prj_deploy_ep]: https://abelgacem.github.io/project/
-[url_jekyll]:    https://jekyllrb.com
-[url_githubpages]:    https://pages.github.com
+[prj_deployed_ep]: https://abelgacem.github.io/project/
+[url_jekyll]:      https://jekyllrb.com
+[url_githubpages]: https://pages.github.com
 
 
 # Introduction
-- This git repository document some [IT projects][prj_deploy_ep].
-- The folder `docs` contains the documentation
+- This git repository document some IT projects.
+- The folder `docs` contains the documentation.
 - the documentation is wrtten using the framework [Jekyll][url_jekyll].
-- A push to this repo trigger an auto deploy of the documentation to [Github pages][url_githubpages].
+- The static website is build and deployed to a [public IP][prj_deployed_ep] using [Github pages][url_githubpages].
+- A push to the repo update the published website.
 
 
 
