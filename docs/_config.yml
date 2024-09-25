@@ -1,5 +1,5 @@
 # _config.yml
 # baseurl: "project/docs" # /:repository/docs
 exclude:
-  - docs/list/django
+  - docs/list/django/
 
