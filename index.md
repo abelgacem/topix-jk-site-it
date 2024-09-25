@@ -8,7 +8,7 @@ title: Projects
 
 [//]: #(Reference)
 [prj_hermann]: ./hermann
-[prj_pubme]:   ./pubme
+[prj_pubme]:   ./pubme/README.md
 
 
 # Introduction
@@ -21,7 +21,7 @@ This git repository document some IT projects.
 |-|-|
 |[Hermann][prj_hermann]|Create a Learning Platform|
 |[Pubme][prj_pubme]|Create a free public IP to serve content|
-|[Jekyll][prj_pubme]|Test a Static website in 5 minutes|
+|[Jekyll][prj_pubme]|Test a Jekyll website in 5 minutes|
 
 <br>
 
