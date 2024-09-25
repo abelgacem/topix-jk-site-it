@@ -3,9 +3,6 @@ layout: default
 title: Projects
 ---
 
-    <head><link rel="stylesheet" href="./assets/css/style.css"/><script src="./assets/js/main.js"></script></head>
-
-
 [//]: #(Reference)
 [prj_plearn]: ./hermann/README.html
 [prj_pubme]:   ./pubme/README

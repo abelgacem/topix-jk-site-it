@@ -7,8 +7,8 @@ title: Projects
 
 
 [//]: #(Reference)
-[prj_plearn]: ./doc/plearn/README
-[prj_pubme]:  ./doc/pubme/README
+[prj_plearn]: ./docs/plearn/README
+[prj_pubme]:  ./docs/pubme/README
 
 
 # Introduction

@@ -3,7 +3,6 @@ layout: default
 title: Pubme
 ---
 
-<head><link rel="stylesheet" href="../md.css"/><script src="../md.js"></script></head>
 
 [//]: #(Reference)
 [readme_home]:   ../../README
