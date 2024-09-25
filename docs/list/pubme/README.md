@@ -10,11 +10,11 @@ title: Pubme
 # [&larr;][homepage] Project > Pubme
 # Decscription
 
-Create a free public IP to serve content
+publish and share any service via a free public IP
 
 # Purpose
 - Quickly test real world access to a server runing in a vm, cloud or container.
-- Quickly publish and share content for a temporary collaboration.
+- Quickly publish and share any service for a temporary collaboration.
 
 # Proposition
 

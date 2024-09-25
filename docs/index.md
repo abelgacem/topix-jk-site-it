@@ -23,8 +23,8 @@ title: Projects
 |code name|Description|
 |-|-|
 |[`Plearn`][prj_plearn]|Create a Learning Platform|
-|[`Pubme`][prj_pubme]|Create a free public IP to serve content|
-|[`Jekyll`][prj_jekyll]|Test a Jekyll website in 5 minutes|
+|[`Pubme`][prj_pubme]|Publish and share any service via a free public IP|
+|[`Jekyll`][prj_jekyll]|Build, and test a Jekyll website in 5 minutes|
 |[`Jekylltest`][prj_test]|test|
 
 <br>
