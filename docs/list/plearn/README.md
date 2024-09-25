@@ -5,9 +5,9 @@ title: Herman
 
 
 [//]: #(Reference)
-[readme_home]:   /index
+[homepage]:   index
 
-# [&larr;][readme_home] Project > Plearn
+# [&larr;][homepage] Project > Plearn
 # Decscription
 Create a Learning Platform
 

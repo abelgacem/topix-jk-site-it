@@ -4,9 +4,9 @@ title: Projects
 ---
 
 [//]: #(Reference)
-[prj_plearn]: ./project/plearn/README
-[prj_pubme]:  ./project/pubme/README
-[prj_jekyll]: ./project/jekyll/README
+[prj_plearn]: ./list/plearn/README
+[prj_pubme]:  ./list/pubme/README
+[prj_jekyll]: ./list/jekyll/README
 [prj_source]: https://github.com/abelgacem/project
 
 

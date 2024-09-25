@@ -5,9 +5,9 @@ title: Pubme
 
 
 [//]: #(Reference)
-[readme_home]:   /index
+[homepage]:   index
 
-# [&larr;][readme_home] Project > Pubme
+# [&larr;][homepage] Project > Pubme
 # Decscription
 
 Create a free public IP to serve content

@@ -5,9 +5,9 @@ title: Jekyll
 
 
 [//]: #(Reference)
-[readme_home]:   /index
+[homepage]:   index
 
-# [&larr;][readme_home] Project > Jeckyll
+# [&larr;][homepage] Project > Jeckyll
 
 # Decscription
 Test a Jekyll website in 5 minutes
