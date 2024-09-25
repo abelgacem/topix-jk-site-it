@@ -49,3 +49,5 @@ Create a platform that:
 - **Assessment and Feedback:**
   - Quizzes or practical exercises could be added to assess users' understanding, with personalized feedback.
 
+# Contributors
+- Hermann, Amar

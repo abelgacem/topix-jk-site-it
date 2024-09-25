@@ -10,10 +10,13 @@ title: Jekyll
 # [&larr;][homepage] Project > Jeckyll
 
 # Decscription
-Build and test a Jekyll website in 5 minutes
+Quickly Build and test a Jekyll website (in less than 5 minutes).
 
 # Purpose
-- locally build and test a Jekyll website in 5 minutes before pushing it to Github.
+- locally build and test a Jekyll website before pushing it to Github.
 
+
+# Contributors
+- Amar
 
 

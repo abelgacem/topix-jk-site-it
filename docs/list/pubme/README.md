@@ -13,6 +13,7 @@ title: Pubme
 publish and share any service via a free public IP
 
 # Purpose
+- Explain how to port forward to a public IP using differents tools.
 - Quickly test real world access to a server runing in a vm, cloud or container.
 - Quickly publish and share any service for a temporary collaboration.
 
@@ -79,3 +80,6 @@ ngrok config add-authtoken xxx
   # generate a temporary public Url
   ssh -L 9000:localhost:8000 o1u
   ```
+
+# Contributors
+- Amar
