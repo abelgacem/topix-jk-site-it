@@ -18,25 +18,25 @@ Create a platform that:
 
 # Platform Structure:
 
-1. **Available Tutorials:**
-   - The platform offers a variety of tutorials covering different topics.
-   - Each tutorial is structured to guide the user step-by-step.
+## Available Tutorials
+- The platform offers a variety of tutorials covering different topics.
+- Each tutorial is structured to guide the user step-by-step.
 
-1. **Tutorial Content:**
-   - **Detailed Instructions:** 
-     - Each step of the tutorial should include clear instructions on what the user needs to do.
-   - **Expected Outputs:** 
-     - Examples of the expected outputs should be provided so that the user can verify their work.
-   - **Expected Code:** 
-     - The expected code or scripts should be presented so that the user knows what is required.
-   - **Required Environments:**
-     - Each tutorial should specify the environments needed for execution (e.g., specific software versions, libraries, or system configurations).
+## Tutorial Content
+- **Detailed Instructions:** 
+  - Each step of the tutorial should include clear instructions on what the user needs to do.
+- **Expected Outputs:** 
+  - Examples of the expected outputs should be provided so that the user can verify their work.
+- **Expected Code:** 
+  - The expected code or scripts should be presented so that the user knows what is required.
+- **Required Environments:**
+  - Each tutorial should specify the environments needed for execution (e.g., specific software versions, libraries, or system configurations).
 
-1. **Learning Environments:**
-   - The learning environments, or "development environments," should be pre-configured and ready to use.
-   - These environments include:
-     - **Data:** Datasets required to run the tutorials.
-     - **Tools:** Software, libraries, or frameworks needed to follow the tutorials.
+## Learning Environments
+- The learning environments, or "development environments," should be pre-configured and ready to use.
+- These environments include:
+  - **Data:** Datasets required to run the tutorials.
+  - **Tools:** Software, libraries, or frameworks needed to follow the tutorials.
 
 # Additional Features to Consider:
 
