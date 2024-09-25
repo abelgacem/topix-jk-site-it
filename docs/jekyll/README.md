@@ -7,7 +7,7 @@ title: Jekyll
 [//]: #(Reference)
 [readme_home]:   ../index
 
-# [&larr;][readme_home] Project description
+# [&larr;][readme_home] Project > Jeckyll
 ## Definition
 Test a Jekyll website in 5 minutes
 

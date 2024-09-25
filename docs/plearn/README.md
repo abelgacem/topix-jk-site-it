@@ -7,7 +7,7 @@ title: Herman
 [//]: #(Reference)
 [readme_home]:   ../index
 
-# [&larr;][readme_home] Project description
+# [&larr;][readme_home] Project > Plearn
 ## Definition
 Create a Learning Platform
 

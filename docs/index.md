@@ -8,7 +8,7 @@ title: Projects
 [prj_pubme]:  ./pubme/README
 
 
-# Project list
+# project list
 
 |code name|Description|
 |-|-|
