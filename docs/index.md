@@ -6,6 +6,13 @@ title: Projects
 [//]: #(Reference)
 [prj_plearn]: ./plearn/README
 [prj_pubme]:  ./pubme/README
+[prj_source]: https://github.com/abelgacem/project
+
+
+# Introduction
+- This static website is deployed from the following [github repository][prj_source].
+- It document some IT projects.
+
 
 
 # project list
