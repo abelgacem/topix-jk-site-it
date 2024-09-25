@@ -8,11 +8,7 @@ title: Projects
 [prj_pubme]:  ./pubme/README
 
 
-# Introduction
-This git repository document some IT projects.
-
-
-# project list
+# Project list
 
 |code name|Description|
 |-|-|
