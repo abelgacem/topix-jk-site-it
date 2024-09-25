@@ -15,10 +15,10 @@ title: Projects
 This git repository document some IT projects.
 
 
-# project list 
+# project listo 
 
-| code name | Description |
-| --------- | ----------- |
+|code name|Description|
+|---------|-----------|
 | [Hermann][prj_hermann] | Create a Learning Platform |
 | [Pubme][prj_pubme] | Create a free public IP to serve content |
 
