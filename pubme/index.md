@@ -1,3 +1,8 @@
+---
+layout: default
+title: Projects
+---
+
 <head><link rel="stylesheet" href="../md.css"/><script src="../md.js"></script></head>
 
 [//]: #(Reference)
