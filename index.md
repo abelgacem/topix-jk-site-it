@@ -17,8 +17,8 @@ This git repository document some IT projects.
 
 # project list
 
-|code name|Description|
-| - | - |
+| code name | Description |
+| --------- | ----------- |
 | [Hermann][prj_hermann] | Create a Learning Platform |
 | [Pubme][prj_pubme] | Create a free public IP to serve content |
 <br>
