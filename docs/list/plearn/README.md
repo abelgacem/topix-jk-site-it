@@ -5,7 +5,7 @@ title: Herman
 
 
 [//]: #(Reference)
-[homepage]:   index
+[homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Project > Plearn
 # Decscription

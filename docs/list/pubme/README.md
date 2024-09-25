@@ -5,7 +5,7 @@ title: Pubme
 
 
 [//]: #(Reference)
-[homepage]:   index
+[homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Project > Pubme
 # Decscription

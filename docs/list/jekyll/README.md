@@ -5,7 +5,7 @@ title: Jekyll
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/project/index" | absolute_url }}
+[homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Project > Jeckyll
 
