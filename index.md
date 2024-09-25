@@ -2,7 +2,7 @@
 
 
 [//]: #(Reference)
-[prj_hermann]: ./hermann/README.md
+[prj_hermann]: ./hermann/index.md
 [prj_pubme]:   ./pubme/README.md
 
 

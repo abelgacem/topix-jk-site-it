@@ -1,7 +1,7 @@
 <head><link rel="stylesheet" href="../md.css"/><script src="../md.js"></script></head>
 
 [//]: #(Reference)
-[readme_home]:   ../README.md
+[readme_home]:   ../index.md
 
 # [&larr;][readme_home] Project description
 ## Definition
