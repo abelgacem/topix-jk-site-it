@@ -12,12 +12,13 @@ title: Projects
 
 
 # Introduction
-- This static website is deployed from the following [github repository][prj_source].
-- It document some IT projects.
+- This static website is built and deployed from a [GitHub repository][prj_source].
+- It documents some IT projects.
 
 
 
-# project list
+
+# Project list
 
 |code name|Description|
 |-|-|
