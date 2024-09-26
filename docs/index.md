@@ -13,8 +13,12 @@ title: Projects
 [prj_plearn]:  ./list/plearn/README
 [prj_pubme]:   ./list/pubme/README
 [prj_topix]:   ./list/topix/README
+[prj_music]:   ./list/music/README
+[prj_asmat]:   ./list/asmat/README
 
-[prjm_pizza]:  ./list/prjm/pizza/README
+[prjm_pizza]:      ./list/prjm/pizza/README
+[prjm_dentifrice]: ./list/prjm/dentifrice/README
+[prjm_senior]:     ./list/prjm/senior/README
 
 # Introduction
 This documentation is built and deployed from a [GitHub repository][repo_source].
@@ -34,6 +38,8 @@ Documents some IT projects.
 |[`Pubme`][prj_pubme]|{{ site.data.project_description.pubme_description }}|
 |[`Jekyll`][prj_jekyll]|{{ site.data.project_description.jekyll_description }}|
 |[`Topix`][prj_topix]|{{ site.data.project_description.topix_description }}|
+|[`Music`][prj_music]|{{ site.data.project_description.music_description }}|
+|[`Asmat`][prj_asmat]|{{ site.data.project_description.asmat_description }}|
 ||||
 
 <br>
@@ -43,5 +49,6 @@ Documents some IT projects.
 |code name|Description|
 |-|-|
 |[`Pizza`][prjm_pizza]|{{ site.data.project_description.pizza_desc }}|
-|[`Pizza`][prjm_pizza]|{{ site.data.project_description.pizza_desc }}|
+|[`Senior`][prjm_senior]|{{ site.data.project_description.senior_desc }}|
+|[`Dentifrice`][prjm_dentifrice]|{{ site.data.project_description.dentifrice_desc }}|
 ||||
