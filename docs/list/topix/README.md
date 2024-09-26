@@ -58,5 +58,7 @@ Create a hub that:
   - `LaTeX`:  For mathematical and scientific expressions.
   - `Mermaid`:  For creating diagrams and flowcharts.
 
+# IDEA
+- License of the framework used
 # Contributors
 - Amar

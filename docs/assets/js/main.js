@@ -28,5 +28,5 @@ function googleTranslateElementInit() {
     // layout: google.translate.TranslateElement.InlineLayout.SIMPLE
     });
 }
-
+  
 
