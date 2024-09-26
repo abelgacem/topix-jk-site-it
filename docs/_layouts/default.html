@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title | split: '/' | slice: -2, 1 }}</title>
 
     <!-- Link to shared CSS file -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -19,3 +19,7 @@
     <script src="{{ '/assets/js/extra.js' | relative_url }}"></script>
 </body>
 </html>
+
+<!-- 
+<title>{{ page.title }}</title> 
+-->
