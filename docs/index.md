@@ -34,7 +34,7 @@ Documents some IT projects.
 |[`Pubme`][prj_pubme]|{{ site.data.prj_description.pubme_description }}|
 |[`Jekyll`][prj_jekyll]|{{ site.data.prj_description.jekyll_description }}|
 |[`Topix`][prj_jekyll]|{{ site.data.prj_description.topix_description }}|
-
+||||
 
 <br>
 
