@@ -6,7 +6,7 @@ layout: project
 [//]: #(Reference)
 [homepage]:   {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Project > {{ site.data.project_name.django_name }}
+# [&larr;][homepage] Project > {{ site.data.project_name.slotly_name }}
 # Decscription
 - {{ site.data.project_description.slotly_description }}.
 - Dedicated for mathematics courses remotly or onsite.
