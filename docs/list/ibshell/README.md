@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Herman
+title: {{ site.data.project_name.ibshell_name }}
 ---
 
 
@@ -8,9 +8,9 @@ title: Herman
 [homepage]:   {{ "/index" | absolute_url }}
 [art]:        ./art
 
-# [&larr;][homepage] Project > Ibshell
+# [&larr;][homepage] Project > {{ site.data.project_name.ibshell_name }}
 # Decscription
-- {{ site.data.prj_description.ibshell_description }}
+- {{ site.data.project_description.ibshell_description }}
 - `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
 # Purpose

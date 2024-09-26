@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Herman
+title: {{ site.data.project_name.plearn_name }}
 ---
 
 
 [//]: #(Reference)
 [homepage]:   README
 
-# [&larr;][homepage] Project > Plearn > existing tools
+# [&larr;][homepage] Project > {{ site.data.project_name.plearn_name }} > existing tools
 
 
 

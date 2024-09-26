@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Herman
+title: Plearn
 ---
 
 
@@ -10,7 +10,7 @@ title: Herman
 
 # [&larr;][homepage] Project > Plearn
 # Decscription
-- {{ site.data.prj_description.plearn_description }}
+- {{ site.data.project_description.plearn_description }}
 
 # Purpose
 Create a platform that:

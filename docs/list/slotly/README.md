@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Django
+title: {{ site.data.project_name.django_name }}
 ---
 
 
 [//]: #(Reference)
 [homepage]:   {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Project > Django
+# [&larr;][homepage] Project > {{ site.data.project_name.django_name }}
 # Decscription
-- {{ site.data.prj_description.slotly_description }}.
+- {{ site.data.project_description.slotly_description }}.
 - Dedicated for mathematics courses remotly or onsite.
 
 # Purpose

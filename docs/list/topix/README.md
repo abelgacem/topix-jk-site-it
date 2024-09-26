@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Pubme
+title: {{ site.data.project_name.topix_name }}
 ---
 
 [//]: #(Reference)
 [homepage]: {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Project > Topix
+# [&larr;][homepage] Project > {{ site.data.project_name.topix_name }}
 # Decscription
-- {{ site.data.prj_description.topix_description }}
+- {{ site.data.project_description.topix_description }}
 
 # Purpose
 Create a hub that:  

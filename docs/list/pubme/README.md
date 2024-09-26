@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Pubme
+title: {{ site.data.project_name.pubme_name }}
 ---
 
 
 [//]: #(Reference)
 [homepage]:   {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Project > Pubme
+# [&larr;][homepage] Project > {{ site.data.project_name.pubme_name }}
 # Decscription
-- {{ site.data.prj_description.pubme_description }}
+- {{ site.data.project_description.pubme_description }}
 
 # Purpose
 - Explain how to port forward to a public IP using differents tools.
