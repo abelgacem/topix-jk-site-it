@@ -14,6 +14,7 @@ title: Projects
 [prj_pubme]:   ./list/pubme/README
 [prj_topix]:   ./list/topix/README
 
+[prjm_pizza]:  ./list/prjm/pizza/README
 
 # Introduction
 This documentation is built and deployed from a [GitHub repository][repo_source].
@@ -21,7 +22,7 @@ This documentation is built and deployed from a [GitHub repository][repo_source]
 # Purpose
 Documents some IT projects.
 
-# List
+# List IT project
 
 |code name|Description|
 |-|-|
@@ -37,9 +38,10 @@ Documents some IT projects.
 
 <br>
 
-# List
+# List Mustaph Project
 
 |code name|Description|
 |-|-|
-|[`Topix`][prj_topix]|{{ site.data.project_description.topix_description }}|
+|[`Pizza`][prjm_pizza]|{{ site.data.project_description.pizza_desc }}|
+|[`Pizza`][prjm_pizza]|{{ site.data.project_description.pizza_desc }}|
 ||||
