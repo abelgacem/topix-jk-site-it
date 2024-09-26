@@ -33,8 +33,8 @@ Documents some IT projects.
 |[`Plearn`][prj_plearn]|{{ site.data.prj_description.plearn_description }}|
 |[`Pubme`][prj_pubme]|{{ site.data.prj_description.pubme_description }}|
 |[`Jekyll`][prj_jekyll]|{{ site.data.prj_description.jekyll_description }}|
-|[`Jekyll`][prj_jekyll]|{{ site.data.prj_description.topix_description }}|
-|[`Topix`][prj_topix]||{{ site.data.prj_description.topix_description }}|
+|[`Topix`][prj_jekyll]|{{ site.data.prj_description.topix_description }}|
 
------
+
+<br>
 
