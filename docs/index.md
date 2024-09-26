@@ -35,5 +35,5 @@ Documents some IT projects.
 |[`Jekyll`][prj_jekyll]|{{ site.data.prj_description.jekyll_description }}|
 |[`Topix`][prj_topix]||{{ site.data.prj_description.topix_description }}|
 
-<br>
+-----
 
