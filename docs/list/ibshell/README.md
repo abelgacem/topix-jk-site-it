@@ -8,9 +8,10 @@ title: Herman
 [homepage]:   {{ "/index" | absolute_url }}
 [art]:        ./art
 
-# [&larr;][homepage] Project > Plearn
+# [&larr;][homepage] Project > Ibshell
 # Decscription
-Create a Learning Platform
+- {{ site.data.prj_description.ibshell_description }}
+- `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
 # Purpose
 Create a platform that:
