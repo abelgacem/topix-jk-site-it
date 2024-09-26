@@ -30,7 +30,7 @@ Documents some IT projects.
 |[`Plearn`][prj_plearn]|{{ site.data.project_description.plearn_description }}|
 |[`Pubme`][prj_pubme]|{{ site.data.project_description.pubme_description }}|
 |[`Jekyll`][prj_jekyll]|{{ site.data.project_description.jekyll_description }}|
-|[`Topix`][prj_jekyll]|{{ site.data.project_description.topix_description }}|
+|[`Topix`][prj_topix]|{{ site.data.project_description.topix_description }}|
 ||||
 
 <br>
