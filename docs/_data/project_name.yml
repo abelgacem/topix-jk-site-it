@@ -1,4 +1,4 @@
-do_description: "Do"
+do_name: "Do"
 ibshell_name:   "Ibshell"
 ipshell_name:   "Ipshell"
 slotly_name:    "Slotly"
