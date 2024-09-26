@@ -5,11 +5,13 @@ title: Projects
 
 [//]: #(Reference)
 [repo_source]: https://github.com/abelgacem/project
-[prj_django]: ./list/django/README
-[prj_jekyll]: ./list/jekyll/README
-[prj_plearn]: ./list/plearn/README
-[prj_pubme]:  ./list/pubme/README
-[prj_topix]:  ./list/topix/README
+[prj_django]:  ./list/django/README
+[prj_ibshell]: ./list/ibshell/README
+[prj_ipshell]: ./list/ipshell/README
+[prj_jekyll]:  ./list/jekyll/README
+[prj_plearn]:  ./list/plearn/README
+[prj_pubme]:   ./list/pubme/README
+[prj_topix]:   ./list/topix/README
 
 
 # Introduction
@@ -23,11 +25,13 @@ title: Projects
 
 |code name|Description|
 |-|-|
+|[`Ibshell`][prj_ibshell]|A custom universal CLI written in bash|
+|[`Ipshell`][prj_ipshell]|A custom universal CLI written in python|
+|[`Django`][prj_django]|A time slot booking|
 |[`Plearn`][prj_plearn]|A Learning Platform|
-|[`Topix`][prj_topix]|A documentation Hub|
 |[`Pubme`][prj_pubme]|Publish and share any service via a free public IP|
 |[`Jekyll`][prj_jekyll]|Quickly Build, and test a Jekyll website|
-|[`Django`][prj_django]|A time slot booking|
+|[`Topix`][prj_topix]|A documentation Hub|
 
 <br>
 
