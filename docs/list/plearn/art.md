@@ -1,6 +1,5 @@
 ---
 layout: default
-title: {{ site.data.project_name.plearn_name }}
 ---
 
 

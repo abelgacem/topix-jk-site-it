@@ -1,6 +1,5 @@
 ---
 layout: default
-title: {{ site.data.project_name.jekyll_name }}
 ---
 
 
@@ -13,7 +12,7 @@ title: {{ site.data.project_name.jekyll_name }}
 - {{ site.data.project_description.jekyll_description }}
 
 # Purpose
-- locally build and test a Jekyll website before pushing it to Github.
+- locally build and test a website before pushing it to Github.
 
 
 # Contributors
