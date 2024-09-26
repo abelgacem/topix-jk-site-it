@@ -51,7 +51,7 @@ Create a platform that:
   - Quizzes or practical exercises could be added to assess users' understanding, with personalized feedback.
 
 # Contributors
-- Hermann, Amar
+- Amar
 
 # Reference
 - [Existing tools][art]

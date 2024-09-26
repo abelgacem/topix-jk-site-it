@@ -57,3 +57,6 @@ Create a hub that:
 - Use `Markdown`  to write the documentation, allowing the use of:
   - `LaTeX`:  For mathematical and scientific expressions.
   - `Mermaid`:  For creating diagrams and flowcharts.
+
+# Contributors
+- Amar

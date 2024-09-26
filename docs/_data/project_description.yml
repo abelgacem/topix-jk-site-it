@@ -1,3 +1,4 @@
+do_description:      "A to to test the rendering of the name."
 ibshell_description: "A custom universal CLI written in bash."
 ipshell_description: "A custom universal CLI written in python."
 slotly_description:  "A time slot booking written using Django."
