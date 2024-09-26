@@ -48,7 +48,7 @@ Documents some IT projects.
 
 |code name|Description|
 |-|-|
-|[`Pizza`][prjm_pizza]|{{ site.data.project_description.pizza_desc }}|
-|[`Senior`][prjm_senior]|{{ site.data.project_description.senior_desc }}|
-|[`Dentifrice`][prjm_dentifrice]|{{ site.data.project_description.dentifrice_desc }}|
+|[`Pizza`][prjm_pizza]|{{ site.data.prj_description.pizza_desc }}|
+|[`Senior`][prjm_senior]|{{ site.data.prj_description.senior_desc }}|
+|[`Dentifrice`][prjm_dentifrice]|{{ site.data.prj_description.dentifrice_desc }}|
 ||||
