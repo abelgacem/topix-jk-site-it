@@ -9,8 +9,8 @@ title: Django
 
 # [&larr;][homepage] Project > Django
 # Decscription
-
-create a website for time slot booking dedicated for mathematics courses remotly or onsite
+- {{ site.data.prj_description.slotly_description }}.
+- Dedicated for mathematics courses remotly or onsite.
 
 # Purpose
 Learn to use frameworks:

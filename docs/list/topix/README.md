@@ -7,9 +7,8 @@ title: Pubme
 [homepage]: {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Project > Topix
-# Description
-
-Create a documentation hub.
+# Decscription
+- {{ site.data.prj_description.topix_description }}
 
 # Purpose
 Create a hub that:  

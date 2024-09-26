@@ -10,7 +10,7 @@ title: Herman
 
 # [&larr;][homepage] Project > Plearn
 # Decscription
-Create a Learning Platform
+- {{ site.data.prj_description.plearn_description }}
 
 # Purpose
 Create a platform that:

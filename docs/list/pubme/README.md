@@ -9,8 +9,7 @@ title: Pubme
 
 # [&larr;][homepage] Project > Pubme
 # Decscription
-
-publish and share any service via a free public IP
+- {{ site.data.prj_description.pubme_description }}
 
 # Purpose
 - Explain how to port forward to a public IP using differents tools.

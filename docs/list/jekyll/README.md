@@ -10,7 +10,7 @@ title: Jekyll
 # [&larr;][homepage] Project > Jeckyll
 
 # Decscription
-Quickly Build and test a Jekyll website (in less than 5 minutes).
+- {{ site.data.prj_description.jekyll_description }}
 
 # Purpose
 - locally build and test a Jekyll website before pushing it to Github.

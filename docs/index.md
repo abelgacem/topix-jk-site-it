@@ -28,12 +28,12 @@ Documents some IT projects.
 |code name|Description|
 |-|-|
 |[`Ibshell`][prj_ibshell]|{{ site.data.prj_description.ibshell_description }}|
-|[`Ipshell`][prj_ipshell]|A custom universal CLI written in python|
-|[`Slotly`][prj_slotly]|A time slot booking written using Django|
-|[`Plearn`][prj_plearn]|A Learning Platform|
-|[`Pubme`][prj_pubme]|Publish and share any service via a free public IP|
-|[`Jekyll`][prj_jekyll]|Quickly build and test a Jekyll website|
-|[`Topix`][prj_topix]|A documentation hub|
+|[`Ipshell`][prj_ipshell]|{{ site.data.prj_description.ipshell_description }}|
+|[`Slotly`][prj_slotly]|{{ site.data.prj_description.slotly_description }}|
+|[`Plearn`][prj_plearn]|{{ site.data.prj_description.plearn_description }}|
+|[`Pubme`][prj_pubme]|{{ site.data.prj_description.pubme_description }}|
+|[`Jekyll`][prj_jekyll]|{{ site.data.prj_description.jekyll_description }}|
+|[`Topix`][prj_topix]||{{ site.data.prj_description.topix_description }}|
 
 <br>
 
