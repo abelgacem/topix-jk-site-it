@@ -5,6 +5,7 @@ title: Projects
 
 [//]: #(Reference)
 [repo_source]: https://github.com/abelgacem/project
+[prj_do]:      ./list/do/README
 [prj_slotly]:  ./list/slotly/README
 [prj_ibshell]: ./list/ibshell/README
 [prj_ipshell]: ./list/ipshell/README
@@ -24,6 +25,7 @@ Documents some IT projects.
 
 |code name|Description|
 |-|-|
+|[`Do`][prj_do]|{{ site.data.project_description.do_description }}|
 |[`Ibshell`][prj_ibshell]|{{ site.data.project_description.ibshell_description }}|
 |[`Ipshell`][prj_ipshell]|{{ site.data.project_description.ipshell_description }}|
 |[`Slotly`][prj_slotly]|{{ site.data.project_description.slotly_description }}|
