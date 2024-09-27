@@ -60,5 +60,8 @@ Create a hub that:
 
 # IDEA
 - License of the framework used
+- example of documentation site
+  - https://www.hashicorp.com/
+  - https://devconnected.com/
 # Contributors
 - Amar
