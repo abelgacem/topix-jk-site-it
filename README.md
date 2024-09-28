@@ -41,7 +41,7 @@
   ssh -R 80:localhost:4000 serveo.net
   ```
 - Browse the site via the provides IP
-  ```powershell
+  ```bash
   # type CTRL-R on code changes to refresh
   eg. https://99...0f.serveo.net
   ```
