@@ -17,7 +17,22 @@ layout: default
 
 # Proposition
 
-## 1. NgRock
+## 1. Serveo
+
+- start a server on the vm (o1u)
+  ```powershell
+  # example with django
+  python manage.py runserver
+  update file settings.pywith the following
+  ALLOWED_HOSTS = ['*']
+  ```
+- forward it to a temporary public ip
+  ```powershell
+  # generate a temporary public Url
+  ssh -R 80:localhost:8000 serveo.net
+  ```
+
+## 2. NgRock
 
 - create an account in https://ngrok.com/share-your-ngrok-story
 - install tool on a vm (eg. o1u)
@@ -44,20 +59,6 @@ ngrok config check
 ngrok config add-authtoken xxx
 ```
 
-## 2. Serveo
-
-- start a server on the vm (o1u)
-  ```powershell
-  # example with django
-  python manage.py runserver
-  update file settings.pywith the following
-  ALLOWED_HOSTS = ['*']
-  ```
-- forward it to a temporary public ip
-  ```powershell
-  # generate a temporary public Url
-  ssh -R 80:localhost:8000 serveo.net
-  ```
 
 ## 3. Github pages
 - create a public repository in https://github.com

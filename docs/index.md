@@ -52,3 +52,16 @@ Documents some IT projects.
 |[`Senior`][prjm_senior]|{{ site.data.prj_description.senior_desc }}|
 |[`Dentifrice`][prjm_dentifrice]|{{ site.data.prj_description.dentifrice_desc }}|
 ||||
+
+
+## List of Projects
+
+<ul>
+  {% assign list_folders = site.static_files | where_exp: "file", "file.path contains 'docs/list/'" %}
+  {% assign unique_folders = list_folders | map: "path" | map: "split: '/'" | map: "first" | uniq %}
+  {% for folder in unique_folders %}
+    <li>
+      <a href="{{ folder }}">{{ folder | capitalize }}</a>
+    </li>
+  {% endfor %}
+</ul>
