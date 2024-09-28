@@ -17,8 +17,14 @@
 
 # How to test locally
 - install `jekyll`
+- export the following VAR.
+  ```shell
+  export GEM_HOME="${HOME}/wkspc/gems"
+  export PATH="${GEM_HOME}/bin:$PATH"
+  ```
+
 - git clone this repository
-- `cd` to the repository
+- `cd` to the repository folder
 - `cd` to folder: `docs`
 - create the following link
   ```shell
@@ -26,8 +32,6 @@
   ```
 - build and publish the site locally
   ```shell
-  export GEM_HOME="${HOME}/wkspc/gems"
-  export PATH="${GEM_HOME}/bin:$PATH"
   bundle exec jekyll serve --livereload
   ```  
 - port forward the local IP to a public IP
@@ -37,10 +41,10 @@
   ```
 # How to contribute
 - `git clone` the repository
-- create a new branch from branch `main` (call it `test`)
-- Do some changes on branch `test`
-- merge branch `test` to branch `main`
-- push the local changes to remote repo
+- create a new branch from branch `main` (eg. `test`).
+- Do some changes on this new branch.
+- merge branch `test` into branch `main`
+- push the local changes to the remote repo
 - this push trigger the following actions
   - `github` build the site
   - `github` deploy the site to [Github pages][url_githubpages] with a [public IP][prj_deployed_ep]
