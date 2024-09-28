@@ -19,7 +19,7 @@
 - install `jekyll`
 - git clone this repository
 - `cd` to the repository
-- `cd` to `docs`
+- `cd` to folder: `docs`
 - create a link to `env\Gemfile` to `docs\`
   ```shell
   ln -s ../env/Gemfile
