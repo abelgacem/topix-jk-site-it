@@ -20,9 +20,9 @@
 - git clone this repository
 - `cd` to the repository
 - `cd` to folder: `docs`
-- create a link to `env\Gemfile` to `docs\`
+- create the following link
   ```shell
-  ln -s ../env/Gemfile
+  ln -s ../env/Gemfile.local Gemfile
   ```
 - build and publish the site loaclly
   ```shell
