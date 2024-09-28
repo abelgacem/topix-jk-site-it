@@ -7,7 +7,6 @@
 # Description
 - This git repository is a documentation project
 - It documents some IT projects.
-- 
 
 # Folders content
 |name|type|description|
@@ -16,24 +15,31 @@
 |`docs\list`|folder|the site usefull content|
 |`env`|folder||
 
-# How to contribute
-- git clone this repository
-
 # How to test locally
 - install `jekyll`
 - git clone this repository
 - `cd` to the repository
-- ln -s /tmp/project/env/Gemfile
-- copy file `env\Gemfile` to `docs\`
-
-# The process
+- `cd` to `docs`
+- create a link to `env\Gemfile` to `docs\`
+  ```shell
+  ln -s ../env/Gemfile
+  ```
+- build and publish the site loaclly
+  ```shell
+  export GEM_HOME="${HOME}/wkspc/gems"
+  export PATH="${GEM_HOME}/bin:$PATH"
+  bundle exec jekyll serve --livereload
+  ```  
+- publis the site to a temporary public IP
+  ```shell
+  ssh -R 80:localhost:4000 serveo.net
+  ```
+# How to contribute
 - `git clone` the repository
 - create a new branch from branch `main` (call it `test`)
 - Do some changes on branch `test`
 - merge branch `test` to branch `main`
 - push the local changes to remote repo
 - this push trigger the following actions
-  - github build the site
-  - github deploy the site to github pages
-- A Git push to the branch `main` of the repository, trigger a publishing of the website.
-- The static website is build and deployed to a [public IP][prj_deployed_ep] using [Github pages][url_githubpages].
+  - `github` build the site
+  - `github` deploy the site to [Github pages][url_githubpages] with a [public IP][prj_deployed_ep]
