@@ -30,7 +30,7 @@
   export PATH="${GEM_HOME}/bin:$PATH"
   bundle exec jekyll serve --livereload
   ```  
-- publis the site to a temporary public IP
+- publish the site to a temporary public IP
   ```shell
   ssh -R 80:localhost:4000 serveo.net
   ```
