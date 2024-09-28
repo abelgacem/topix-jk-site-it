@@ -11,4 +11,10 @@
 - A Git push to the repository, update and publish the website.
 
 
+# How to contribute
+- git clone this repository
+
+# How to test locally
+- copy file `env\Gemfile` to `docs\`
+
 

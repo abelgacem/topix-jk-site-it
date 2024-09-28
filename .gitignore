@@ -1,0 +1,10 @@
+# these folder is not needed when publishing to github pages
+_site
+# 
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+# these 2 files are not needed when publishing to github pages
+/Gemfile
+/Gemfile.lock
