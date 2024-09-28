@@ -20,7 +20,7 @@ title: Projects
 [prjm_dentifrice]: ./list/prjm/dentifrice/README
 [prjm_senior]:     ./list/prjm/senior/README
 
-# Introduction
+# Introduction yo
 This documentation is built and deployed from a [GitHub repository][repo_source].
 
 # Purpose
