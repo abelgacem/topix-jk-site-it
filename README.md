@@ -24,7 +24,7 @@
   ```shell
   ln -s ../env/Gemfile.local Gemfile
   ```
-- build and publish the site loaclly
+- build and publish the site locally
   ```shell
   export GEM_HOME="${HOME}/wkspc/gems"
   export PATH="${GEM_HOME}/bin:$PATH"
