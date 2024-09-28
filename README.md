@@ -30,8 +30,9 @@
   export PATH="${GEM_HOME}/bin:$PATH"
   bundle exec jekyll serve --livereload
   ```  
-- publish the site to a temporary public IP
+- port forward the local IP to a public IP
   ```shell
+  # generate a public IP
   ssh -R 80:localhost:4000 serveo.net
   ```
 # How to contribute
