@@ -76,8 +76,11 @@ ngrok config add-authtoken xxx
   ```
 - forward it to a temporary public ip (on the mac)
   ```powershell
+  # define var
+  lREMOTE_PORT=4000
+  lLOCAL_PORT=9000
   # generate a temporary public Url
-  ssh -L 9000:localhost:8000 o1u
+  ssh -L 9000:localhost:4000 o1u
   ```
 
 # Contributors
