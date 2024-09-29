@@ -20,8 +20,9 @@ Operate on local or remote  `IT`  environments:
   - assets.
 
 # Requirements
-- the CLI. is writtten in  `Bash`
-- 
+- Writtten in `Bash`
+- Consists of a core code that is extends with lib Sdef and can be extends with lib Udef.
+- Uses completion.
 # Contributors
 - Amar
 
