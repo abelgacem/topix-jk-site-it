@@ -5,6 +5,7 @@
 
 
 # Description
+
 - This git repository is a documentation project
 - It documents some IT projects.
 - It uses the [Jekyll][url_jekyll] framework.
