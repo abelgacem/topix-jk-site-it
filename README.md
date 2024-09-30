@@ -5,7 +5,7 @@
 [doc_contribute]:  ./CONTRIBUTING
 
 
-# Introcutionoo
+# Introcution
 
 [![LICENSE](https://img.shields.io/badge/license-GNU_GPL_v3.0-green.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 ![GitHub Pages deployment status](https://github.com/abelgacem/project/workflows/pages%20build%20and%20deployment/badge.svg)
