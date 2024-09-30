@@ -2,9 +2,10 @@
 [prj_deployed_ep]: https://abelgacem.github.io/project/
 [url_jekyll]:      https://jekyllrb.com
 [url_githubpages]: https://pages.github.com
+[doc_contribute]:  ./CONTRIBUTING
 
 
-# Introcution
+# Introcutionoo
 
 [![LICENSE](https://img.shields.io/badge/license-GNU_GPL_v3.0-green.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 ![GitHub Pages deployment status](https://github.com/abelgacem/project/workflows/pages%20build%20and%20deployment/badge.svg)
@@ -25,14 +26,7 @@
 
 
 # How to contribute
-- `git clone` the repository
-- create a new branch from branch `main` (eg. `test`).
-- Do some changes on this new branch.
-- merge branch `test` into branch `main`
-- git push the local changes to the remote repo
-- this git push trigger the following actions
-  - `github` build the site
-  - `github` deploy the site to [Github pages][url_githubpages] with a [public IP][prj_deployed_ep]
+see the [contributing guide][doc_contribute]
 
 # How to browse, test the site locally
 - install `jekyll`
@@ -50,17 +44,19 @@
   ln -s ../env/Gemfile.local Gemfile
   ```
 - build and publish on changes the site locally
- ```shell
-  # any changes to the folder docs trigger a build ad publiih
-  bundle exec jekyll serve --livereload
-  ```  
-- port forward the local IP to a public IP
+  ```shell
+   # any changes to the folder docs trigger a build ad publiih
+   bundle exec jekyll serve --livereload
+   ```  
+- port forward the local IP to a public IP (not mandatory)
   ```shell
   # generate a public IP
   ssh -R 80:localhost:4000 serveo.net
   ```
-- Browse the site via the provides IP
+- Browse the site (type CTRL-R on code changes to refresh)
   ```shell
-  # type CTRL-R on code changes to refresh
+  # via the provides IP
   eg. https://99...0f.serveo.net
+  # via the localhost
+  localhost:4000
   ```
