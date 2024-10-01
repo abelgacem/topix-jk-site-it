@@ -3,9 +3,10 @@
 [url_jekyll]:      https://jekyllrb.com
 [url_githubpages]: https://pages.github.com
 [doc_contribute]:  ./CONTRIBUTING
+[doc_changelog]:  ./CHANGELOG
 
 
-# Introcution
+# Introduction
 
 [![LICENSE](https://img.shields.io/badge/license-GNU_GPL_v3.0-green.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 ![GitHub Pages deployment status](https://github.com/abelgacem/project/workflows/pages%20build%20and%20deployment/badge.svg)
@@ -20,10 +21,13 @@
 # Folders content
 |name|type|description|
 |-|-|-|
-|`docs`|folder|the documentation, written using |
+|`docs`|folder|the documentation, written using Jekyll|
 |`docs\list`|folder|the site usefull content|
-|`env`|folder||
+|`env`|folder|assets specific to some environment|
 
+
+# What's new
+see the [Changelog][doc_changelog]
 
 # How to contribute
 see the [contributing guide][doc_contribute]
