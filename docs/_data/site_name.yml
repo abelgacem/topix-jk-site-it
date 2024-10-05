@@ -1,4 +1,9 @@
 
-description: "Description"
-purpose:     "Purpose"
+introduction: "Introduction"
+definition:   "Definition"
+description:  "Description"
+purpose:      "Purpose"
+requirement:  "Requirement"
+yaml:         " `YAML.` "
+html:         " `HTML.` "
 

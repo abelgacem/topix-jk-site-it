@@ -19,7 +19,7 @@ Operate on local or remote  `IT`  environments:
   - resources, 
   - assets.
 
-# Requirements
+# {{ site.data.site_name.requirement }}
 - Writtten in `Bash`
 - Consists of a core code that is extends with lib Sdef and can be extends with lib Udef.
 - Uses completion.

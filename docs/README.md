@@ -8,4 +8,10 @@
 - This is a standard directory structure for a [jekyll project][url_jekyll]
 
 
+# Customization
+
+|name|tag|description|comment|
+|-|-|-|-|
+|domain name|config|mx:domain|the repository name|
+|base HTML.|config|default|common to any content|
 
