@@ -13,16 +13,15 @@
 
 # Description
 
-- This git repository is a documentation project
-- It documents some IT projects.
+- This git repository is a documentation project. It documents some IT projects.
 - It uses the [Jekyll][url_jekyll] framework.
 - A deployed version with [public IP][prj_deployed_ep] is published via [Github pages][url_githubpages].
 
-# Folders content
+# Folder's content
 |name|type|description|
 |-|-|-|
-|`docs`|folder|the documentation, written using Jekyll|
-|`docs\list`|folder|the site usefull content|
+|`docs`|folder|the documentation, written using [Jekyll][url_jekyll]|
+|`docs\list`|folder|the usefull content|
 |`env`|folder|assets specific to some environment|
 
 
