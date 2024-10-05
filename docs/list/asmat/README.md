@@ -7,11 +7,11 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 [art]:        ./art
 
-# [&larr;][homepage] Project > {{ site.data.project_name.asmat_name }}
-# Decscription
+# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.asmat_name }}
+# {{ site.data.site_name.description }}
 - {{ site.data.project_description.asmat_description }}
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 Todo
 
 

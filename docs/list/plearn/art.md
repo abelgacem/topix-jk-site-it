@@ -6,7 +6,7 @@ layout: default
 [//]: #(Reference)
 [homepage]:   README
 
-# [&larr;][homepage] Project > {{ site.data.project_name.plearn_name }} > existing tools
+# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.plearn_name }} > existing tools
 
 
 

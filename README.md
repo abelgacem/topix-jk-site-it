@@ -35,7 +35,7 @@ see the [contributing guide][doc_contribute]
 # Test in env: `local`
 Please refer to [this section][env_local] for the description of this environment.
 
-## purpose of the test
+## {{ site.data.site_name.purpose }} of the test
 Browse the generated site.
 
 ## step to test

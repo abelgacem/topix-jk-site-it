@@ -7,12 +7,12 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 [art]:        ./art
 
-# [&larr;][homepage] Project > {{ site.data.project_name.ibshell_name }}
-# Decscription
+# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.ibshell_name }}
+# {{ site.data.site_name.description }}
 - {{ site.data.project_description.ibshell_description }}
 - `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 Operate on local or remote  `IT`  environments: 
   - objects, 
   - artifacts, 

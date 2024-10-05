@@ -34,6 +34,10 @@ github_username:  jekyll
 # plugins:
 #   - jekyll-feed
 
+# var Udef
+mx:
+  domain: project
+
 # default frontmatter for pages 
 defaults:
   -

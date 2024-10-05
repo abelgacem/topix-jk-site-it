@@ -6,11 +6,11 @@ layout: default
 [//]: #(Reference)
 [homepage]:   {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Project > {{ site.data.prj_name.dentifrice_name }}
-# Decscription
+# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.prj_name.dentifrice_name }}
+# {{ site.data.site_name.description }}
 - {{ site.data.prj_description.dentifrice_description }}
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 - acheter du dentifrice en marque blanche 
 - peut être le modifier par un procédé indus pour le faire ressembler à 1 anti-moustique (citronelle)
 - vendre ce produit en tant que anti moustique
