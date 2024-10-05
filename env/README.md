@@ -8,7 +8,7 @@
 
 # Introduction
 
-The following environment exists:
+The following environments exists:
 |name|tag|description|purpose|
 |-|-|-|-|
 |**local**|dev, test|Local env specific to the developer|Test code before pushing to branch: `dev`|
