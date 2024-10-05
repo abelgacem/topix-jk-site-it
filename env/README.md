@@ -20,4 +20,4 @@ The following environments exists:
 # Folder's content
 |name|type|description|
 |-|-|-|
-|`Gemfile.local`|file|Jekyll configuration file specific to env local|
+|`Gemfile.local`|file|Jekyll configuration file specific to env: `local`|
