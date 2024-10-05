@@ -22,7 +22,9 @@ The following environments exists:
 
 # Environments's detail
 ## env: `local`
-- this env indicates the working space of the developper (his machine)
+This env indicates the working space of the developper:
+  - his machine
+  - a VM on a cloud
 ## env: `dev`
 - This env indicates a cloud environment (ie. the Github pages environment)
 - The process is the following:

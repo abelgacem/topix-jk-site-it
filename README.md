@@ -70,3 +70,11 @@ Browse the generated site.
   # via the localhost
   localhost:4000
   ```
+- Todo
+```shell
+# on the development VM (eg. o1u)
+cd wkspc/git/jekyll/project/docs/; export GEM_HOME="${HOME}/wkspc/gems"; export PATH="${GEM_HOME}/bin:$PATH"; bundle exec jekyll serve --livereload
+
+# on the developper's machine
+ssh -L 9000:localhost:4000 o1u
+```  
