@@ -2,7 +2,7 @@
 [prj_deployed_ep]: https://abelgacem.github.io/project/
 [url_jekyll]:      https://jekyllrb.com
 [url_githubpages]: https://pages.github.com
-[doc_contribute]:  ./CONTRIBUTING
+[doc_contribute]:  ./CONTRIBUTING.md
 [doc_changelog]:  ./CHANGELOG.md
 
 
