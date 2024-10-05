@@ -3,7 +3,7 @@
 [url_jekyll]:      https://jekyllrb.com
 [url_githubpages]: https://pages.github.com
 [doc_contribute]:  ./CONTRIBUTING
-[doc_changelog]:  ./CHANGELOG
+[doc_changelog]:  ./CHANGELOG.md
 
 
 # Introduction
