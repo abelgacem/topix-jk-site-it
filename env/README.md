@@ -11,10 +11,10 @@
 The following environments exists:
 |name|tag|description|purpose|
 |-|-|-|-|
-|**`local`**|dev, test|Local env specific to the developer|Test code before pushing to branch: `dev`|
-|**`dev`**|dev, shared, test|Shared env for developers|Test code before merging into branch: `main`|
-|**`stage`**|dev, shared, test|Shared env for testers|Test code after merging into branch: `main`|
-|**`pprod`**|prod, shared, test|Pre-production env for final checks|Test code before deployment to production|
+|**`local`**|dev, test|Local env specific to the developer|Test the code before pushing to branch: `dev`|
+|**`dev`**|dev, shared, test|Shared env for developers|Test the code before merging into branch: `main`|
+|**`stage`**|dev, shared, test|Shared env for testers|Test the code after merging into branch: `main`|
+|**`pprod`**|prod, shared, test|Pre-production env for final checks|Test the code before deployment to production|
 |**`prod`**|prod, shared|End-user environment|Provide services to end users|
 
 # Folder's content
