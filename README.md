@@ -1,9 +1,10 @@
 [//]: #(Reference)
-[prj_deployed_ep]: https://abelgacem.github.io/project/
+[ip_public]:       https://abelgacem.github.io/project/
 [url_jekyll]:      https://jekyllrb.com
 [url_githubpages]: https://pages.github.com
 [doc_contribute]:  ./CONTRIBUTING.md
 [doc_changelog]:  ./CHANGELOG.md
+[env_local]:      ./env/README.md#env-local
 
 
 # Introduction
@@ -15,14 +16,14 @@
 
 - This git repository is a documentation project. It documents some IT projects.
 - It uses the [Jekyll][url_jekyll] framework.
-- A deployed version with [public IP][prj_deployed_ep] is published via [Github pages][url_githubpages].
+- A deployed version with [public IP][ip_public] is published via [Github pages][url_githubpages].
 
 # Folder's content
 |name|type|description|
 |-|-|-|
 |`docs`|folder|the documentation, written using [Jekyll][url_jekyll]|
 |`docs\list`|folder|the usefull content|
-|`env`|folder|assets specific to some environment|
+|`env`|folder|assets and description for each environment|
 
 
 # What's new
@@ -31,7 +32,13 @@ see the [Changelog][doc_changelog]
 # How to contribute
 see the [contributing guide][doc_contribute]
 
-# How to browse, test the site locally
+# Test in env: `local`
+Please refer to [this section][env_local] for the description of this environment.
+
+## purpose of the test
+Browse the generated site.
+
+## step to test
 - install `jekyll`
 - export the following VAR.
   ```shell
@@ -46,9 +53,9 @@ see the [contributing guide][doc_contribute]
   ```shell
   ln -s ../env/Gemfile.local Gemfile
   ```
-- build and publish on changes the site locally
+- build and publish the site locally
   ```shell
-   # any changes to the folder docs trigger a build ad publiih
+   # any changes to the folder docs trigger a build and publiih
    bundle exec jekyll serve --livereload
    ```  
 - port forward the local IP to a public IP (not mandatory)
