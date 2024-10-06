@@ -34,11 +34,17 @@ github_username:  jekyll
 # plugins:
 #   - jekyll-feed
 
-# var Udef
+# Var Udef
 mx:
   domain: project
 
-# default frontmatter for pages 
+# Collection Udef
+collections:
+  whatis: 
+    output: true
+
+# default frontmatter for content type: pages
+# default frontmatter for content type: pages
 defaults:
   -
     scope:

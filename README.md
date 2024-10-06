@@ -7,12 +7,12 @@
 [env_local]:      ./env/README.md#env-local
 
 
-# Introduction
+# {{ site.data.site_name.introduction }}
 
 [![LICENSE](https://img.shields.io/badge/license-GNU_GPL_v3.0-green.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 ![GitHub Pages deployment status](https://github.com/abelgacem/project/workflows/pages%20build%20and%20deployment/badge.svg)
 
-# Description
+# {{ site.data.site_name.description }}
 
 - This git repository is a documentation project. It documents some IT projects.
 - It uses the [Jekyll][url_jekyll] framework.
