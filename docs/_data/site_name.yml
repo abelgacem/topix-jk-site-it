@@ -4,6 +4,7 @@ definition:   "Definition"
 description:  "Description"
 purpose:      "Purpose"
 requirement:  "Requirement"
+reference:    "Reference"
 yaml:         " `YAML.` "
 html:         " `HTML.` "
 
