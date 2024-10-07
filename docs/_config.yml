@@ -51,7 +51,7 @@ defaults:
       path: ""      # Applies to all files
       type: "pages" # You can specify "pages", "posts", or other collections
     values:
-      layout: "project"
+      layout: "default"
 
 # defaults:
 #   - 
