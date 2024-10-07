@@ -6,10 +6,10 @@ layout: tool
 [homepage]: {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.topix_name }}
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.project_description.topix_description }}
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 Create a hub that:  
 
 - Is a point of reference for the company's documentation.

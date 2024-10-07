@@ -5,6 +5,12 @@ description:  "Description"
 purpose:      "Purpose"
 requirement:  "Requirement"
 reference:    "Reference"
+# name
+liquid:       " `Liquid.` "
+markdown:     " `Markdown.` "
 yaml:         " `YAML.` "
 html:         " `HTML.` "
-
+# short
+kvpair:       "key value pairs"
+sdef:         "define by the system"
+udef:         "define by the user"

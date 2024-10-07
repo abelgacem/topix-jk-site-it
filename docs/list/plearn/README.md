@@ -8,10 +8,10 @@ layout: default
 [art]:        ./art
 
 # [&larr;][homepage] {{ site.mx.domain }} > Plearn
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.project_description.plearn_description }}
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 Create a platform that:
 - Offers tutorials on various subjects and topics.
 - Allows users to learn and practice in pre-configured environments.

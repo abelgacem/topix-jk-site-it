@@ -4,7 +4,7 @@
 [url_githubpages]: https://pages.github.com
 
 
-# {{ site.data.site_name.introduction }}
+# {{ site.data.name.introduction }}
 - This is a standard directory structure for a [jekyll project][url_jekyll]
 
 

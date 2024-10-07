@@ -7,10 +7,10 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.prj_name.senior_name }}
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.prj_description.senior_description }}
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 - apporter une assistance, une aide au quotidien au senior
   - tous type de demande
     - creation de amil

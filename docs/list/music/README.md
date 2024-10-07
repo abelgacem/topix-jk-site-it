@@ -8,13 +8,13 @@ layout: default
 [art]:        ./art
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.music_name }}
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.project_description.music_description }}
 - une application accéssible online
 - logiciel de montage video et ou son extra simplifié
 
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 - Créer de la musique de manière collaborative
 - Créer des sons et des videos dans l'objectif de les poster (youtube, tik tok)
 

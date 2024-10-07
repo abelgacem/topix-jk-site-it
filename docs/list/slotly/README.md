@@ -7,11 +7,11 @@ layout: project
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.slotly_name }}
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.project_description.slotly_description }}.
 - Dedicated for mathematics courses remotly or onsite.
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 Learn to use frameworks:
   - Django (for the UI)
   - Stripe (for payments)

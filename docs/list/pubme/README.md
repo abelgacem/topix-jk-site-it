@@ -7,10 +7,10 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.pubme_name }}
-# {{ site.data.site_name.description }}
+# {{ site.data.name.description }}
 - {{ site.data.project_description.pubme_description }}
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 - Explain how to port forward to a public IP using differents tools.
 - Quickly test real world access to a server runing in a vm, cloud or container.
 - Quickly publish and share any service for a temporary collaboration.
