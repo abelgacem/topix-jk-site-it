@@ -19,9 +19,9 @@
 - A deployed version with [public IP][ip_public] is published via [Github pages][url_githubpages].
 
 # Folder's content
-|name|type|description|
-|-|-|-|
-|`docs`|folder|the documentation, written using [Jekyll][url_jekyll]|
+|name|type|description|comment|
+|-|-|-|-|
+|`docs`|folder|the documentation, written using [Jekyll]|the name of this folder is expected by Github pages engine|[url_jekyll]|
 |`docs\list`|folder|the usefull content|
 |`env`|folder|assets and description for each environment|
 
