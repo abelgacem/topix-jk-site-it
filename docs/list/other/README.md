@@ -4,7 +4,7 @@ layout: default
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 [art]:        ./art
 
 # free Chat

@@ -4,7 +4,7 @@ layout: project
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.slotly_name }}
 # {{ site.data.name.description }}

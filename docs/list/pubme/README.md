@@ -4,7 +4,7 @@ layout: default
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.pubme_name }}
 # {{ site.data.name.description }}
