@@ -47,3 +47,15 @@ layout: default
 - 
 ## Le modèle économique
 - comment gagner de l'argent avec cette structure ?
+
+# Todo le Jeudi 10 octobre 2024
+- Affiner la description
+- surtout tout faire en pbjectif SMART.
+  - avoir préparé le SMART.
+- Doute
+   - comment se faire rémunéré
+   - le projet est-il viable
+- Savoir 
+  - Répondre à toutes les questions
+  - lever les objections    
+- Se donner des taches à faire

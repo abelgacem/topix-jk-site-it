@@ -63,5 +63,18 @@ Create a hub that:
 - example of documentation site
   - https://www.hashicorp.com/
   - https://devconnected.com/
+# Who will create content
+- Interface devant git pour les user novice de git
+- User tech = tous ce qui n'est pas fonctionel: PO
+- Evangéliser les user
+  - Editeur = vscode
+  - git clone
+  - git pull
+  - git push
+
 # Contributors
 - Amar
+
+# ref
+- front pout github
+- https://github.com/planetjekyll/awesome-jekyll-editors
