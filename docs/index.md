@@ -1,6 +1,31 @@
 ---
-title:  Projects
+layout:  page
+title:  index
 ---
+
+<!-- define var -->
+{% assign lLIST_PAGE = site.pages %}
+
+# {{ site.data.name.introduction }}
+This documentation is built and deployed from a [GitHub repository][repo_source].
+
+# {{ site.data.name.purpose }}
+Documents some IT projects.
+
+# List 
+
+|code name|Description|
+|-|-|
+{% for iPAGE in lLIST_PAGE %}
+  {% assign lFOLDER_PROJECT_PATH  = iPAGE.path %}
+  {% assign lFILE_PROJECT_NAME = lFOLDER_PROJECT_PATH | split: "/" | slice: 1, 1 %}
+  |{{ lFILE_PROJECT_NAME }}|{{ iPAGE.mx.description }}|
+{% endfor %}
+
+la vie est belle 
+
+
+# Todo
 
 [//]: #(Reference)
 [repo_source]: https://github.com/abelgacem/project
@@ -19,13 +44,8 @@ title:  Projects
 [prjm_dentifrice]: ./list/prjm/dentifrice/README
 [prjm_senior]:     ./list/prjm/senior/README
 
-# {{ site.data.name.introduction }}
-This documentation is built and deployed from a [GitHub repository][repo_source].
 
-# {{ site.data.name.purpose }}
-Documents some IT projects.
-
-# List IT project
+## List IT project
 
 |code name|Description|
 |-|-|
@@ -43,7 +63,7 @@ Documents some IT projects.
 
 <br>
 
-# List Mustaph Project
+## List Mustaph Project
 
 |code name|Description|
 |-|-|
@@ -53,7 +73,7 @@ Documents some IT projects.
 ||||
 
 
-## List of Projects
+### List of Projects
 
 <ul>
   {% assign list_folders = site.static_files | where_exp: "file", "file.path contains 'docs/list/'" %}
