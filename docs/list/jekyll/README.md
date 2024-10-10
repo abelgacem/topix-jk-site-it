@@ -1,5 +1,9 @@
 ---
 layout: default
+mx:
+  description: Quickly build and test a Jekyll website.
+  lp:
+  ref:
 ---
 
 

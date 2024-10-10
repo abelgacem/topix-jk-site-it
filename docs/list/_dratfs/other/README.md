@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-
 
 [//]: #(Reference)
 [homepage]:   {{ site.baseurl }}/

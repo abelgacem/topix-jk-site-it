@@ -1,28 +1,44 @@
 ---
 layout:  page
 title:  index
+mx: configs
 ---
+[link]: #
+
+
 
 <!-- define var -->
-{% assign lLIST_PAGE = site.pages %}
+{% assign lLIST_PAGE         = site.pages %}
+{% assign lLIST_FILE_EXCLUDE = "index.md, feed.xml" %}
 
 # {{ site.data.name.introduction }}
-This documentation is built and deployed from a [GitHub repository][repo_source].
-
+- This documentation is built and deployed from a [GitHub repository][repo_source].
+- yoyo {{ site.data.prj_description.pizza }}
+- yoyo {{ lLIST_FILE_EXCLUDE }}
 # {{ site.data.name.purpose }}
 Documents some IT projects.
 
-# List 
 
-|code name|Description|
-|-|-|
+
+
+
+# List 0
+
 {% for iPAGE in lLIST_PAGE %}
-  {% assign lFOLDER_PROJECT_PATH  = iPAGE.path %}
-  {% assign lFILE_PROJECT_NAME = lFOLDER_PROJECT_PATH | split: "/" | slice: 1, 1 %}
-  |{{ lFILE_PROJECT_NAME }}|{{ iPAGE.mx.description }}|
+  {% assign lPAGE_PATH = iPAGE.path %}
+  {% assign lFILE_PROJECT_NAME = lPAGE_PATH | split: "/" | slice: 1, 1 %}
+  Toto
+    {% if lFILE_PROJECT_NAME == "pubme" %}
+      Tutu
+    {% endif %}
+- [{{ lFILE_PROJECT_NAME }}][link]
+- {{ iPAGE.mx.description }}
+- {{iPAGE.path}}
+- 
 {% endfor %}
 
-la vie est belle 
+
+
 
 
 # Todo

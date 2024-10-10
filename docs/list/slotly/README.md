@@ -1,5 +1,9 @@
 ---
 layout: project
+mx:
+  description: A time slot booking written using Django.
+  lp:
+  ref:
 ---
 
 

@@ -1,5 +1,9 @@
 ---
 layout: tool
+mx:
+  description: A documentation hub.
+  lp:
+  ref:
 ---
 
 [//]: #(Reference)

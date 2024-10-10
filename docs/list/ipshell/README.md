@@ -1,15 +1,11 @@
 ---
-layout: page
+layout: tool
 mx:
-  description: A custom universal CLI written in bash.
+  description: A custom universal CLI written in python.
   lp:
   ref:
 ---
 
-
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-[art]:        ./art
 
 # [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.ibshell_name }}
 # {{ site.data.name.description }}
