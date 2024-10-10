@@ -24,7 +24,7 @@ Documents some IT projects.
 # List
 
 
-<table>
+<table id="myTable">
   <tr>
     <th>Project Name</th>
     <th>Description</th>
