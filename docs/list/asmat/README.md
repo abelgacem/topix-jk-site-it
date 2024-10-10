@@ -11,7 +11,7 @@ mx:
 [homepage]:   {{ site.baseurl }}/
 [art]:        ./art
 
-# [back][homepage] > {{ site.mx.domain }} > {{ site.data.project_name.asmat_name }}
+# [home][homepage] > {{ site.mx.domain }} > {{ page.path | split: "/" | slice: 1, 1 | first | downcase | strip % }}
 # {{ site.data.name.description }}
 - {{ site.data.project_description.asmat_description }}
 
