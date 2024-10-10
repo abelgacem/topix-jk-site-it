@@ -1,6 +1,6 @@
 ---
-layout: default
 mx:
+  domain: tool
   description: A Learning Platform.
   lp:
   ref:

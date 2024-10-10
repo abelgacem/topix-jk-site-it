@@ -1,6 +1,6 @@
 ---
-layout: default
 mx:
+  domain: mustaph tool
   description: Create collaborative sound.
   lp:
   ref:

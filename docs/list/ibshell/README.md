@@ -1,6 +1,6 @@
 ---
-layout: page
 mx:
+  domain: tool
   description: A custom universal CLI written in bash.
   lp:
   ref:
@@ -17,6 +17,7 @@ mx:
 - `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
 # {{ site.data.name.purpose }}
+
 Operate on local or remote  `IT`  environments: 
   - objects, 
   - artifacts, 
@@ -29,7 +30,7 @@ Operate on local or remote  `IT`  environments:
 - Uses completion.
 
 # Le front de l'aplication
-- pour éviter les git clone|pull|push et le vocabulaire Git
+- pour éviter les git clone\|pull\|push et le vocabulaire Git
 - **créer une IHM** et un vocabulaire associé à la "OneNote"
 
 # Les étpaes

@@ -1,10 +1,9 @@
 ---
-layout:  page
 title:  index
 mx: configs
 ---
-[link]: #
-
+[link]:        #
+[repo_source]: #
 
 
 <!-- define var -->
@@ -12,94 +11,37 @@ mx: configs
 
 # {{ site.data.name.introduction }}
 - This documentation is built and deployed from a [GitHub repository][repo_source].
-- yoyo {{ site.data.prj_description.pizza }}
-- yoyo {{ lLIST_FILE_EXCLUDE }}
+
 # {{ site.data.name.purpose }}
 Documents some IT projects.
-
-
-
 
 
 # List
 
 
-<table id="myTable">
-  <tr>
-    <th>Project Name</th>
-    <th>Description</th>
-    <th>Path</th>
-  </tr>
-  {% for lPAGE in lLIST_PAGE %}
-    {% assign lPROJECT_NAME = lPAGE.path | split: "/" | slice: 1, 1 | first | downcase | strip %}
-    {% if lPROJECT_NAME != "" %}
+<!-- <table id="myTable"> -->
+<table class="sortable">
+  <thead>
     <tr>
-      <td>{{ lPROJECT_NAME }}</td>
-      <td>{{ lPAGE.mx.description }}</td>
-      <td>{{ lPAGE.path }}</td>
+      <th>project name</th>
+      <th>domain name</th>
+      <th>description</th>
+      <th>path</th>
     </tr>
-    {% endif %}
-  {% endfor %}
+  </thead>
+  <tbody>
+    {% for lPAGE in lLIST_PAGE %}
+      {% assign lPROJECT_NAME = lPAGE.path | split: "/" | slice: 1, 1 | first | downcase | strip %}
+      {% if lPROJECT_NAME != "" %}
+      <tr>
+        <td translate='no'><a href="{{ lPAGE.path | remove: '.md' }}">{{ lPROJECT_NAME }}</a></td>
+        <td translate='no'>{{ lPAGE.mx.domain }}</td>
+        <td>{{ lPAGE.mx.description }}</td>
+        <td>{{ lPAGE.path }}</td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
 
 
-
-# Todo
-
-[//]: #(Reference)
-[repo_source]: https://github.com/abelgacem/project
-[prj_do]:      ./list/do/README
-[prj_slotly]:  ./list/slotly/README
-[prj_ibshell]: ./list/ibshell/README
-[prj_ipshell]: ./list/ipshell/README
-[prj_jekyll]:  ./list/jekyll/README
-[prj_plearn]:  ./list/plearn/README
-[prj_pubme]:   ./list/pubme/README
-[prj_topix]:   ./list/topix/README
-[prj_music]:   ./list/music/README
-[prj_asmat]:   ./list/asmat/README
-
-[prjm_pizza]:      ./list/prjm/pizza/README
-[prjm_dentifrice]: ./list/prjm/dentifrice/README
-[prjm_senior]:     ./list/prjm/senior/README
-
-
-## List IT project
-
-|code name|Description|
-|-|-|
-|[`Do`][prj_do]|{{ site.data.project_description.do_description }}|
-|[`Ibshell`][prj_ibshell]|{{ site.data.project_description.ibshell_description }}|
-|[`Ipshell`][prj_ipshell]|{{ site.data.project_description.ipshell_description }}|
-|[`Slotly`][prj_slotly]|{{ site.data.project_description.slotly_description }}|
-|[`Plearn`][prj_plearn]|{{ site.data.project_description.plearn_description }}|
-|[`Pubme`][prj_pubme]|{{ site.data.project_description.pubme_description }}|
-|[`Jekyll`][prj_jekyll]|{{ site.data.project_description.jekyll_description }}|
-|[`Topix`][prj_topix]|{{ site.data.project_description.topix_description }}|
-|[`Music`][prj_music]|{{ site.data.project_description.music_description }}|
-|[`Asmat`][prj_asmat]|{{ site.data.project_description.asmat_description }}|
-||||
-
-<br>
-
-## List Mustaph Project
-
-|code name|Description|
-|-|-|
-|[`Pizza`][prjm_pizza]|{{ site.data.prj_description.pizza_desc }}|
-|[`Senior`][prjm_senior]|{{ site.data.prj_description.senior_desc }}|
-|[`Dentifrice`][prjm_dentifrice]|{{ site.data.prj_description.dentifrice_desc }}|
-||||
-
-
-### List of Projects
-
-<ul>
-  {% assign list_folders = site.static_files | where_exp: "file", "file.path contains 'docs/list/'" %}
-  {% assign unique_folders = list_folders | map: "path" | map: "split: '/'" | map: "first" | uniq %}
-  {% for folder in unique_folders %}
-    <li>
-      <a href="{{ folder }}">{{ folder | capitalize }}</a>
-    </li>
-  {% endfor %}
-</ul>

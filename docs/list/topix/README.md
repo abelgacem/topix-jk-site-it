@@ -1,6 +1,7 @@
 ---
 layout: tool
 mx:
+  domain: tool
   description: A documentation hub.
   lp:
   ref:

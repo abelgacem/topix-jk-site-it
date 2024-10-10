@@ -1,6 +1,6 @@
 ---
-layout: default
 mx:
+  domain: mustaph business
   description: Centre de support/assistance pour Senior
   lp:
   ref:

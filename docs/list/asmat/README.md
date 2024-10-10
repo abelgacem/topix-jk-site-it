@@ -1,6 +1,6 @@
 ---
-layout: page
 mx:
+  domain: tool
   description: A tool to help Asmat day to day
   lp:
   ref:

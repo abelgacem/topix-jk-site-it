@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-markdown: kramdown
+# markdown: kramdown
 title: Your awesome title
 email: amarbelgacem@hotmail.fr
 description: >- # this means to ignore newlines until "baseurl:"
@@ -52,7 +52,7 @@ defaults:
       path: ""      # Applies to all files
       type: "pages" # You can specify "pages", "posts", or other collections
     values:
-      layout: "default"
+      layout: "page"
 
 # defaults:
 #   - 
