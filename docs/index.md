@@ -1,6 +1,5 @@
 ---
 title:  index
-mx: configs
 ---
 [link]:        #
 [repo_source]: #
