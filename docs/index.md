@@ -13,7 +13,7 @@ title:  myIndex
 - This documentation is built and deployed from a [GitHub repository][repo_source].
 
 # {{ site.data.name.purpose }}
-- Document IT projects.
+- Document IT {{ site.mx.domain | append: "s"}}.
 
 
 # List
@@ -31,10 +31,10 @@ title:  myIndex
   </thead>
   <tbody>
     {% for lPAGE in lLIST_PAGE %}
-      {% assign lPROJECT_NAME = lPAGE.path | split: "/" | slice: 1, 1 | first | downcase | strip %}
-      {% if lPROJECT_NAME != "" %}
+      {% assign lITEM_NAME = lPAGE.path | split: "/" | slice: 1, 1 | first | downcase | strip %}
+      {% if lITEM_NAME != "" %}
       <tr>
-        <td translate='no'><a href="{{ lPAGE.path | remove: '.md' }}">{{ lPROJECT_NAME }}</a></td>
+        <td translate='no'><a href="{{ lPAGE.path | remove: '.md' }}">{{ lITEM_NAME }}</a></td>
         <td translate='no'>{{ lPAGE.mx.domain }}</td>
         <td>{{ lPAGE.mx.description }}</td>
         <td>{{ lPAGE.path }}</td>
