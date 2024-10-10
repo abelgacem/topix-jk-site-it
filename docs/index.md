@@ -13,7 +13,7 @@ title:  myIndex
 - This documentation is built and deployed from a [GitHub repository][repo_source].
 
 # {{ site.data.name.purpose }}
-Documents some IT projects.
+- Document IT projects.
 
 
 # List
@@ -24,7 +24,7 @@ Documents some IT projects.
   <thead>
     <tr>
       <th>project name</th>
-      <th>domain name</th>
+      <th translate='no'>tag</th>
       <th>description</th>
       <th>path</th>
     </tr>
