@@ -7,13 +7,7 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-[art]:        ./art
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.ibshell_name }}
 # {{ site.data.name.description }}
-- {{ site.data.project_description.ibshell_description }}
 - `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
 # {{ site.data.name.purpose }}

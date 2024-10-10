@@ -7,13 +7,6 @@ mx:
   ref:
 ---
 
-[//]: #(Reference)
-[homepage]: {{ "/index" | absolute_url }}
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.topix_name }}
-# {{ site.data.name.description }}
-- {{ site.data.project_description.topix_description }}
-
 # {{ site.data.name.purpose }}
 Create a hub that:  
 

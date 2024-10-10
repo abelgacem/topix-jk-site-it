@@ -1,5 +1,6 @@
 ---
-title:  index
+layout: index
+title:  myIndex
 ---
 [link]:        #
 [repo_source]: #

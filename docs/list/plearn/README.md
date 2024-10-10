@@ -7,13 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-[art]:        ./art
-
-# [&larr;][homepage] {{ site.mx.domain }} > Plearn
-# {{ site.data.name.description }}
-- {{ site.data.project_description.plearn_description }}
 
 # {{ site.data.name.purpose }}
 Create a platform that:

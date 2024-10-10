@@ -7,13 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ page.path | split: "/" | slice: 1, 1 | first | downcase | }}
-
-# {{ site.data.name.description }}
-- {{ page.mx.description }}
 
 # Public cible
 - principalement les seniors

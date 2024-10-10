@@ -6,12 +6,6 @@ mx:
   ref:
 ---
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.prj_name.dentifrice_name }}
-# {{ site.data.name.description }}
-- {{ site.data.prj_description.dentifrice_description }}
 
 # {{ site.data.name.purpose }}
 - acheter du dentifrice en marque blanche 

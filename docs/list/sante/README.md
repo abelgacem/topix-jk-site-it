@@ -7,11 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ page.path | split: "/" | slice: 1, }}
-# {{ site.data.name.description }}
 
 
 # todo

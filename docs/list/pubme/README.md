@@ -7,12 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.pubme_name }}
-# {{ site.data.name.description }}
-- {{ site.data.project_description.pubme_description }}
 
 # {{ site.data.name.purpose }}
 - Explain how to port forward to a public IP using differents tools.

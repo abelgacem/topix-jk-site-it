@@ -8,12 +8,7 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.slotly_name }}
 # {{ site.data.name.description }}
-- {{ site.data.project_description.slotly_description }}.
 - Dedicated for mathematics courses remotly or onsite.
 
 # {{ site.data.name.purpose }}

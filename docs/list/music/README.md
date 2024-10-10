@@ -7,13 +7,7 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-[art]:        ./art
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.project_name.music_name }}
 # {{ site.data.name.description }}
-- {{ site.data.project_description.music_description }}
 - une application accéssible online
 - logiciel de montage video et ou son extra simplifié
 

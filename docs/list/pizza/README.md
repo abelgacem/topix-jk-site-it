@@ -7,13 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] {{ site.mx.domain }} > {{ site.data.prj_name.pizza_name }}
-# {{ site.data.name.description }}
-- {{ site.data.prj_description.pizza_description }}
-
 # {{ site.data.name.purpose }}
 - créer des resto
 - créer les centre de formation
