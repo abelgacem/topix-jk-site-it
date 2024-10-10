@@ -1,7 +1,7 @@
 ---
 layout: default
 mx:
-  description: Chaine de restaurant : la pizza de Nice
+  description: Chaine de restaurant "Nice Pizza - la pizza de Nice"
   lp:
   ref:
 ---

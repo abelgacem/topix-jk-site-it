@@ -9,7 +9,6 @@ mx: configs
 
 <!-- define var -->
 {% assign lLIST_PAGE         = site.pages %}
-{% assign lLIST_FILE_EXCLUDE = "index.md, feed.xml" %}
 
 # {{ site.data.name.introduction }}
 - This documentation is built and deployed from a [GitHub repository][repo_source].
@@ -22,22 +21,26 @@ Documents some IT projects.
 
 
 
-# List 0
+# List
 
-{% for iPAGE in lLIST_PAGE %}
-  {% assign lPAGE_PATH = iPAGE.path %}
-  {% assign lFILE_PROJECT_NAME = lPAGE_PATH | split: "/" | slice: 1, 1 %}
-  Toto
-    {% if lFILE_PROJECT_NAME == "pubme" %}
-      Tutu
+
+<table>
+  <tr>
+    <th>Project Name</th>
+    <th>Description</th>
+    <th>Path</th>
+  </tr>
+  {% for lPAGE in lLIST_PAGE %}
+    {% assign lPROJECT_NAME = lPAGE.path | split: "/" | slice: 1, 1 | first | downcase | strip %}
+    {% if lPROJECT_NAME != "" %}
+    <tr>
+      <td>{{ lPROJECT_NAME }}</td>
+      <td>{{ lPAGE.mx.description }}</td>
+      <td>{{ lPAGE.path }}</td>
+    </tr>
     {% endif %}
-- [{{ lFILE_PROJECT_NAME }}][link]
-- {{ iPAGE.mx.description }}
-- {{iPAGE.path}}
-- 
-{% endfor %}
-
-
+  {% endfor %}
+</table>
 
 
 
