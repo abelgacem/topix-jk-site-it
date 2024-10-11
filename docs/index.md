@@ -7,7 +7,7 @@ title:  myIndex
 
 
 <!-- define var -->
-{% assign lLIST_PAGE         = site.pages %}
+{% assign lLIST_TOPIC         = site.pages %}
 
 # {{ site.data.name.introduction }}
 - This documentation is built and deployed from a [GitHub repository][repo_source].
@@ -31,19 +31,18 @@ title:  myIndex
     </tr>
   </thead>
   <tbody>
-    {% for lPAGE in lLIST_PAGE %}
-      {% assign lPATH_SPLIT = lPAGE.path | split: "/"   | slice: 2, 1 %}
-      {% assign lTOPIC_NAME  = lPAGE.path | split: "/"  | slice: 1, 1 | first | downcase | strip %}
-      {% assign lNB         = lPAGE.path   |  split: "/" | size %}
-      {% assign lTOPIC_TYPE = lPAGE.path |  split: "/" | slice: 2, 1 | first | downcase | strip %}
-      {% assign lLAST       = lPAGE.path |  split: "/" | last | remove: '.md' %}
-      {% if lTOPIC_NAME != ""  and (lLAST == 'README' or (lTOPIC_TYPE == 'whatis' and lTOPIC_NAME == lLAST ) %}
+    {% for lTOPIC in lLIST_TOPIC %}
+      {% assign lTOPIC_DEPTH = lTOPIC.path  |  split: "/" | size %}
+      {% assign lTOPIC_NAME  = lTOPIC.path  | split: "/"  | slice: 1, 1 | first | downcase | strip %}
+      {% assign lTOPIC_TYPE  = lTOPIC.path  |  split: "/" | slice: 2, 1 | first | downcase | strip %}
+      {% assign lTOPIC_FILE  = lTOPIC.path  |  split: "/" | last | remove: '.md' %}
+      {% if lTOPIC_FILE == 'README' or lTOPIC_TYPE == 'whatis' and lTOPIC_NAME == lTOPIC_FILE %}
       <tr>
-        <td translate='no'><a href="{{ lPAGE.path | remove: '.md' }}">{{ lTOPIC_NAME }}</a></td>
-        <td translate='no'>{{ lPAGE.mx.domain }}</td>
-        <td>{{ lPAGE.mx.description }}</td>
-        <td>{{ lPAGE.path }}</td>
-        <td>{{ lNB }} - {{ lTOPIC_NAME }} - {{ lLAST }} -{{ lTOPIC_TYPE }}</td>
+        <td translate='no'><a href="{{ lTOPIC.path | remove: '.md' }}">{{ lTOPIC_NAME }}</a></td>
+        <td translate='no'>{{ lTOPIC.mx.domain }}</td>
+        <td>{{ lTOPIC.mx.description }}</td>
+        <td>{{ lTOPIC.path }}</td>
+        <td>{{ lTOPIC_DEPTH }} - {{ lTOPIC_NAME }} - {{ lTOPIC_TYPE }} - {{ lTOPIC_FILE }} </td>
       </tr>
       {% endif %}
     {% endfor %}
