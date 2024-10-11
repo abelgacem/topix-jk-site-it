@@ -6,6 +6,9 @@ mx:
   ref:
 ---
 
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
+
 
 
 # Public cible
