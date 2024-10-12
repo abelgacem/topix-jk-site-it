@@ -39,14 +39,16 @@ theme:    topix-jk-theme-01
 #   - jekyll-feed
 
 # Var sdef overwriten
-destination: /tmp/site/it/project
+destination: /tmp/site/it
 # Var udef
 mx:
-  domain: project
+  domain: it
 
 # Collection Udef
 collections:
-  whatis: 
+  _project: 
+    output: true
+  _tool: 
     output: true
 
 # default frontmatter for content type: pages
