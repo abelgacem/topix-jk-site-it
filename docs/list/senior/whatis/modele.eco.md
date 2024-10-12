@@ -1,7 +1,7 @@
 ---
 mx:
   domain: mustaph business
-  description: Centre de support et assistance IT
+  description: Le modèle économique
   lp:
   ref: projet/sante
 ---

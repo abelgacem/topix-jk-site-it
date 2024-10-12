@@ -1,7 +1,7 @@
 ---
 mx:
   domain: mustaph business
-  description: Centre de support et assistance IT
+  description: La viabilité
   lp:
   ref:
 ---
