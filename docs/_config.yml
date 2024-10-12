@@ -38,7 +38,9 @@ theme:    topix-jk-theme-01
 # plugins:
 #   - jekyll-feed
 
-# Var Udef
+# Var sdef overwriten
+destination: /tmp/site.it.project
+# Var udef
 mx:
   domain: project
 
