@@ -39,7 +39,7 @@ theme:    topix-jk-theme-01
 #   - jekyll-feed
 
 # Var sdef overwriten
-destination: /tmp/site.it.project
+destination: /tmp/site/it/project
 # Var udef
 mx:
   domain: project
