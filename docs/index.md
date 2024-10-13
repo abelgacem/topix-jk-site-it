@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: site_homepage
 title:  myIndex
 ---
 [link]:        #

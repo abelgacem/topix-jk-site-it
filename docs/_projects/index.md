@@ -1,9 +1,7 @@
 ---
 layout: home
-title:  myIndex
+title:  Projects title
 ---
-[link]:        #
-[repo_source]: #
 
 
-index of projects
+this page belongs to {{ page.collection }}

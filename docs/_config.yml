@@ -46,6 +46,9 @@ mx:
 
 # Collection Udef
 collections:
+  definitions: 
+    output: true
+    icon: "/assets/icons/definitions-icon.svg"
   projects: 
     output: true
     icon: "/assets/icons/projects-icon.svg"
