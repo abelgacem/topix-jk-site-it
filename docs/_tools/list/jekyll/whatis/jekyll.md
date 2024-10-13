@@ -1,12 +1,12 @@
 ---
 mx:
   domain: tool
-  description: A framework to create static website
+  description: A framework to create static website.
 ---
 
 
 # {{ site.data.name.description }}
-- {{ page.mx.description }}.
+- {{ page.mx.description }}
 - Written in Ruby.
 - {{ site.data.name.liquid }} is used as the templating language.
 
