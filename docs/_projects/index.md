@@ -7,10 +7,24 @@ description: Entry point for exploring current and past projects.
 # {{ site.data.name.introduction }}
 - {{ page.description }}
 
+<!-- define var -->
+{% assign lLIST_FILE = site[page.collection] %}
+
+<!-- 
+{% assign lLIST_FILE = site[page.collection] | where_exp: "item", "item.path contains '_drafts'" %} -->
+
+
+
+
 # Todo 01
-{% for item in site[page.collection] %}
-{{ item.name | remove: '.md' }} - {{ item.title }}
+{% assign folders = "" %}
+{% for file in lLIST_FILE %}
+{% assign test = file.path | split: '/' | slice: 1, 1 | first | downcase | strip %}
+{% unless file.name == "index.md" %}
+  <li>{{ file.name | remove: '.md' }} - {{ file.title }} - {{ file.path }} - {{ test }}</li>
+{% endunless %}
 {% endfor %}
+
 # Todo 02
 
 
