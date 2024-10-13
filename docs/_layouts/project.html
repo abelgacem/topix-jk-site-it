@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+
+{{ content }}
+
+<h1>Todo yo</h1>
+<!-- define var -->
+{% assign lLIST_TOPIC  = site.projects %}
+{% for lTOPIC in lLIST_TOPIC %}
+yo - {{ lTOPIC.path }}
+{% endfor %}
+

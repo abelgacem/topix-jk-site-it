@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: project
 title:  myIndex
 ---
 [link]:        #
@@ -13,5 +13,5 @@ title:  myIndex
 - This documentation is built and deployed from a [GitHub repository][repo_source].
 
 # {{ site.data.name.purpose }}
-- Document IT {{ site.mx.domain | append: "s"}}.
+- Document ressources in {{ site.mx.domain }}.
 
