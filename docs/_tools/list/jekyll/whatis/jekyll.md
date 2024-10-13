@@ -1,8 +1,11 @@
 ---
 mx:
+  tag: 
   domain: tool
   description: A framework to create static website.
 ---
+
+{{ page.path | split: '/' | slice: 3, 1 | first }} 
 
 
 # {{ site.data.name.description }}

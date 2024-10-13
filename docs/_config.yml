@@ -65,8 +65,7 @@ collections:
 defaults:
   -
     scope:
-      path: ""      # Applies to all files
-      type: "projects"      # You can specify "pages", "posts", or other collections
+      path: ""      # Applies to all files posts, pages, collections
     values:
       layout: "page"
 
