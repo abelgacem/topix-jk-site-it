@@ -46,9 +46,12 @@ mx:
 
 # Collection Udef
 collections:
-  _projects: 
-    mx:     true
+  projects: 
     output: true
+    icon: "/assets/icons/projects-icon.svg"
+  tools: 
+    output: true 
+    icon: "/assets/icons/tools-icon.svg"
 
 # default frontmatter for content type: pages
 defaults:

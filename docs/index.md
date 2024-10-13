@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: homepage
 title:  myIndex
 ---
 [link]:        #
