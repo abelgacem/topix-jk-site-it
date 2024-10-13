@@ -1,9 +1,8 @@
 ---
-layout: home
-title:  myIndex
+layout: collection_index
+title:  Projects title
+description: Entry point for exploring our collection of tools and utilities.
 ---
-[link]:        #
-[repo_source]: #
 
-
-this page belongs to {{ page.collection }}
+# {{ site.data.name.introduction }}
+- {{ page.description }}

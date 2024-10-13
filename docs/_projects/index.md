@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: collection_index
 title:  Projects title
+description: Entry point for exploring current and past projects.
 ---
 
+# {{ site.data.name.introduction }}
+- {{ page.description }}
 
-this page belongs to {{ page.collection }}
