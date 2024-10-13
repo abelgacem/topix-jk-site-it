@@ -48,19 +48,14 @@ mx:
 collections:
   definitions: 
     output: true
-    icon: "/assets/icons/clouds.svg"
   definitions: 
     output: true
-    icon: "/assets/icons/definitions.svg"
   languages: 
     output: true
-    icon: "/assets/icons/languages.svg"
   projects: 
     output: true
-    icon: "/assets/icons/projects.svg"
   tools: 
     output: true 
-    icon: "/assets/icons/tools.svg"
 
 # default frontmatter for content type: pages
 defaults:
