@@ -1,9 +1,11 @@
 ---
+mx:
+  domain: tool
+  description: other
+  lp:
+  ref:
 ---
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-[art]:        ./art
 
 # free Chat
 - https://github.com/eust-w/ollama?tab=readme-ov-file

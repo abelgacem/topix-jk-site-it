@@ -72,3 +72,54 @@
 
 
 
+
+
+
+{%- comment -%} 
+# Todo 01
+{% for lFILE in site[page.collection] %}
+{% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
+{% assign lFILE_FOLDER = lFILE.path | split: '/' | slice: 1, 1 | first | downcase | strip %}
+{% assign lTOPIC_NAME  = lFILE.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+{% assign lSTOPIC_TYPE = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+{% assign lFILE_EXPECTED = lTOPIC_NAME | append: '.md' %}
+{% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
+{% if  lFILE_DEPTH ==2  or lSTOPIC_TYPE == 'whatis' and lFILE.name == lFILE_EXPECTED %}
+  <li>{{lTOPIC_NAME | append: '.md'}} - {{lFILE_DEPTH}} - {{lFILE_FOLDER}} - {{lTOPIC_NAME}} - {{lSTOPIC_TYPE}}  | name = {{ lFILE.name }} | title = {{ lFILE.title }} | type = {{lSTOPIC_TYPE}} - <!--url = {{ lFILE.url }} - path = {{ lFILE.path }} --></li>
+{% endif %}
+{% endunless %}
+{% endfor %}
+ {%- endcomment -%}
+
+
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th translate='no'>name</th>
+      <th translate='no'>tag</th>
+      <th >description</th>
+      {%- comment -%} <th>debug</th> {%- endcomment -%}
+    </tr>
+  </thead>
+  <tbody>
+{% for lFILE in site[page.collection] %}
+{% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
+{% assign lFILE_FOLDER = lFILE.path | split: '/' | slice: 1, 1 | first | downcase | strip %}
+{% assign lTOPIC_NAME  = lFILE.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+{% assign lSTOPIC_TYPE = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+{% assign lFILE_EXPECTED = lTOPIC_NAME | append: '.md' %}
+{% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
+{% if  lFILE_DEPTH ==2  or lSTOPIC_TYPE == 'whatis' and lFILE.name == lFILE_EXPECTED %}
+  <tr>
+    <td translate='no'><a href='{{ lFILE.url }}'>{{lTOPIC_NAME}}</a></td>
+    <td translate='no'>{{ lFILE.mx.tag }}</td>
+    <td>{{ lFILE.mx.description }}</td>
+    {%- comment -%} <td><li>depth = {{lFILE_DEPTH}} | title = {{ lFILE.title }} | type = {{lSTOPIC_TYPE}} </li> <li>url = {{ lFILE.url }}</li><li>path = {{ lFILE.path }}</li></td> {%- endcomment -%}
+  </tr>
+  {% endif %}
+  {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
