@@ -34,7 +34,7 @@ This hub:
 # {{ site.data.name.requirement }}
 
 ## Documentation Model
-The documentation defines the following concepts:
+The application defines the following concepts:
 
 - {{site.data.topix.domain}}:   
     - The documentation is subdivided into domains ({{site.data.name.eg}} Math, IT, Physics, Psychology, History, etc.).
@@ -46,21 +46,21 @@ The documentation defines the following concepts:
       - The Theories category of the Maths domain would define the items : Set, Language.
       - The Programing category of the IT domain would have the items    : Java, Liquid.
 - {{site.data.topix.topic}}:  
-    - Each defines a set of {{site.data.topix.object}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
+    - Each defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
       - {{site.data.topix.topic}}:Set in the Maths domain woud have objects: element,  
       - {{site.data.topix.topic}}:Java in the Maths domain woud have objects: variable, control flow   
-- {{site.data.topix.object}}:  
+- {{site.data.topix.stopic}}:  
     - They are the cornerstone of the documentation. 
     - This is a file under a specifc folder. The name of the folder is a {{site.data.topix.classifier}}.
 
 - {{site.data.topix.classifier}}:  
     - Can be {{site.data.name.sdef}} or {{site.data.name.udef}}.
-    - Defines the kind of informations contained in an {{site.data.topix.object}}.
+    - Defines the kind of informations contained in a {{site.data.topix.stopic}}.
     - {{site.data.topix.classifier}} {{site.data.name.sdef}}  are:
-        - {{site.data.topix.whatis}} :   used to define and describe an {{site.data.topix.object}}.
-        - {{site.data.topix.howto}} :    used to define Step-by-step guide on how to manage or use an {{site.data.topix.object}}.
-        - {{site.data.topix.list}} :     used to describe an {{site.data.topix.howto}} that is often a container for other type of objects.
-        - {{site.data.topix.tutorial}} : usually build on top of {{site.data.topix.howto}}.
+        - {{site.data.topix.whatis}} :   used to define and describe a {{site.data.topix.stopic}}.
+        - {{site.data.topix.howto}} :    used to define step-by-step guide on how to manage or use a {{site.data.topix.stopic}}.
+        - {{site.data.topix.list}} :     used to describe a {{site.data.topix.stopic}} that is often a container for other {{site.data.topix.stopic}}.
+        - {{site.data.topix.tutorial}} : usually an aggregation of different {{site.data.topix.howto}}.
 
 
 ## Version Control
