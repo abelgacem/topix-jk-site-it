@@ -49,7 +49,7 @@ mx:
 
 # list {{lTOPIC_NAME}} : STopic
 
-yo {{ lTOPIC_NAME }}
+
 
 {% for lFILE in site[page.collection] %}
 {% assign lFILE_DEPTH    = lFILE.path | split: '/' | size | minus: 2 %}
@@ -58,7 +58,7 @@ yo {{ lTOPIC_NAME }}
 {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
 {% if lFILE.path contains lTOPIC_EXPECTED  %} 
 
-<li>{{lFILE_DEPTH}} -  <a href='/{{ site.baseurl }}/{{ collection.label }}/index.html'>{{lSTOPIC_CLASSIFIER}}</a> - {{ lFILE.title }} - {{lFILE.path}}</li>
+<li>{{lFILE_DEPTH}} -  <a href='{{ lFILE.url }}'>{{lSTOPIC_CLASSIFIER}}</a> - {{ lFILE.title }} - {{lFILE.path}}</li>
 
 {% endif %}
 {% endunless %}
