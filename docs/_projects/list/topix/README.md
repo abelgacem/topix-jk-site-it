@@ -27,11 +27,6 @@ Create a hub that:
   - Topics within specific domains
   - Tutorials
 
-# {{ site.data.name.improvement }}
-- a {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework
-  - {{site.data.name.hugo}}
-  - {{site.data.name.docusaurus}}
-  - {{site.data.name.anthora}}
 
 # {{ site.data.name.requirement }}
 
@@ -59,6 +54,14 @@ Create a hub that:
 - Use `Markdown`  to write the documentation, allowing the use of:
   - `LaTeX`:  For mathematical and scientific expressions.
   - `Mermaid`:  For creating diagrams and flowcharts.
+
+# {{ site.data.name.improvement }}
+
+- A {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework like:
+  - {{site.data.name.hugo}}
+  - {{site.data.name.docusaurus}}
+  - {{site.data.name.anthora}}
+- A {{site.data.name.gui}} to author and manage the content.
 
 # IDEA
 - License of the framework used
