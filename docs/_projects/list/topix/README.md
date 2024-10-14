@@ -8,7 +8,7 @@ mx:
 
 # {{ site.data.name.description }}
 - A web application
-- 
+
 # {{ site.data.name.purpose }}
 Create a hub that:  
 
@@ -37,15 +37,27 @@ Create a hub that:
 - The codebase is managed with {{site.data.name.git}}.
 
 
-## Impro
 ## Documentation Framework
 - The choosen documentation is {{site.data.name.jekyll}}.
 
 ## Documentation Model
-- Organize documentation using the following objects:
-  - `Domain`:  The documentation is subdivided into domains and subdomains (e.g., Math, IT, Physics, Psychology, History, etc.).
-  - `Subdomain`:  A specific subdivision of a domain covering related topics.
-  - `Topic`:  Individual subjects within a subdomain.
+Organize the documentation using the following concepts:
+  - {{site.data.topix.domain}}:   
+    - The documentation is subdivided into domains ({{site.data.name.eg}} Math, IT, Physics, Psychology, History, etc.).
+    - Each {{site.data.topix.domain}} is subdivided into categories, {{site.data.name.eg}}:
+      - The Maths domain would have the categories: Theories, Numbers.
+      - The IT domain would have the categories: Programing, Cloud, Network.
+  - {{site.data.topix.category}}: 
+    - Often contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
+      - The Theories category of the Maths domain would have {{site.data.topix.topic}}: Set, Language.
+      - The Programing category of the IT domain would have {{site.data.topix.topic}}: Java, Liquid.
+  - {{site.data.topix.topic}}:  
+    - Usually defines their own {{site.data.topix.object}}.
+  - {{site.data.topix.object}}:  
+    - Belongs to a {{site.data.topix.topic}}.
+    - Helps understand a part of a {{site.data.topix.topic}}.
+    - 
+    
   - `List`:  A collection of related items or topics, categorized by relevance or purpose.
   - `Whatis`:  Definitions and explanations of terms or concepts.
   - `Howto`:  Step-by-step guides for completing specific tasks.
