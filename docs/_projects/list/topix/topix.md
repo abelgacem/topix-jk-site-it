@@ -7,14 +7,15 @@ mx:
 ---
 
 # {{ site.data.name.description }}
-- A web application
+- {{ page.mx.description }}
+- A web application.
 
 # {{ site.data.name.purpose }}
-Create a hub that:  
+This hub:  
 
-- Is a point of reference for the company's documentation.
-- Establish a common terminology shared by all.
-- Unify the writing and conception of document.
+- Is the entry point for the company's documentation.
+- Defines a common terminology accessible and shared by all.
+- Unifies the writing and conception of documents.
 - Allows for writing and consuming any type of document, including:
   - Technical guides, User manuals
   - DAT, DCT, Specs, Release, RFC
@@ -22,13 +23,12 @@ Create a hub that:
   - Tutorials, Processes
   - Policies
   - And more
-- Display a document in the user's language or any other language.
-- leverage the full capabilities of a {{site.data.name.git}} repository and codebase (security, release, collaboration, review, ...).
+- Displays a document in the user's language or any other language.
+- Leverages the full capabilities of a {{site.data.name.git}} repository and codebase (security, release, collaboration, review, ...).
 - Implement cross-references between related documents, improving navigation and context.
-- Establish flexible learning paths for users to explore at their own pace:
-  - Processes
-  - Topics within specific domains
-  - Tutorials
+- Establishes flexible learning paths for users to explore at their own pace to learn about:
+  - The Processes, methodologies, technologies, {{site.data.name.etc}}.
+  - Topics within specific domains, Tutorials.
 
 
 # {{ site.data.name.requirement }}
@@ -69,15 +69,19 @@ The documentation defines the following concepts:
 
 ## Framework and Language
 - The choosen documentation framework is {{site.data.name.jekyll}}.
-
-## Documentation 
 - The choosen documentation language ({{site.data.name.ie}} to write the documentation) is {{site.data.name.markdown}}. It allows the use of:
   - {{site.data.name.latex}} :  For mathematical and scientific expressions.
   - {{site.data.name.mermaid}}: For creating diagrams and flowcharts.
 
+## Category of users
+
+|name|description|comment|
+|-|-|-|
+|Technical|anyone that is not only functional ({{site.data.name.eg}} PO.)|should use {{site.data.name.vscode}} + {{site.data.name.git}} to interact with {{site.data.topix.topix}}|
+|Functiunal|anyone that is not a Tech. user|should use a {{site.data.name.gui}} to interact with {{site.data.name.topix}}|
+
+
 # {{ site.data.name.improvement }}
-## phase 1
-## phase 2
 - A {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework like:
   - {{site.data.name.hugo}}
   - {{site.data.name.docusaurus}}
@@ -90,18 +94,15 @@ The documentation defines the following concepts:
 ## Example of static sites
   - https://www.hashicorp.com/
   - https://devconnected.com/
-  - https://devconnected.com/
+  - https://www.abtit.com
+  - https://jekyllrb.com/
+  - https://shopify.github.io/liquid/
+
+# {{ site.data.name.todo }}
 
 ## front for github
 - https://github.com/planetjekyll/awesome-jekyll-editors
 
-# Todo
-- User tech = tous ce qui n'est pas fonctionel: PO
-- Evangéliser les user
-  - Editeur = vscode
-  - git clone
-  - git pull
-  - git push
 
 # Contributors
 - Amar
