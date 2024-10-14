@@ -1,5 +1,5 @@
 ---
-layout: collection_index
+layout: category
 title:  Projects title
 description: Entry point for exploring current and past projects.
 ---

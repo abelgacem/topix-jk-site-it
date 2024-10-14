@@ -1,5 +1,5 @@
 ---
-layout: collection_index
+layout: category
 title:  Projects title
 description:  Entry point for shared definitions, terms, and terminology across the company.
 ---

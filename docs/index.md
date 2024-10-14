@@ -1,5 +1,5 @@
 ---
-layout: site_index
+layout: domain
 title:  myIndex
 ---
 [link]:        #
