@@ -67,10 +67,10 @@ The documentation defines the following concepts:
 - The codebase for both the docs and the code is managed with {{site.data.name.git}}.
 - The codebase for the documentation reflects this model for intuitive organization and access.
 
-## Documentation Framework
+## Framework and Language
 - The choosen documentation framework is {{site.data.name.jekyll}}.
 
-## Documentation Language
+## Documentation 
 - The choosen documentation language ({{site.data.name.ie}} to write the documentation) is {{site.data.name.markdown}}. It allows the use of:
   - {{site.data.name.latex}} :  For mathematical and scientific expressions.
   - {{site.data.name.mermaid}}: For creating diagrams and flowcharts.
