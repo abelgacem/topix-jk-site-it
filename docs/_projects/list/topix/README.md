@@ -6,6 +6,9 @@ mx:
   ref:
 ---
 
+# {{ site.data.name.description }}
+- A web application
+- 
 # {{ site.data.name.purpose }}
 Create a hub that:  
 
@@ -56,20 +59,26 @@ Create a hub that:
   - `Mermaid`:  For creating diagrams and flowcharts.
 
 # {{ site.data.name.improvement }}
-
+## phase 1
+## phase 2
 - A {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework like:
   - {{site.data.name.hugo}}
   - {{site.data.name.docusaurus}}
   - {{site.data.name.anthora}}
 - A {{site.data.name.gui}} to author and manage the content.
+  - for non technichal users
+  - to administer the tool 
 
-# IDEA
-- License of the framework used
-- example of documentation site
+# {{ site.data.name.reference }}
+## Example of static sites
   - https://www.hashicorp.com/
   - https://devconnected.com/
-# Who will create content
-- Interface devant git pour les user novice de git
+  - https://devconnected.com/
+
+## front for github
+- https://github.com/planetjekyll/awesome-jekyll-editors
+
+# Todo
 - User tech = tous ce qui n'est pas fonctionel: PO
 - Evangéliser les user
   - Editeur = vscode
@@ -80,6 +89,3 @@ Create a hub that:
 # Contributors
 - Amar
 
-# ref
-- front pout github
-- https://github.com/planetjekyll/awesome-jekyll-editors
