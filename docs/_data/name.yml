@@ -1,5 +1,6 @@
 # name@common
 #
-topix:   " `Topix` "
-front:   " `front` "
-back:    " `back` "
+topix:     " `Topix` "
+framework: " `framework` "
+front:     " `front` "
+back:      " `back` "

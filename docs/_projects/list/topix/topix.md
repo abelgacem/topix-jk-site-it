@@ -65,12 +65,12 @@ The documentation defines the following concepts:
 
 ## Version Control
 - The codebase for both the docs and the code is managed with {{site.data.name.git}}.
-- The codebase for the documentation reflects this model for intuitive organization and access.
+- The codebase for the docs reflects the documentation model for intuitive organization and access.
 
-## Framework and Language
-- The choosen documentation framework is {{site.data.name.jekyll}}.
+## {{site.data.name.framework}} and tool
+- The choosen documentation {{site.data.name.framework}} is {{site.data.name.jekyll}}.
 - The choosen documentation language ({{site.data.name.ie}} to write the documentation) is {{site.data.name.markdown}}. It allows the use of:
-  - {{site.data.name.latex}} :  For mathematical and scientific expressions.
+  - {{site.data.name.latex}}:   For mathematical and scientific expressions.
   - {{site.data.name.mermaid}}: For creating diagrams and flowcharts.
 
 ## Category of users
@@ -80,6 +80,7 @@ The documentation defines the following concepts:
 |Technical|anyone that is not only functional ({{site.data.name.eg}} PO.)|should use {{site.data.name.vscode}} + {{site.data.name.git}} to interact with {{site.data.topix.topix}}|
 |Functiunal|anyone that is not a Tech. user|should use a {{site.data.name.gui}} to interact with {{site.data.name.topix}}|
 
+<br>
 
 # {{ site.data.name.improvement }}
 - A {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework like:
@@ -98,11 +99,12 @@ The documentation defines the following concepts:
   - https://jekyllrb.com/
   - https://shopify.github.io/liquid/
 
-# {{ site.data.name.todo }}
 
-## front for github
+## {{ site.data.name.front }} for github
 - https://github.com/planetjekyll/awesome-jekyll-editors
 
+# {{ site.data.name.todo }}
+- prioritize items in section {{site.data.name.improvement}}
 
 # Contributors
 - Amar
