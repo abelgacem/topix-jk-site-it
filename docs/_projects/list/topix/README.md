@@ -42,24 +42,30 @@ Create a hub that:
 
 ## Documentation Model
 The documentation defines the following concepts:
+
 - {{site.data.topix.domain}}:   
     - The documentation is subdivided into domains ({{site.data.name.eg}} Math, IT, Physics, Psychology, History, etc.).
-    - Each is subdivided into categories, {{site.data.name.eg}}:
+    - Each is subdivided into {{site.data.topix.category}}, {{site.data.name.eg}}:
       - The Maths domain would have the categories: Theories, Numbers.
       - The IT domain would have the categories: Programing, Cloud, Network.
 - {{site.data.topix.category}}: 
     - Each contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
-      - The Theories category of the Maths domain would define the {{site.data.topix.topic | append 's'}}: Set, Language.
-      - The Programing category of the IT domain would have {{site.data.topix.topic | append 's'}}: Java, Liquid.
+      - The Theories category of the Maths domain would define the items : Set, Language.
+      - The Programing category of the IT domain would have the items    : Java, Liquid.
 - {{site.data.topix.topic}}:  
-  - Usually defines their own {{site.data.topix.object}}.
+    - Each defines a set of {{site.data.topix.object}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
+      - {{site.data.topix.topic}}:Set in the Maths domain woud have objects: element,  
+      - {{site.data.topix.topic}}:Java in the Maths domain woud have objects: variable, control flow   
 - {{site.data.topix.object}}:  
-  - Belongs to a {{site.data.topix.topic}}.
-  - Helps understand a part of a {{site.data.topix.topic}}.
-  
-- `List`:  A collection of related items or topics, categorized by relevance or purpose.
-- `Whatis`:  Definitions and explanations of terms or concepts.
-- `Howto`:  Step-by-step guides for completing specific tasks.
+  - They are the cornerstone of the documentation
+  - The point of view define is define by a classifier which indicates the kind of information on an object
+
+- {{site.data.topix.classifier}}:  
+  - classifier {{site.data.sdef}} are:
+    - {{site.data.topix.list}}: A collection of related items or topics, categorized by relevance or purpose.
+    - {{site.data.topix.whatis}}: Definitions and explanations of terms or concepts.
+    - {{site.data.topix.howto}}: Step-by-step guides for completing specific tasks.
+    - {{site.data.topix.tutorial}}: build on top of {{site.data.topix.howto}}
 
 ## Codebase Organization
 - Ensure the codebase reflects these objects for intuitive organization and access.

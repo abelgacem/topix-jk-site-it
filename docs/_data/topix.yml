@@ -1,6 +1,7 @@
 # name@common
 #
-topic:    " `Topic` "
-domain:   " `Domain` "
-category: " `Category` "
-object:   " `Object` "
+topic:      " `Topic` "
+domain:     " `Domain` "
+category:   " `Category` "
+object:     " `Object` "
+classifier: " `Classifier` "
