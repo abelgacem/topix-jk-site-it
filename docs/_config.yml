@@ -67,7 +67,7 @@ defaults:
     scope:
       path: ""      # Applies to all files posts, pages, collections
     values:
-      layout: "page"
+      layout: "default"
 
 # defaults:
 #   - 

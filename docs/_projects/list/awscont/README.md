@@ -1,5 +1,4 @@
 ---
-layout: tool
 mx:
   domain: tool
   description: AWS. in container

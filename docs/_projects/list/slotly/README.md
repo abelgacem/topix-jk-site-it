@@ -1,5 +1,4 @@
 ---
-layout: project
 mx:
   domain: tool
   description: A time slot booking written using Django.

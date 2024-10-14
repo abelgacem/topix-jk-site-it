@@ -1,5 +1,4 @@
 ---
-layout: tool
 mx:
   domain: tool
   description: A documentation hub.
@@ -11,8 +10,8 @@ mx:
 Create a hub that:  
 
 - Is a point of reference for the company's documentation.
-- Establish a common terminology shared by all topics.
-- Unify the writing and conception of document
+- Establish a common terminology shared by all.
+- Unify the writing and conception of document.
 - Allows for writing and consuming any type of document, including:
   - Technical guides, User manuals
   - DAT, DCT, Specs, Release, RFC
@@ -21,9 +20,9 @@ Create a hub that:
   - Policies
   - And more
 - Display a document in the user's language or any other language.
-- leverage the full capabilities of a Git repository and codebase (security, release, collaboration, review, ...).
+- leverage the full capabilities of a {{site.data.name.git}} repository and codebase (security, release, collaboration, review, ...).
 - Implement cross-references between related documents, improving navigation and context.
-- Establish learning paths for users to explore:
+- Establish flexible learning paths for users to explore at their own pace:
   - Processes
   - Topics within specific domains
   - Tutorials
