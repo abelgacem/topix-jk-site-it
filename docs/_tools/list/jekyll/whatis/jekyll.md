@@ -44,13 +44,22 @@ mx:
 # {{ site.data.name.contributor }}
 - Amar
 
+<!-- define var -->
+{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+
+# list {{lTOPIC_NAME}} : STopic
+
+yo {{ lTOPIC_NAME }}
+
 {% for lFILE in site[page.collection] %}
 {% assign lFILE_DEPTH    = lFILE.path | split: '/' | size | minus: 2 %}
-{% assign lFILE_FOLDER   = lFILE.path | split: '/' | slice: 1, 1 | first | downcase | strip %}
-{% assign lTOPIC_NAME    = lFILE.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-{% assign lSTOPIC_TYPE   = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
-{% assign lFILE_EXPECTED = lTOPIC_NAME | append: '.md' %}
+{% assign lSTOPIC_CLASSIFIER   = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+{% assign lTOPIC_EXPECTED = '/' | append: lTOPIC_NAME | append: '/' %}
+{% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
+{% if lFILE.path contains lTOPIC_EXPECTED  %} 
 
-<li>depth = {{lFILE_DEPTH}} | title = {{ lFILE.title }} | type = {{lSTOPIC_TYPE}} </li> <li>url = {{ lFILE.url }}</li><li>path = {{ lFILE.path }}</li>
-  <li>{{ lFILE.url }}">{{ lFILE.title }} - {{ lFILE.path }}</li>
+<li>{{lFILE_DEPTH}} -  {{lSTOPIC_CLASSIFIER}} - {{ lFILE.title }} - {{lFILE.path}}</li>
+
+{% endif %}
+{% endunless %}
 {% endfor %}
