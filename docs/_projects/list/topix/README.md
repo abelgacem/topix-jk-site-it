@@ -27,16 +27,21 @@ Create a hub that:
   - Topics within specific domains
   - Tutorials
 
-# Documentation Structure
+# {{ site.data.name.improvement }}
+- a {{site.data.name.poc}} to easily move from {{site.data.name.jekyll}} to another framework
+  - {{site.data.name.hugo}}
+  - {{site.data.name.docusaurus}}
+  - {{site.data.name.anthora}}
+
+# {{ site.data.name.requirement }}
 
 ## Version Control
-- The codebase is managed with `Git`.
+- The codebase is managed with {{site.data.name.git}}.
 
+
+## Impro
 ## Documentation Framework
-- Choose a documentation framework from:
-  - `Hugo`
-  - `Jekyll`
-  - `Docusaurus`
+- The choosen documentation is {{site.data.name.jekyll}}.
 
 ## Documentation Model
 - Organize documentation using the following objects:
