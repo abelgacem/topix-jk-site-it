@@ -33,13 +33,6 @@ Create a hub that:
 
 # {{ site.data.name.requirement }}
 
-## Version Control
-- The codebase is managed with {{site.data.name.git}}.
-
-
-## Documentation Framework
-- The choosen documentation is {{site.data.name.jekyll}}.
-
 ## Documentation Model
 The documentation defines the following concepts:
 
@@ -57,23 +50,30 @@ The documentation defines the following concepts:
       - {{site.data.topix.topic}}:Set in the Maths domain woud have objects: element,  
       - {{site.data.topix.topic}}:Java in the Maths domain woud have objects: variable, control flow   
 - {{site.data.topix.object}}:  
-  - They are the cornerstone of the documentation
-  - The point of view define is define by a classifier which indicates the kind of information on an object
+    - They are the cornerstone of the documentation. 
+    - This is a file under a specifc folder. The name of the folder is a {{site.data.topix.classifier}}.
 
 - {{site.data.topix.classifier}}:  
-  - classifier {{site.data.sdef}} are:
-    - {{site.data.topix.list}}: A collection of related items or topics, categorized by relevance or purpose.
-    - {{site.data.topix.whatis}}: Definitions and explanations of terms or concepts.
-    - {{site.data.topix.howto}}: Step-by-step guides for completing specific tasks.
-    - {{site.data.topix.tutorial}}: build on top of {{site.data.topix.howto}}
+    - Can be {{site.data.name.sdef}} or {{site.data.name.udef}}.
+    - Defines the kind of informations contained in an {{site.data.topix.object}}.
+    - {{site.data.topix.classifier}} {{site.data.name.sdef}}  are:
+        - {{site.data.topix.whatis}} :   used to define and describe an {{site.data.topix.object}}.
+        - {{site.data.topix.howto}} :    used to define Step-by-step guide on how to manage or use an {{site.data.topix.object}}.
+        - {{site.data.topix.list}} :     used to describe an {{site.data.topix.howto}} that is often a container for other type of objects.
+        - {{site.data.topix.tutorial}} : usually build on top of {{site.data.topix.howto}}.
 
-## Codebase Organization
-- Ensure the codebase reflects these objects for intuitive organization and access.
+
+## Version Control
+- The codebase for both the docs and the code is managed with {{site.data.name.git}}.
+- The codebase for the documentation reflects this model for intuitive organization and access.
+
+## Documentation Framework
+- The choosen documentation framework is {{site.data.name.jekyll}}.
 
 ## Documentation Language
-- Use `Markdown`  to write the documentation, allowing the use of:
-  - `LaTeX`:  For mathematical and scientific expressions.
-  - `Mermaid`:  For creating diagrams and flowcharts.
+- The choosen documentation language ({{site.data.name.ie}} to write the documentation) is {{site.data.name.markdown}}. It allows the use of:
+  - {{site.data.name.latex}} :  For mathematical and scientific expressions.
+  - {{site.data.name.mermaid}}: For creating diagrams and flowcharts.
 
 # {{ site.data.name.improvement }}
 ## phase 1
