@@ -49,6 +49,50 @@ mx:
 {% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 
 # list {{lTOPIC_NAME}} : STopic
+<div class="container my-4">
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>section</th>
+        <th>name</th>
+        <th>description</th>
+        <th>Path</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for lFILE in site[page.collection] %}
+        {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
+        {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+        {% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
+        
+        {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
+          {% if lFILE.path contains lTOPIC_EXPECTED %}
+            <tr>
+              <td><a href="{{ lFILE.url }}" class="text-primary">{{ lSTOPIC_CLASSIFIER }}</a></td>
+              <td>{{ lFILE.title }}</td>
+              <th>{{ page.mx.description }}</th>
+              <td>{{ lFILE.path }}</td>
+            </tr>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<!-- Activate DataTables -->
+<script>
+  $(document).ready(function() {
+    $('#fileTable').DataTable({
+      "paging": true,
+      "searching": true,
+      "ordering": true,
+      "info": true
+    });
+  });
+</script>
+
+# Old
 
 
 
@@ -59,7 +103,9 @@ mx:
 {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
 {% if lFILE.path contains lTOPIC_EXPECTED  %} 
 
-<li>{{lFILE_DEPTH}} -  <a href='{{ lFILE.url }}'>{{lSTOPIC_CLASSIFIER}}</a> - {{ lFILE.title }} - {{lFILE.path}}</li>
+<a href='{{ lFILE.url }}'>{{lSTOPIC_CLASSIFIER}}</a>
+{{ lFILE.title }}
+{{lFILE.path}}
 
 {% endif %}
 {% endunless %}
