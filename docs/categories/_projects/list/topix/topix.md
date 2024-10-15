@@ -47,8 +47,8 @@ The application defines the following concepts:
     - There are 2 kind of {{site.data.topix.section}}:
        - The {{site.data.topix.section}} named {{site.data.topix.list}} {{site.data.name.sdef}}.
        - The other {{site.data.topix.section}} {{site.data.name.udef}}.
-    - Each contains a collectionset of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
-      - The Programing category of the IT domain would have the items    : Java, Liquid below the {{site.data.topix.section}}: {{site.data.topix.list}}.
+    - Each contains a set of items called {{site.data.topix.topic}}, {{site.data.name.eg}}:
+      - The Programing category of the IT domain would have the items    : {{site.data.name.java}}, {{site.data.name.liquid}}, {{site.data.name.Bash}} below the {{site.data.topix.section}}: {{site.data.topix.list}}.
       - The Theories category of the Maths domain would define the items : Set, Language below the {{site.data.topix.section}}: {{site.data.topix.list}}.
 - {{site.data.topix.topic}}:  
     - Each defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
