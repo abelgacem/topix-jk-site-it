@@ -42,13 +42,14 @@ The application defines the following concepts:
       - The Maths domain would have the categories: Theories, Numbers.
       - The IT domain would have the categories: Programing, Cloud, Network.
 - {{site.data.topix.category}}: 
-    - There are 2 kind of {{site.data.topix.category}}:
-       - the categoy named {{site.data.topix.list}} {{site.data.name.sdef}}
-       - the other {{site.data.topix.category}} {{site.data.name.udef}}
-    Each contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
-    - Each contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
-      - The Theories category of the Maths domain would define the items : Set, Language.
-      - The Programing category of the IT domain would have the items    : Java, Liquid.
+    - Each is subdivided into {{site.data.topix.section}}:
+- {{site.data.topix.section}}: 
+    - There are 2 kind of {{site.data.topix.section}}:
+       - The {{site.data.topix.section}} named {{site.data.topix.list}} {{site.data.name.sdef}}.
+       - The other {{site.data.topix.section}} {{site.data.name.udef}}.
+    - Each contains a collectionset of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
+      - The Programing category of the IT domain would have the items    : Java, Liquid below the {{site.data.topix.section}}: {{site.data.topix.list}}.
+      - The Theories category of the Maths domain would define the items : Set, Language below the {{site.data.topix.section}}: {{site.data.topix.list}}.
 - {{site.data.topix.topic}}:  
     - Each defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
       - {{site.data.topix.topic}}:Set in the Maths domain woud have objects: element,  
