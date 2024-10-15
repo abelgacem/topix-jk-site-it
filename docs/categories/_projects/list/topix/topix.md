@@ -42,6 +42,10 @@ The application defines the following concepts:
       - The Maths domain would have the categories: Theories, Numbers.
       - The IT domain would have the categories: Programing, Cloud, Network.
 - {{site.data.topix.category}}: 
+    - There are 2 kind of {{site.data.topix.category}}:
+       - the categoy named {{site.data.topix.list}} {{site.data.name.sdef}}
+       - the other {{site.data.topix.category}} {{site.data.name.udef}}
+    Each contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
     - Each contains a collection of item named {{site.data.topix.topic}}, {{site.data.name.eg}}:
       - The Theories category of the Maths domain would define the items : Set, Language.
       - The Programing category of the IT domain would have the items    : Java, Liquid.
