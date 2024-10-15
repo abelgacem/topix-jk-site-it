@@ -3,7 +3,6 @@
 ---
 
 
-
 # build the artifact
 ```shell
 bundle exec jekyll build
