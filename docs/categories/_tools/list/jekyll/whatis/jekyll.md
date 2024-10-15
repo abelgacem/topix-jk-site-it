@@ -48,5 +48,50 @@ mx:
 <!-- define var -->
 {% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 
-# list all {{name.data.topy.section}} of a {{name.data.topy.category}}
+# list all {{site.data.topix.section}} of a {{site.data.topix.category}}
+
+yo
+
+
+# Work
+
+<!-- define var -->
+{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+
+<h1>List of <span translation='no'>STopic</span> </h1>
+
+<div class="container my-4">
+  <table class="table table-striped table-bordered sortable">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>section</th>
+        <th>description</th>
+        <!-- <th>Path</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      {% for lFILE in site[page.collection] %}
+        {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
+        {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+        {% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
+        
+        {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
+          {% if lFILE.path contains lTOPIC_EXPECTED %}
+            <tr>
+              <td><a href="{{ lFILE.url }}" class="text-primary">{{ lFILE.title }}</a></td>
+              <td>{{ lSTOPIC_CLASSIFIER }}</td>
+              <td>{{ lFILE.mx.description }}</td>
+              <!-- <td>{{ lFILE.path }}</td> -->
+            </tr>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+
+
 

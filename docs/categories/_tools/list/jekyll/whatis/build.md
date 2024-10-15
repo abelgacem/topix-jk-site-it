@@ -1,9 +1,11 @@
 ---
+mx:
+  description: build an artifact
 ---
 
 
 
 # definition
-- The action creating the output artifact
+- {{ page.mx }}
 - trigger the creation of folder `_site`
 

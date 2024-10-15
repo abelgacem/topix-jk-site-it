@@ -1,4 +1,5 @@
 ---
+layout: topic
 mx:  
   lp: 0
   ref:
