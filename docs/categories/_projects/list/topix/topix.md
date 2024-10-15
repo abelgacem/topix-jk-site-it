@@ -38,7 +38,7 @@ The application defines the following concepts:
 
 - {{site.data.topix.domain}}:   
     - The documentation is subdivided into domains ({{site.data.name.eg}} Math, IT, Physics, Psychology, History, etc.).
-    - Each is subdivided into {{site.data.topix.category}}, {{site.data.name.eg}}:
+    - Each {{site.data.topix.domain}} is subdivided into {{site.data.topix.category}}, {{site.data.name.eg}}:
       - The Maths domain would have the categories: Theories, Numbers.
       - The IT domain would have the categories: Programing, Cloud, Network.
 - {{site.data.topix.category}}: 
@@ -47,13 +47,13 @@ The application defines the following concepts:
     - There are 2 kind of {{site.data.topix.section}}:
        - The {{site.data.topix.section}} named {{site.data.topix.list}} {{site.data.name.sdef}}.
        - The other {{site.data.topix.section}} {{site.data.name.udef}}.
-    - Each contains a set of items called {{site.data.topix.topic}}, {{site.data.name.eg}}:
+    - Each {{site.data.topix.section}} contains a set of items called {{site.data.topix.topic}}, {{site.data.name.eg}}:
       - The Programing category of the IT domain would have the items : {{site.data.name.java}}, {{site.data.name.liquid}}, {{site.data.name.bash}} below the {{site.data.topix.section}}: {{site.data.topix.list}}.
-      - The Theories category of the Maths domain would define the items : Set, Language below the {{site.data.topix.section}}: {{site.data.topix.list}}.
+      - The Theories category of the Maths domain would have the items : Set, Correspondence below the {{site.data.topix.section}}: {{site.data.topix.list}}.
 - {{site.data.topix.topic}}:  
-    - Each defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
-      - {{site.data.topix.topic}}:Set in the Maths domain woud have objects: element,  
-      - {{site.data.topix.topic}}:Java in the Maths domain woud have objects: variable, control flow   
+    - Each {{site.data.topix.topic}} defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
+      - {{site.data.topix.topic}}:Set in the {{site.data.name.math}} domain woud have objects: element,  
+      - {{site.data.topix.topic}}:Java in the {{site.data.name.it}} domain woud have objects: variable, control flow   
 - {{site.data.topix.stopic}}:  
     - They are the cornerstone of the documentation. 
     - This is a file under a specifc folder. The name of the folder is a {{site.data.topix.classifier}}.
