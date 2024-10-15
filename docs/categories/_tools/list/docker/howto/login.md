@@ -13,7 +13,7 @@ mx:
 ```bash
 # To registry@(gitlab, docker)
 lTOKEN_GITLAB_NAME="GITLAB_ABTIT_AT"
-lTOKEN_GITLAB_PWD="glpat-nDq2tx556zfZrUPshBus"
+lTOKEN_GITLAB_PWD="xx"
 lTOKEN_SERVER_HOST="registry.gitlab.com"
 docker login --username ${lTOKEN_GITLAB_NAME}  --password ${lTOKEN_GITLAB_PWD} ${lTOKEN_SERVER_HOST}
 
