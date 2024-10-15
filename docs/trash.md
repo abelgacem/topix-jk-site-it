@@ -1,3 +1,38 @@
+
+# pretty table
+<div class="container my-4">
+  <table class="table table-striped table-bordered sortable">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>section</th>
+        <th>Path</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for lFILE in site[page.collection] %}
+        {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
+        {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+        {% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
+        
+        {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
+          {% if lFILE.path contains lTOPIC_EXPECTED %}
+            <tr>
+              <td><a href="{{ lFILE.url }}" class="text-primary">{{ lFILE.title }}</a></td>
+              <td>{{ lSTOPIC_CLASSIFIER }}</td>
+              <td>{{ lFILE.path }}</td>
+            </tr>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
 <!-- define var -->
 {% assign lLIST_TOPIC         = site.pages %}
 

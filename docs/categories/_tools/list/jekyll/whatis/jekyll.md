@@ -48,65 +48,81 @@ mx:
 <!-- define var -->
 {% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 
-# list {{lTOPIC_NAME}} : STopic
+# list all {{name.data.topy.section}} of a {{name.data.topy.category}}
+
+# list {{lTOPIC_NAME}} : STopic - V01
+
+
+<!-- define var -->
+{% assign lLIST_SECTION = "toto titi tata" | split: ", " %}
+{{ lLIST_SECTION }}
+
+
+# list {{lTOPIC_NAME}} : STopic - V02
+
 <div class="container my-4">
-  <table class="table table-striped table-bordered sortable">
-    <thead>
-      <tr>
-        <th>section</th>
-        <th>name</th>
-        <th>description</th>
-        <th>Path</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for lFILE in site[page.collection] %}
-        {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
-        {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
-        {% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
-        
-        {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
-          {% if lFILE.path contains lTOPIC_EXPECTED %}
-            <tr>
-              <td><a href="{{ lFILE.url }}" class="text-primary">{{ lSTOPIC_CLASSIFIER }}</a></td>
-              <td>{{ lFILE.title }}</td>
-              <th>{{ page.mx.description }}</th>
-              <td>{{ lFILE.path }}</td>
-            </tr>
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-    </tbody>
-  </table>
+  <!-- Navigation Tabs -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    {% for SECTION in lLIST_SECTION %}
+    <li class="nav-item" role="presentation">
+        <button class="nav-link {% if forloop.first %}active{% endif %}" id="{{ SECTION }}-tab" data-bs-toggle="tab" data-bs-target="#{{ SECTION }}" type="button" role="tab" aria-controls="{{ SECTION }}" aria-selected="true">
+        {{ SECTION | capitalize }}
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Tab Content -->
+  <div class="tab-content" id="myTabContent">
+    {% for section in lLIST_SECTION %}
+      <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{ section }}" role="tabpanel" aria-labelledby="{{ section }}-tab">
+        <div class="list-group mt-3">
+          {% for lFILE in site[page.collection] %}
+            {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+            {% if lSTOPIC_CLASSIFIER == section %}
+              <a href="{{ lFILE.url }}" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">{{ lFILE.title }}</h5>
+                <p class="mb-1">{{ page.mx.description }}</p>
+                <small>Path: {{ lFILE.path }}</small>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
-<!-- Activate DataTables
-<script>
-  $(document).ready(function() {
-    $('#fileTable').DataTable({
-      "paging": true,
-      "searching": true,
-      "ordering": true,
-      "info": true
-    });
-  });
-</script> -->
+# list {{lTOPIC_NAME}} : STopic - V03
 
-# Old
+<div class="container my-4">
+  <div class="accordion" id="sectionAccordion">
+    
+    {% for section in lLIST_SECTION %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading-{{ section }}">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ section }}" aria-expanded="true" aria-controls="collapse-{{ section }}">
+            {{ section | capitalize }}
+          </button>
+        </h2>
+        <div id="collapse-{{ section }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" aria-labelledby="heading-{{ section }}" data-bs-parent="#sectionAccordion">
+          <div class="accordion-body">
+            <ul class="list-unstyled">
+              {% for lFILE in site[page.collection] %}
+                {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
+                {% if lSTOPIC_CLASSIFIER == section %}
+                  <li>
+                    <a href="{{ lFILE.url }}" class="text-primary">{{ lFILE.title }}</a> - {{ page.mx.description }} <br>
+                    <small>Path: {{ lFILE.path }}</small>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 
-
-{% for lFILE in site[page.collection] %}
-{% assign lFILE_DEPTH    = lFILE.path | split: '/' | size | minus: 2 %}
-{% assign lSTOPIC_CLASSIFIER   = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip %}
-{% assign lTOPIC_EXPECTED = '/' | append: lTOPIC_NAME | append: '/' %}
-{% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %} 
-{% if lFILE.path contains lTOPIC_EXPECTED  %} 
-
-<a href='{{ lFILE.url }}'>{{lSTOPIC_CLASSIFIER}}</a>
-{{ lFILE.title }}
-{{lFILE.path}}
-
-{% endif %}
-{% endunless %}
-{% endfor %}
