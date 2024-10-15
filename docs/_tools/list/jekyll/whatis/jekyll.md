@@ -1,4 +1,5 @@
 ---
+layout: topic
 mx:
   tag: 
   domain: tool
