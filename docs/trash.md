@@ -123,3 +123,52 @@
   </tbody>
 </table>
 
+<!--   
+<img src="{{ collection.icon }}"                                              alt="{{ collection.label }} icon" class="img-fluid" style="width: 100px; height: 100px;">
+<img src="{{ '/assets/icons/' | append: collection.label | append: '.svg' }}" alt="{{ collection.label }} icon" class="img-fluid" style="width: 100px; height: 100px;">
+ -->
+
+
+<!-- <h1>Browse by categories</h1>
+
+{% for collection in site.collections %}
+{% unless collection.label == "posts" %}
+<li>
+<img src="{{ collection.icon }}" alt="{{ collection.label }} icon" style="width: 20px; height: 20px;"/>
+<a href="{{ site.baseurl }}/{{ collection.label }}/index.html">{{ collection.label | capitalize }}</a>
+</li>
+{% endunless %}
+{% endfor %}
+ -->
+
+
+
+<!-- 
+
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th translate='no'>tag</th>
+      <th>description</th>
+      <th>debug</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for lTOPIC in lLIST_TOPIC %}
+      {% assign lTOPIC_DEPTH = lTOPIC.path  |  split: "/" | size %}
+      {% assign lTOPIC_NAME  = lTOPIC.path  | split: "/"  | slice: 1, 1 | first | downcase | strip %}
+      {% assign lTOPIC_TYPE  = lTOPIC.path  |  split: "/" | slice: 2, 1 | first | downcase | strip %}
+      {% assign lTOPIC_FILE  = lTOPIC.path  |  split: "/" | last | remove: '.md' %}
+      {% if lTOPIC_FILE == 'README' or lTOPIC_TYPE == 'whatis' and lTOPIC_NAME == lTOPIC_FILE %}
+      <tr>
+        <td translate='no'><a href="{{ lTOPIC.path | remove: '.md' }}">{{ lTOPIC_NAME }}</a></td>
+        <td translate='no'>{{ lTOPIC.mx.domain }}</td>
+        <td>{{ lTOPIC.mx.description }}</td>
+        <td>{{ lTOPIC.path }} - {{ lTOPIC_DEPTH }} - {{ lTOPIC_NAME }} - {{ lTOPIC_TYPE }} - {{ lTOPIC_FILE }} </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table> -->
