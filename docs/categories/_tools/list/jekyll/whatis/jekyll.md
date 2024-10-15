@@ -50,7 +50,7 @@ mx:
 
 # list {{lTOPIC_NAME}} : STopic
 <div class="container my-4">
-  <table class="table table-striped table-bordered">
+  <table class="table table-striped table-bordered sortable">
     <thead>
       <tr>
         <th>section</th>
@@ -80,7 +80,7 @@ mx:
   </table>
 </div>
 
-<!-- Activate DataTables -->
+<!-- Activate DataTables
 <script>
   $(document).ready(function() {
     $('#fileTable').DataTable({
@@ -90,7 +90,7 @@ mx:
       "info": true
     });
   });
-</script>
+</script> -->
 
 # Old
 
