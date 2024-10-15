@@ -45,6 +45,7 @@ mx:
   domain: IT
 
 # Collection udef
+collections_dir: categories
 collections:
   clouds: 
     output: true
