@@ -52,11 +52,11 @@ The application defines the following concepts:
       - The Theories category of the Maths domain would have the items : Set, Correspondence below the {{site.data.topix.section}}: {{site.data.topix.list}}.
 - {{site.data.topix.topic}}:  
     - Each {{site.data.topix.topic}} defines a set of {{site.data.topix.stopic}} with points of view, which together help to understand the {{site.data.topix.topic}}, {{site.data.name.eg}}:
-      - {{site.data.topix.topic}}:Set in the {{site.data.name.math}} domain woud have objects: element,  
-      - {{site.data.topix.topic}}:Java in the {{site.data.name.it}} domain woud have objects: variable, control flow   
+      - {{site.data.topix.topic}}:Set in the {{site.data.name.math}} domain woud have as {{site.data.topix.stopic}}: element,  
+      - {{site.data.topix.topic}}:{{site.data.name.java}} in the {{site.data.name.it}} domain woud have as {{site.data.topix.stopic}}: variable, control flow   
 - {{site.data.topix.stopic}}:  
     - They are the cornerstone of the documentation. 
-    - This is a file under a specifc folder. The name of the folder is a {{site.data.topix.classifier}}.
+    - This is a file under a specifc folder. The name of the folder indicates a {{site.data.topix.classifier}}.
 
 - {{site.data.topix.classifier}}:  
     - Can be {{site.data.name.sdef}} or {{site.data.name.udef}}.
@@ -64,7 +64,7 @@ The application defines the following concepts:
     - {{site.data.topix.classifier}} {{site.data.name.sdef}}  are:
         - {{site.data.topix.whatis}} :   used to define and describe a {{site.data.topix.stopic}}.
         - {{site.data.topix.howto}} :    used to define step-by-step guide on how to manage or use a {{site.data.topix.stopic}}.
-        - {{site.data.topix.list}} :     used to describe a {{site.data.topix.stopic}} that is often a container for other {{site.data.topix.stopic}}.
+        - {{site.data.topix.list}} :     used to describe a {{site.data.topix.stopic}} that is a container for other {{site.data.topix.stopic}}.
         - {{site.data.topix.tutorial}} : usually an aggregation of different {{site.data.topix.howto}}.
 
 
