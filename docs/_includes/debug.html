@@ -1,0 +1,18 @@
+
+<h1> Debug Debug Debug </h1>
+
+{% assign lDOMAIN       = site.mx.domain %}
+{% assign lCATEGORY     = page.collection %}
+{% assign lSECTION      = page.path | split: '/' | slice: 1    | first | downcase | strip %}
+{% assign lTOPIC_NAME   = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+{% assign lSTOPIC_NAME  = page.path | split: '/' | last | remove: '.md' | downcase | strip %}
+{% assign lSTOPIC_CLASSIFIER  = page.path | split: '/' | slice: 3 | first | downcase | strip %}
+<ul>
+<li>page : path       = {{ page.path   }}</li>
+<li>topic  : domain   = {{ lDOMAIN   }}</li>
+<li>topic  : category = {{ lCATEGORY   }}</li>
+<li>topic  : section  = {{ lSECTION   }}</li>
+<li>topic  : name     = {{ lTOPIC_NAME }}</li>
+<li>stopic : classier = {{ lSTOPIC_CLASSIFIER }}</li>
+<li>stopic : name     = {{ lSTOPIC_NAME }}</li>
+</ul>
