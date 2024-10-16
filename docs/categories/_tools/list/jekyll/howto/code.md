@@ -13,6 +13,6 @@ touch debug.html
 
 - use this file in any {{site.data.name.markdown}}
 ```liquid
-{%- include debug.html -%}
+\{\%- include debug.html -\%\}
 ```
 
