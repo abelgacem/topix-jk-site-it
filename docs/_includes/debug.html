@@ -1,6 +1,7 @@
 
 <h1>Debug</h1>
-<h1>Page : Info </h2>
+
+<h2>Page : Info </h2>
 
 {% assign lDOMAIN       = site.mx.domain %}
 {% assign lCATEGORY     = page.collection %}
@@ -23,11 +24,12 @@
 
 <!-- define var -->
 {% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-
+<ul>
 {% for lFILE in site[page.collection] %}
   {% assign lFILE_XXXXX  = lFILE.path | split: '/' | slice: 1   %}
   {% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
   {% unless lFILE_DEPTH == 0 %}
-    {{ lFILE_DEPTH }} - {{ lFILE.path }} - {{lFILE_XXXXX}}
+    <li>{{ lFILE_DEPTH }} - {{ lFILE.path }} - {{lFILE_XXXXX}}</li>
   {% endunless %}
 {% endfor %}
+</ul>
