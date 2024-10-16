@@ -33,7 +33,7 @@ docker images -f "reference='m*'"
 ## Filter
 ```bash
 docker image ls -a | grep "mxi/.*/aws"
-docker image ls -a --format {{.Repository}} | tr -s ' ' | grep "mxi/.*/aws^"
+docker image ls -a --format \{\{.Repository\}\} | tr -s ' ' | grep "mxi/.*/aws^"
 ```
 
 # create 1 file@tgz from 1..N images
@@ -109,7 +109,7 @@ pattern="ansible"
 pattern="tmp"
 docker image list -a | grep ${pattern} | xargs docker image rm -f 
 ## method
-docker image list --format '{{.Repository}}:{{.Tag}}' | grep ${pattern} | xargs docker rmi
+docker image list --format '\{\{.Repository}}:\{\{.Tag}}' | grep ${pattern} | xargs docker rmi
 # Be carefull
 docker image prune -af
 

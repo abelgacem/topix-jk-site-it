@@ -6,12 +6,14 @@ mx:
       - definition/dind
 ---
 
+
+
 # List image
 ```powershell
 # all
 docker image list -a
-docker image list --format "table {{ .Repository }} {{ .ID }}"
-docker image list --format "      {{ .Repository }} {{ .ID }}"
+docker image list --format "table \{\{ .Repository }} \{\{ .ID }}"
+docker image list --format "      \{\{ .Repository }} \{\{ .ID }}"
 
 # with pattern in name
 ## docker >= 2.10.16 
