@@ -13,5 +13,6 @@ mx:
   - {{site.data.name.jekyll}}
 
 {%- include debug.page.html -%}
+
 {%- include debug.section.html -%}
 
