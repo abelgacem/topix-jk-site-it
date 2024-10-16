@@ -7,7 +7,7 @@ description: Entry point for exploring current and past projects.
 # {{ site.data.name.introduction }}
 - {{ page.description }}
 
-{%- lib.get.list.topic.object.html -%}
+{%- include lib.get.list.topic.object.html -%}
 
 - {{gvTOPIC_PATH}}
 - {{gvTOPIC_CATEGORY}}
