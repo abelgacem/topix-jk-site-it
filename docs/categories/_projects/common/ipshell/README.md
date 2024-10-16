@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: A custom universal CLI written in python.
   lp:
   ref:

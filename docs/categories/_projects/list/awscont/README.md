@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: AWS. in container
   lp:
   ref:

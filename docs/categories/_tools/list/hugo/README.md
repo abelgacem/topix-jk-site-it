@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: A framework to create static website.
 ---
 

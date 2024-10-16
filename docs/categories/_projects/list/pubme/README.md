@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: Publish and share any service via a free public IP.
   lp:
   ref:

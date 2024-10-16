@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: other
   lp:
   ref:

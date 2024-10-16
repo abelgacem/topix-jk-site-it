@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: A tool to author documentation
 ---
 
@@ -12,9 +11,3 @@ mx:
 - Uses the following tools and framework:
   - {{site.data.name.bootstrap}}
   - {{site.data.name.jekyll}}
-# {{ site.data.name.purpose }}
-
-# Reference
-
-# Contributors
-- Amar

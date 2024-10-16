@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: An SCM (aka. Source Content Management).
 ---
 

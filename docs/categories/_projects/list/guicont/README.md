@@ -1,6 +1,5 @@
 ---
 mx:
-  domain: tool
   description: GUI. in container
   lp:
   ref:
