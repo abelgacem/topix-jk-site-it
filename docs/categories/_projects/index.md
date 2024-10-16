@@ -7,4 +7,4 @@ description: Entry point for exploring current and past projects.
 # {{ site.data.name.introduction }}
 - {{ page.description }}
 
-
+{%- include debug.html-%}
