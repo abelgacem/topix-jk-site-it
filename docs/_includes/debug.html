@@ -1,5 +1,6 @@
 
-<h1> Debug : Page : Info </h1>
+<h1>Debug</h1>
+<h1>Page : Info </h2>
 
 {% assign lDOMAIN       = site.mx.domain %}
 {% assign lCATEGORY     = page.collection %}
@@ -16,3 +17,17 @@
 <li>stopic : classier = {{ lSTOPIC_CLASSIFIER }}</li>
 <li>stopic : name     = {{ lSTOPIC_NAME }}</li>
 </ul>
+
+
+<h2>Section : Info </h2>
+
+<!-- define var -->
+{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+
+{% for lFILE in site[page.collection] %}
+  {% assign lFILE_XXXXX  = lFILE.path | split: '/' | slice: 1   %}
+  {% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
+  {% unless lFILE_DEPTH == 0 %}
+    {{ lFILE_DEPTH }} - {{ lFILE.path }} - {{lFILE_XXXXX}}
+  {% endunless %}
+{% endfor %}
