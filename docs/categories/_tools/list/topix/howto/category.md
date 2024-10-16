@@ -19,4 +19,19 @@ page  : path     = _tools/list/topix/whatis/topix.md
 topic : category = tools
 ```
 
-# get an array of all {{site.data.topix.category}}
+# loop through all {{site.data.topix.category}}
+```liquid
+# input
+<ul>
+{% for collection in site.collections %}
+{% unless collection.label == "posts" %}
+  <li>{{ collection.label | capitalize }}</li>
+{% endunless %}
+{% endfor %}
+</ul>
+
+# output
+page  : path     = _tools/list/topix/whatis/topix.md
+topic : category = tools
+```
+

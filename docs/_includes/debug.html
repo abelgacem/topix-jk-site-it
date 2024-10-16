@@ -1,35 +1,37 @@
 
 <h1>Debug</h1>
 
-<h2>Page : Info </h2>
-
-{% assign lDOMAIN       = site.mx.domain %}
-{% assign lCATEGORY     = page.collection %}
-{% assign lSECTION      = page.path | split: '/' | slice: 1    | first | downcase | strip %}
-{% assign lTOPIC_NAME   = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-{% assign lSTOPIC_NAME  = page.path | split: '/' | last | remove: '.md' | downcase | strip %}
-{% assign lSTOPIC_CLASSIFIER  = page.path | split: '/' | slice: 3 | first | downcase | strip %}
+<h2>Category</h2>
+<h3>create an array of {{site.data.topix.category}} </h3>
+{% assign lLIST_CATEGORY = "" | split: ','%}
 <ul>
-<li>page : path       = {{ page.path   }}</li>
-<li>topic  : domain   = {{ lDOMAIN   }}</li>
-<li>topic  : category = {{ lCATEGORY   }}</li>
-<li>topic  : section  = {{ lSECTION   }}</li>
-<li>topic  : name     = {{ lTOPIC_NAME }}</li>
-<li>stopic : classier = {{ lSTOPIC_CLASSIFIER }}</li>
-<li>stopic : name     = {{ lSTOPIC_NAME }}</li>
+  {% for lCATEGORY in site.collections %}
+    {% unless lCATEGORY.label == "posts" %}
+    {% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}
+    {% endunless %}
+  {% endfor %}
 </ul>
 
-
-<h2>Section : Info </h2>
-
-<!-- define var -->
-{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+<h3>pretty display the array</h3>
 <ul>
-{% for lFILE in site[page.collection] %}
-  {% assign lFILE_XXXXX  = lFILE.path | split: '/' | slice: 1   %}
-  {% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
-  {% unless lFILE_DEPTH == 0 %}
-    <li>{{ lFILE_DEPTH }} - {{ lFILE.path }} - {{lFILE_XXXXX}}</li>
+  <li>lLIST_CATEGORY = {{lLIST_CATEGORY | split: "/"}}</li>
+</ul>
+
+<h3>loop through all {{site.data.topix.category}} </h3>
+<p>method</p>
+<ul>
+  {% for lCATEGORY in lLIST_CATEGORY %}
+    <li>{{ lCATEGORY }}</li>
+  {% endfor %}
+</ul>
+<p>method</p>
+<ul>
+  {% for lCATEGORY in site.collections %}
+  {% unless lCATEGORY.label == "posts" %}
+    {% assign unless lCATEGORY.label == "posts" %}
+    {% assign lCATEGORY_NAME = lCATEGORY.label | capitalize %}
+    <li>{{ lCATEGORY.label }}</li>
   {% endunless %}
-{% endfor %}
+  {% endfor %}
 </ul>
+

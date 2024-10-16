@@ -12,3 +12,4 @@ title:  myIndex
 # {{ site.data.name.purpose }}
 - Document ressources in {{ site.mx.domain }}.
 
+{%- include debug.html -%}
