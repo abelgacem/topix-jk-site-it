@@ -7,7 +7,7 @@ mx:
 
 
 
-# get the name of a {{site.data.topix.category}}
+# get the name of a {{site.data.topix.topic}}'s {{site.data.topix.category}}
 ```liquid
 # input
 {% assign lCATEGORY    = page.collection %}
