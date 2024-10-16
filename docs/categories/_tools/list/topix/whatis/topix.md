@@ -12,13 +12,14 @@ mx:
   - {{site.data.name.bootstrap}}
   - {{site.data.name.jekyll}}
 
-# test
 # input
-{% assign lTOPIC_NAME  = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 {% assign lCATEGORY    = page.collection %}
+{% assign lSECTION     = page.path | split: '/' | slice: 1    | first | downcase | strip %}
+{% assign lTOPIC_NAME  = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 - page : path      = {{ page.path   }}
-- topic : name     = {{ lTOPIC_NAME }}
 - topic : category = {{ lCATEGORY   }}
+- topic : section  = {{ lSECTION   }}
+- topic : name     = {{ lTOPIC_NAME }}
 
 # work
 <!-- define var -->
