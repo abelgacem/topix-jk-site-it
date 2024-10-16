@@ -53,12 +53,18 @@ mx:
 yo
 
 
-# Work
+# Worko
 
 <!-- define var -->
 {% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 
-<h1>List of <span translation='no'>STopic</span> </h1>
+{% for lFILE in site[page.collection] %}
+  {% assign lFILE_XXXXX  = lFILE.path | split: '/' | slice: 1   %}
+  {% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
+  {% unless lFILE_DEPTH == 0 %}
+    {{ lFILE_DEPTH }} - {{ lFILE.path }} - {{lFILE_XXXXX}}
+  {% endunless %}
+{% endfor %}
 
 <div class="container my-4">
   <table class="table table-striped table-bordered sortable">
