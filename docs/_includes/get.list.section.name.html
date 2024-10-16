@@ -4,6 +4,7 @@
 
 
 <!-- define array of sections for a category -->
+{% assign lCATEGORY = projects %} 
 {% for lCATEGORY in site.collections %}
 {% unless lCATEGORY.label == "posts" %}
 {% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}

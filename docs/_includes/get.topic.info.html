@@ -1,0 +1,5 @@
+
+<!-- declare variables -->
+{% assign gvTOPIC_CATEGORY = page.collection %}
+{% assign gvTOPIC_PATH     = page.path %}
+{% assign gvTOPIC_NAME     = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
