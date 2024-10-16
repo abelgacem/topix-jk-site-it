@@ -16,3 +16,5 @@ topic : name = {{ lTOPIC_NAME  }}
 page : path = _tools/list/topix/whatis/topix.md
 topic: name = topix
 ```
+
+# get an array of all {{site.data.topix.topic}}

@@ -9,12 +9,13 @@ mx:
 - it is define in {{site.data.topix.config}}
 ```liquid
 # input
-{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-page : path         = {{ page.path  }}
-page : topic : name = {{ lTOPIC_NAME  }}
+{% assign lTOPIC_DOMAIN    = site.mx.domain %}
+page  : path         = {{ page.path  }}
+topic : domain = {{ lTOPIC_NAME  }}
 
 # output
 page : path         = _tools/list/topix/whatis/topix.md
 page : topic : name = topix
 ```
 
+# get an array of all {{site.data.topix.domain}}

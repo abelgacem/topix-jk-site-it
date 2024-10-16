@@ -17,3 +17,4 @@ topic : category = {{ lCATEGORY   }}
 # output
 ```
 
+# get an array of all {{site.data.topix.section}}

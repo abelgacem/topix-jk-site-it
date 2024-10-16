@@ -13,13 +13,19 @@ mx:
   - {{site.data.name.jekyll}}
 
 # input
-{% assign lCATEGORY    = page.collection %}
-{% assign lSECTION     = page.path | split: '/' | slice: 1    | first | downcase | strip %}
-{% assign lTOPIC_NAME  = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-- page : path      = {{ page.path   }}
-- topic : category = {{ lCATEGORY   }}
-- topic : section  = {{ lSECTION   }}
-- topic : name     = {{ lTOPIC_NAME }}
+{% assign lDOMAIN       = site.mx.domain %}
+{% assign lCATEGORY     = page.collection %}
+{% assign lSECTION      = page.path | split: '/' | slice: 1    | first | downcase | strip %}
+{% assign lTOPIC_NAME   = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+{% assign lSTOPIC_NAME  = page.path | split: '/' | last | downcase | strip %}
+{% assign lSTOPIC_CLASSIFIER  = todo %}
+- page : path       = {{ page.path   }}
+- topic  : domain   = {{ lDOMAIN   }}
+- topic  : category = {{ lCATEGORY   }}
+- topic  : section  = {{ lSECTION   }}
+- topic  : name     = {{ lTOPIC_NAME }}
+- stopic : classier = {{ lSTOPIC_CLASSIFIER }}
+- stopic : name     = {{ lSTOPIC_NAME }}
 
 # work
 <!-- define var -->
