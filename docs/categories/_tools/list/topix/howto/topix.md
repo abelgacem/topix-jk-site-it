@@ -6,17 +6,25 @@ mx:
 
 
 # list object of {{site.data.name.topix}}
-- domain
+- {{site.data.topix.domain}}
 ```shell
 ```
 
-- category
+- {{site.data.topix.category}}
 ```shell
 ```
 
-- section
+- {{site.data.topix.section}}
 ```shell
 ```
-- section
+- {{site.data.topix.topic}}
+```shell
+```
+
+- {{site.data.topix.stopic}}
+```shell
+```
+
+- {{site.data.topix.classifier}}
 ```shell
 ```
