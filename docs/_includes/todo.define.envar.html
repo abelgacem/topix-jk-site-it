@@ -1,0 +1,19 @@
+
+<!-- declare variables -->
+{% assign gvLIST_CATEGORY_NAME   = "" | split: ','  %}
+{% assign gvLIST_CATEGORY_OBJECT = site.collections %}
+
+<!-- declare and define variables -->
+{% assign gvTOPIC_PATH     = page.path %}
+{% assign gvTOPIC_CATEGORY = page.collection %}
+{% assign gvTOPIC_SECTION  = page.path | split: '/' | slice: 1 | first | downcase | strip %}
+{% assign gvTOPIC_NAME     = page.path | split: '/' | slice: 2 | first | downcase | strip %}
+
+
+<!-- define variables gvLIST_CATEGORY_NAME - array of categories's name -->
+{% for lCATEGORY_OBECT in gvLIST_CATEGORY_OBJECT %}
+  {% unless lCATEGORY_OBECT.label == "posts" %}
+  {% assign gvLIST_CATEGORY_NAME = gvLIST_CATEGORY_NAME | push: lCATEGORY_OBECT.label %}
+  {% endunless %}
+{% endfor %}
+

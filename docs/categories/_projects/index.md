@@ -7,9 +7,9 @@ description: Entry point for exploring current and past projects.
 # {{ site.data.name.introduction }}
 - {{ page.description }}
 
-{%- include lib.get.list.topic.object.html -%}
+{%- include todo.define.envar.html -%}
 
-- {{gvTOPIC_PATH}}
-- {{gvTOPIC_CATEGORY}}
-- {{gvTOPIC_SECTION}}
-- {{gvTOPIC_NAME}}
+- a - {{gvTOPIC_PATH}}
+- b - {{gvTOPIC_CATEGORY}}
+- c - {{gvTOPIC_SECTION}}
+- d - {{gvTOPIC_NAME}}
