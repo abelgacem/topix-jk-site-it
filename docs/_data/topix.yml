@@ -1,5 +1,5 @@
 # name@common
-#
+## object
 domain:     " `Domain` "
 category:   " `Category` "
 section:    " `Section` "
@@ -10,3 +10,5 @@ list:       " `List` "
 howto:      " `Howto` "
 whatis:     " `Whatis` "
 tutorial:   " `Tutorial` "
+## acronym
+dom:        " Documentation model"
