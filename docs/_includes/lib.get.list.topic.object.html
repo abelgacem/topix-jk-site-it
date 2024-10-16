@@ -1,10 +1,11 @@
 
+<!-- declare and define variables -->
+{%- include get.topic.info -%} 
 <!-- declare variables -->
-{%-  -%} 
 {% assign gvLIST_TOPIC = "" | split: ','%}
 
 
-{% for lFILE in site[page.collection] %}
+{% for lFILE in site[projects] %}
 {% assign lFILE_DEPTH  = lFILE.path | split: '/' | size | minus: 2 %}
 {% assign lFILE_FOLDER = lFILE.path | split: '/' | slice: 1, 1 | first | downcase | strip %}
 {% assign lTOPIC_NAME  = lFILE.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
@@ -25,7 +26,6 @@
 
 
 <!-- define array of topic for a category -->
-{% assign lCATEGORY = projects %} 
 {% for lCATEGORY in site.collections %}
 {% unless lCATEGORY.label == "posts" %}
 {% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}
