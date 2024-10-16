@@ -7,7 +7,7 @@
 {% assign gvTOPIC_PATH     = page.path %}
 {% assign gvTOPIC_CATEGORY = page.collection %}
 {% assign gvTOPIC_SECTION  = page.path | split: '/' | slice: 1 | first | downcase | strip %}
-{% assign gvTOPIC_NAME     = page.path | split: '/' | slice: 2 | first | downcase | strip %}
+{% assign gvTOPIC_NAME     = page.path | split: '/' | slice: 2 | first | downcase | strip | default: "notatopic" %}
 
 
 <!-- define variables gvLIST_CATEGORY_NAME - array of categories's name -->
