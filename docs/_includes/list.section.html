@@ -1,0 +1,14 @@
+
+<!-- declare variables -->
+{% assign lLIST_SECTION = "" | split: ','%}
+
+
+<!-- define array of sections for a category -->
+{% for lCATEGORY in site.collections %}
+{% unless lCATEGORY.label == "posts" %}
+{% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}
+{% endunless %}
+{% endfor %}
+
+<!-- define array of classifiers for a topic -->
+<!-- define array of stopic for a topic      -->

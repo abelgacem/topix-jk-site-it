@@ -1,23 +1,13 @@
 
 <h1>Debug</h1>
 
-<h2>Category</h2>
-<h3>create an array of {{site.data.topix.category}} </h3>
-{% assign lLIST_CATEGORY = "" | split: ','%}
-<ul>
-  {% for lCATEGORY in site.collections %}
-    {% unless lCATEGORY.label == "posts" %}
-    {% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}
-    {% endunless %}
-  {% endfor %}
-</ul>
-
-<h3>pretty display the array</h3>
+{%- include list.category.html -%}
+<h3>ppretty display an array (of categories)</h3>
 <ul>
   <li>lLIST_CATEGORY = {{lLIST_CATEGORY | split: "/"}}</li>
 </ul>
 
-<h3>loop through all {{site.data.topix.category}} </h3>
+<h3>loop through an array (of categories)</h3>
 <p>method</p>
 <ul>
   {% for lCATEGORY in lLIST_CATEGORY %}

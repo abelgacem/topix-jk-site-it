@@ -1,0 +1,10 @@
+
+<!-- declare variables -->
+{% assign lLIST_CATEGORY = "" | split: ','%}
+
+<!-- define array of categories -->
+{% for lCATEGORY in site.collections %}
+  {% unless lCATEGORY.label == "posts" %}
+  {% assign lLIST_CATEGORY = lLIST_CATEGORY | push: lCATEGORY.label %}
+  {% endunless %}
+{% endfor %}
