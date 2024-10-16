@@ -13,4 +13,5 @@ description: Entry point for exploring current and past projects.
 - b - {{gvTOPIC_CATEGORY}}
 - c - {{gvTOPIC_SECTION}}
 - d - {{gvTOPIC_NAME}}
+- e - {{gvLIST_CATEGORY_NAME}}
 
