@@ -17,7 +17,7 @@ mx:
 {% assign lCATEGORY     = page.collection %}
 {% assign lSECTION      = page.path | split: '/' | slice: 1    | first | downcase | strip %}
 {% assign lTOPIC_NAME   = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
-{% assign lSTOPIC_NAME  = page.path | split: '/' | last | downcase | strip %}
+{% assign lSTOPIC_NAME  = page.path | split: '/' | last | remove: '.md' | downcase | strip %}
 {% assign lSTOPIC_CLASSIFIER  = todo %}
 - page : path       = {{ page.path   }}
 - topic  : domain   = {{ lDOMAIN   }}
