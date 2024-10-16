@@ -11,11 +11,7 @@ mx:
 ```liquid
 # input
 {% assign lCATEGORY    = page.collection %}
-page  : path = {{ page.path  }}
-topic : name = {{ lCATEGORY  }}
-
-# output
-page : path = _tools/list/topix/whatis/topix.md
-topic: name = topix
+page : path      = {{ page.path   }}
+topic : category = {{ lCATEGORY   }}
 ```
 

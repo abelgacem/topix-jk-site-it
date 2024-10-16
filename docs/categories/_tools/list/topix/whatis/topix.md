@@ -16,9 +16,9 @@ mx:
 # input
 {% assign lTOPIC_NAME  = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
 {% assign lCATEGORY    = page.collection %}
-page : path      = {{ page.path   }}
-topic : name     = {{ lTOPIC_NAME }}
-topic : category = {{ lCATEGORY   }}
+- page : path      = {{ page.path   }}
+- topic : name     = {{ lTOPIC_NAME }}
+- topic : category = {{ lCATEGORY   }}
 
 # work
 <!-- define var -->
