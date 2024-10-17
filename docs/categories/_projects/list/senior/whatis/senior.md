@@ -2,8 +2,6 @@
 mx:
   domain: mustaph business
   description: Centre de support et assistance IT
-  lp:
-  ref:
 ---
 
 # {{ site.data.name.description }}

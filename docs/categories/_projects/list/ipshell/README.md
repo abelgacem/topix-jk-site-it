@@ -1,8 +1,9 @@
 ---
 mx:
+  layout:          topic
+  description:     topic
+  description:     topic
   description: A custom universal CLI written in python.
-  lp:
-  ref:
 ---
 
 

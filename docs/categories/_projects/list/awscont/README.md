@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: AWS. in container
-  lp:
-  ref:
 ---
 
 # {{ site.data.name.description }}

@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: A documentation hub.
-  lp:
-  ref:
 ---
 
 # {{ site.data.name.description }}

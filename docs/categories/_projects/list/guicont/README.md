@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: GUI. in container
-  lp:
-  ref:
 ---
 
 # {{ site.data.name.description }}

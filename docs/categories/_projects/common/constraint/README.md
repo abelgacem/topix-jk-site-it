@@ -1,5 +1,6 @@
 ---
 mx:
+  layout:          topic
   description: what limit the project
 ---
 

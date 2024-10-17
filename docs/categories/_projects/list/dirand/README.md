@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: anti spam tool.
-  lp:
-  ref:
 ---
 
 # {{ site.data.name.purpose }}

@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: other
-  lp:
-  ref:
 ---
 
 

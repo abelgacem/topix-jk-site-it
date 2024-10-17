@@ -1,7 +1,5 @@
 ---
 mx:  
-  lp:
-  ref:
 ---
 
 # Best practide

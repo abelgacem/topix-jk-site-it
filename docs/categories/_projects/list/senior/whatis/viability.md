@@ -2,8 +2,6 @@
 mx:
   domain: mustaph business
   description: La viabilité
-  lp:
-  ref:
 ---
 
 ### Viabilité du projet avec statistiques existantes

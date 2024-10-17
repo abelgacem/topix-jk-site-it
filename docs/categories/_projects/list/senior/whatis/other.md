@@ -1,8 +1,6 @@
 ---
 mx:
   domain: mustaph business
-  lp:
-  ref:
 ---
 
 

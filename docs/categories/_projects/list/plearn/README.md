@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: A Learning Platform.
-  lp:
-  ref:
 ---
 
 

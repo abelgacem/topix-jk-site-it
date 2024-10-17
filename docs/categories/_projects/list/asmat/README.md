@@ -1,8 +1,7 @@
 ---
 mx:
+  layout:          topic
   description: A tool to help Asmat day to day
-  lp:
-  ref:
 ---
 
 

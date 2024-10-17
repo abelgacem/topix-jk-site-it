@@ -1,5 +1,6 @@
 ---
 mx:
+  layout:          topic
   description: An SCM (aka. Source Content Management).
 ---
 
