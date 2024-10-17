@@ -34,7 +34,12 @@ mx:
 
 
 # Todo 
-## pour le jeudi 10 octobre
+## pour le mardi 24 octobre
+1. installer vscode sur 1 machine = mus
+1. créer 1 clef pour que mus accède a 1 vm ovh. 
+1. montrez comment installer Topix à mous
+  - temps = 3 minute
+1. reprendre les sujet suivants
 - surtout tout faire en pbjectif SMART.
 - Doute
    - comment se faire rémunéré
@@ -60,3 +65,4 @@ mx:
   - cf. MSAP (maisons de services au public)
   - cf. Maisons France Services
 - cf. espace de co-working
+
