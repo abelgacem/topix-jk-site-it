@@ -5,7 +5,7 @@ mx:
 
 
 # {{ site.data.name.definition }}
-- {{page.mx;description}}.
+- {{ page.mx.description }}.
 - how the project will get done.
 
 # {{ site.data.name.class }}

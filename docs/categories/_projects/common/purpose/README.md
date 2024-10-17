@@ -5,5 +5,5 @@ mx:
 
 
 # {{ site.data.name.definition }}
-- {{page.mx;description}}
+- {{ page.mx.description }}
 
