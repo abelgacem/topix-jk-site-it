@@ -1,7 +1,5 @@
 ---
 mx:
----
-mx:
   layout: topic
   description:  description: A documentation hub.
 ---

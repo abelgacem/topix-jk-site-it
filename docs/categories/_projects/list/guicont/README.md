@@ -1,7 +1,5 @@
 ---
 mx:
----
-mx:
   layout: topic
   description:  description: GUI. in container
 ---

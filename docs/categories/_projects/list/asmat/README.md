@@ -1,7 +1,5 @@
 ---
 mx:
----
-mx:
   layout: topic
   description:  description: A tool to help Asmat day to day
 ---
