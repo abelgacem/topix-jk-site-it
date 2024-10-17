@@ -2,7 +2,6 @@
 layout: domain
 title:  myIndex
 ---
-[link]:        #
 [repo_source]: #
 
 # {{ site.data.name.introduction }}
