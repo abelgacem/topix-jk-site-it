@@ -6,6 +6,8 @@ mx:
   ref: projet/senior
 ---
 
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 
 
 

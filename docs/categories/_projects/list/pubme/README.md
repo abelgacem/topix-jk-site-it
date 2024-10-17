@@ -5,6 +5,8 @@ mx:
 ---
 
 
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 
 # {{ site.data.name.purpose }}
 - Explain how to port forward to a public IP using differents tools.

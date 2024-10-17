@@ -6,6 +6,7 @@ mx:
 
 
 # {{ site.data.name.description }}
+- {{ page.mx.description }}
 - `Ibshell`  is the acronym for **I**nteractive **B**ash **Shell**
 
 # {{ site.data.name.purpose }}

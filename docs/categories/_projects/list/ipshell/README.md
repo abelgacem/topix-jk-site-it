@@ -8,5 +8,6 @@ mx:
 
 
 # {{ site.data.name.description }}
+- {{ page.mx.description }}
 - `Ipshell`  is the acronym for **I**nteractive **P**ython **Shell**
 

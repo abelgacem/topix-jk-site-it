@@ -6,6 +6,7 @@ mx:
 
 
 # {{ site.data.name.description }}
+- {{ page.mx.description }}
 - une application accéssible online
 - logiciel de montage video et ou son extra simplifié
 

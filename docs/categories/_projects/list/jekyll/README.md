@@ -5,7 +5,8 @@ mx:
 ---
 
 
-# {{ site.data.name.purpose }}
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 - locally build and test a website before pushing it to Github.
 
 

@@ -5,7 +5,8 @@ mx:
 ---
 
 
-# {{ site.data.name.purpose }}
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 - créer des resto
 - créer les centre de formation
   - pour former les Pizzaiolo

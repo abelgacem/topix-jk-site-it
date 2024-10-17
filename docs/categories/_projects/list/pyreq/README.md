@@ -5,7 +5,7 @@ mx:
 ---
 
 # {{ site.data.name.description }}
-
+- {{ page.mx.description }}
 - use following python lib (pip install xx): 
   - request     to wrap ant API
   - argcomplete to create cli with completion

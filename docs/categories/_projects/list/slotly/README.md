@@ -6,6 +6,7 @@ mx:
 
 
 # {{ site.data.name.description }}
+- {{ page.mx.description }}
 - Dedicated for mathematics courses remotly or onsite.
 
 # {{ site.data.name.purpose }}

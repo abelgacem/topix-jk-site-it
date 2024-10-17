@@ -5,6 +5,8 @@ mx:
 ---
 
 
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 
 # {{ site.data.name.purpose }}
 Create a platform that:

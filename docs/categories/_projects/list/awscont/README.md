@@ -5,6 +5,7 @@ mx:
 ---
 
 # {{ site.data.name.description }}
+- {{ page.mx.description }}
 
 # Good to know
 - installed alpine aws pacakage using APK in a alpine container says sometime

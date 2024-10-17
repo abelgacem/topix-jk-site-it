@@ -4,6 +4,9 @@ mx:
   description: vendre une crème anti moustique sous marque blanche
 ---
 
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
+
 
 # {{ site.data.name.purpose }}
 - acheter du dentifrice en marque blanche 
