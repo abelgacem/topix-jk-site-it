@@ -2,7 +2,8 @@
 layout: domain
 title:  myIndex
 ---
-[repo_source]: #
+
+[repo_source]: {{ site.mx.git }}
 
 # {{ site.data.name.introduction }}
 - This documentation is built and deployed from a [GitHub repository][repo_source].

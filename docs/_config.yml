@@ -43,6 +43,7 @@ destination: /tmp/site/it
 # Var udef
 mx:
   domain: IT
+  git:    https://github.com/abelgacem/topix-jk-site-it
 
 # Collection udef
 collections_dir: categories
