@@ -6,10 +6,10 @@ mx:
 
 
 
-# {{ site.data.name.purpose }}
-Todo
+# {{ site.data.name.description }}
+- {{ page.mx.description }}
 
 
-# Contributors
+# {{ site.data.name.contributor }}
 - Amar
 
