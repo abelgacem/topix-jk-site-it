@@ -8,7 +8,7 @@ mx:
 
 {% assign lTOPIC_CATEGORY =  page.collection  %}
 {% assign lTOPIC_SECTION  =  page.path | split: '/' | slice: 1 | first  | strip %}
-{% assign lTOPIC_NAME        =  page.path | split: '/' | slice: 2, 1 | first | capitalize | strip  %} 
+{% assign lTOPIC_NAME        =  page.path | split: '/' | slice: 2, 1 | first |  strip  %} 
 
 
 - {{ page.path }}
