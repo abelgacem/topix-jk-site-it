@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: What the project must satisfy
+---
+mx:
+  layout: topic
+  description:  description: What the project must satisfy
 ---
 
 

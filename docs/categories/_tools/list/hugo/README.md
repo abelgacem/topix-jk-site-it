@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: A framework to create static website.
+---
+mx:
+  layout: topic
+  description:  description: A framework to create static website.
 ---
 
 

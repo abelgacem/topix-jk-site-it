@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: anti spam tool.
+---
+mx:
+  layout: topic
+  description:  description: anti spam tool.
 ---
 
 # {{ site.data.name.purpose }}

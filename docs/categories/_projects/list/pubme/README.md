@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: Publish and share any service via a free public IP.
+---
+mx:
+  layout: topic
+  description:  description: Publish and share any service via a free public IP.
 ---
 
 

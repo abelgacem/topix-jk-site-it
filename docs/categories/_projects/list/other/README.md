@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: other
+---
+mx:
+  layout: topic
+  description:  description: other
 ---
 
 

@@ -1,7 +1,9 @@
 ---
 mx:
-  layout:          topic
-  description: A Learning Platform.
+---
+mx:
+  layout: topic
+  description:  description: A Learning Platform.
 ---
 
 
