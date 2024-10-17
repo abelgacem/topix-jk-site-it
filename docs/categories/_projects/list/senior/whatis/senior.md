@@ -1,4 +1,5 @@
 ---
+layout: topic
 mx:
   domain: mustaph business
   description: Centre de support et assistance IT
