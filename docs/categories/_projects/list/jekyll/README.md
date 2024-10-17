@@ -1,6 +1,6 @@
 ---
+layout: topic
 mx:
-  layout: topic
   description:  Quickly build and test a Jekyll website.
 ---
 

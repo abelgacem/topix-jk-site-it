@@ -1,6 +1,6 @@
 ---
+layout: topic
 mx:
-  layout: topic
   description:  A custom universal CLI written in bash.
 ---
 

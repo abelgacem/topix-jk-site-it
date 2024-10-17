@@ -1,6 +1,6 @@
 ---
+layout: topic
 mx:
-  layout: topic
   description:  Publish and share any service via a free public IP.
 ---
 
