@@ -1,7 +1,7 @@
 ---
 mx:
   layout: topic
-  description:  description: A documentation hub.
+  description:  A documentation hub.
 ---
 
 # {{ site.data.name.description }}

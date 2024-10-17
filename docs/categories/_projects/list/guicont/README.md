@@ -1,7 +1,7 @@
 ---
 mx:
   layout: topic
-  description:  description: GUI. in container
+  description:  GUI. in container
 ---
 
 # {{ site.data.name.description }}

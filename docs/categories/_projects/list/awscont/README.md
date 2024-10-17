@@ -1,7 +1,7 @@
 ---
 mx:
   layout: topic
-  description:  description: AWS. in container
+  description:  AWS. in container
 ---
 
 # {{ site.data.name.description }}

@@ -1,7 +1,7 @@
 ---
 mx:
   layout: topic
-  description:  description: A custom universal CLI written in bash.
+  description:  A custom universal CLI written in bash.
 ---
 
 

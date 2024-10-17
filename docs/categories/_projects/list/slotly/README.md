@@ -1,7 +1,7 @@
 ---
 mx:
   layout: topic
-  description:  description: A time slot booking written using Django.
+  description:  A time slot booking written using Django.
 ---
 
 
