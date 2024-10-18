@@ -1,5 +1,5 @@
 # name@common
-#
+## 
 framework:    " `framework` "
 front:        " `front` "
 back:         " `back` "
@@ -15,8 +15,16 @@ vscode:       " `VSCode` "
 ## language
 bash:         " `Bash` "
 java:         " `Java` "
+jinja:        " `Jinja` "
 latex:        " `Latex` "
 liquid:       " `Liquid` "
 mermaid:      " `Mermaid` "
 markdown:     " `Markdown` "
 yaml:         " `YAML.` "
+# name@acronym 
+## Tool
+ssg:          "SSG." # "Static Sites Generators"
+scm:          "SCM." # "Source Content Management"
+## Language
+dsl:          "DSL." # "Domain Specific Language"
+ml:           "ML."  # "Markup Language"

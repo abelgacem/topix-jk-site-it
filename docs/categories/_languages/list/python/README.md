@@ -1,8 +1,7 @@
 ---
 layout: topic
-title:  Projects title
 mx:
-  description:  a progarming language
+  tag:  script programing
 ---
 
 # {{ site.data.name.introduction }}

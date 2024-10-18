@@ -1,5 +1,4 @@
 ---
-layout: topic
 mx:
   description:  allows to do tasks
 ---
@@ -21,5 +20,5 @@ mx:
 - application.
 
 # {{ site.data.name.class }}
-- programming
-- dsl
+- {{ site.data.name.ssg }}
+- {{ site.data.name.scm }}

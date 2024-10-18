@@ -1,7 +1,7 @@
 ---
 layout: topic
 mx:
-  description:  a progarming language
+  tag:  script programing
 ---
 
 # {{ site.data.name.introduction }}

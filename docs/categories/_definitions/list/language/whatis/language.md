@@ -14,4 +14,15 @@ mx:
 - task.
 - instruction.
 - statement.
+- sentence.
+- grammar.
+- code.
+- function.
+- methode.
+- methode.
+- application.
 
+# {{ site.data.name.class }}
+- templating ({{ site.data.name.eg }} {{ site.data.name.liquid }}, {{ site.data.name.jinja }})
+- programming
+- {{ site.data.name.dsl }}
