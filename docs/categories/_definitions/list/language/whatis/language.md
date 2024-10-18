@@ -9,20 +9,15 @@ mx:
 # {{ site.data.name.definition }}
 - {{ page.mx.description }}.
 
-## {{ site.data.name.lexicalfiled }}
-- program.
-- task.
-- instruction.
-- statement.
-- sentence.
-- grammar.
-- code.
-- function.
-- methode.
-- methode.
-- application.
+## {{ site.data.name.lexicalfield }}
+
+- code, instruction, statement.
+- methode, function, procedure.
+- algorithm, program, application.
+- task, operation.
+- grammar, sentence.
 
 # {{ site.data.name.class }}
-- templating ({{ site.data.name.eg }} {{ site.data.name.liquid }}, {{ site.data.name.jinja }})
+- templating
 - programming
 - {{ site.data.name.dsl }}
