@@ -1,0 +1,21 @@
+<!-- define var -->
+{% assign lFILE_PATH         = page.path %}
+{% assign lTOPIC_DOMAIN      = site.mx.domain  %} 
+{% assign lTOPIC_CATEGORY    = page.collection  %} 
+{% assign lTOPIC_CATEGORY_URL= '/' | append: lTOPIC_CATEGORY  %} 
+{% assign lTOPIC_SECTION     = lFILE_PATH | split: '/' | slice: 1 | first | strip  %} 
+{% assign lTOPIC_NAME        = lFILE_PATH | split: '/' | slice: 2 | first | strip  %} 
+{% assign lSTOPIC_CLASSIFIER = lFILE_PATH | split: '/' | slice: 3 | first | strip  %} 
+{% assign lSTOPIC_NAME       = lFILE_PATH | split: '/' | last | remove: '.md' %}
+{% assign lTOPIC_URL         = lTOPIC_CATEGORY_URL | append: '/' | append: lTOPIC_SECTION | append: '/' | append: lTOPIC_NAME | append: '/' | append: 'whatis' | append: '/' | append: lTOPIC_NAME | append: '.html' %} 
+{% assign lSTOPIC_CLASSIFIER_URL = lTOPIC_URL  %} 
+
+<ul class="breadcrumb">
+  <li><a href="/" translate='no'>Home</a></li>
+  <li translate='no'>{{ lTOPIC_DOMAIN  }}</li>
+  <li translate='no'><a href='{{ lTOPIC_CATEGORY_URL }}'>{{ lTOPIC_CATEGORY }}<a></li>
+  <li><a href='{{ lTOPIC_URL }}'>{{ lTOPIC_NAME | capitalize}}</a></li>
+  <li><a href='{{ lSTOPIC_CLASSIFIER_URL }}'>{{ lSTOPIC_CLASSIFIER }}</a></li>
+  <li translate='no'>{{ lSTOPIC_NAME }}</li>
+</ul>
+
