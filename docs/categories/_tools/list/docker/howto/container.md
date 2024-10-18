@@ -10,15 +10,16 @@ mx:
 
 # Delete
 
-```bash
 # container:all
+```shell
+#
 docker container stop  $(docker container list -aq)
 docker container rm    $(docker container list -aq)√
 docker container rm -f $(docker container list -aq)
 #
 docker container list --quiet | xargs docker container rm -f
-
 ```
+
 # List
 
 ```bash
