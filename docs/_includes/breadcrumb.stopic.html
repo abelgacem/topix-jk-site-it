@@ -7,7 +7,7 @@
 {% assign lTOPIC_NAME        = lFILE_PATH | split: '/' | slice: 2 | first | strip  %} 
 {% assign lSTOPIC_CLASSIFIER = lFILE_PATH | split: '/' | slice: 3 | first | strip  %} 
 {% assign lSTOPIC_NAME       = lFILE_PATH | split: '/' | last | remove: '.md' %}
-{% assign lTOPIC_URL         = lTOPIC_CATEGORY_URL | append: '/' | append: lTOPIC_SECTION | append: '/' | append: lTOPIC_NAME | append: '/' | append: 'whatis' | append: '/' | append: lTOPIC_NAME | append: '.html' %} 
+{% assign lTOPIC_URL         = lTOPIC_CATEGORY_URL | append: '/' | append: lTOPIC_SECTION | append: '/' | append: lTOPIC_NAME | append: '/' | append: 'whatis' | append: '/' | append: lTOPIC_NAME | append: '.html' | append '#list_stopic'%} 
 {% assign lSTOPIC_CLASSIFIER_URL = lTOPIC_URL  %} 
 
 <ul class="breadcrumb">
