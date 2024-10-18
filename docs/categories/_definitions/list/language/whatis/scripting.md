@@ -8,16 +8,5 @@ mx:
 
 # {{ site.data.name.definition }}
 - {{ page.mx.description }}.
+- is oppesed to compiled language
 
-## {{ site.data.name.lexicalfield }}
-
-- code, instruction, statement.
-- methode, function, procedure.
-- algorithm, program, application.
-- task, operation.
-- grammar, sentence.
-
-# {{ site.data.name.class }}
-- templating
-- programming
-- {{ site.data.name.dsl }}

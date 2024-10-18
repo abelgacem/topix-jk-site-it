@@ -9,15 +9,9 @@ mx:
 # {{ site.data.name.definition }}
 - {{ page.mx.description }}.
 
-## {{ site.data.name.lexicalfield }}
+# {{ site.data.name.example }}
+- {{ site.data.name.java }}, {{ site.data.name.python }}
 
-- code, instruction, statement.
-- methode, function, procedure.
-- algorithm, program, application.
-- task, operation.
-- grammar, sentence.
-
-# {{ site.data.name.class }}
-- scripting ({{ site.data.name.eg }}, {{ site.data.name.pyth }}
-- programming
-- {{ site.data.name.dsl }}
+# {{ site.data.name.purpose }}
+- define and declare variables.
+- write statement about modeled object.
