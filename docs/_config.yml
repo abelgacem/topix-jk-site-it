@@ -33,6 +33,7 @@ github_username:  jekyll
 # Build settings
 # markdown:  kramdown
 # permalink: pretty
+markdown: kramdown
 highlighter: rouge
 theme:    topix-jk-theme-01
 # plugins:
