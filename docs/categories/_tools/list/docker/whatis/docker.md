@@ -1,7 +1,6 @@
 ---
 layout: topic
 mx:  
-  lp: 0
   ref:
     root:
       - concept/container/definition/container
