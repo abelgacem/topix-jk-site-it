@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: mustaph business
+  tag: mustaph business
   description: Chaine de restaurant "Nice Pizza - la pizza de Nice"
 ---
 

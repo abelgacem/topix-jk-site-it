@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: mustaph business
+  tag: mustaph business
   description: Le modèle économique
   lp:
   ref: projet/sante

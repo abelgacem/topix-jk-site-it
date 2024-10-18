@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: mustaph tool
+  tag: mustaph tool
   description: Create collaborative sound.
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: topic
 mx:
-  domain: mustaph business
+  tag: mustaph business
   description: Centre de support et assistance IT
 ---
 

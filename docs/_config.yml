@@ -42,7 +42,7 @@ theme:    topix-jk-theme-01
 destination: /tmp/site/it
 # Var udef
 mx:
-  domain: IT
+  tag: IT
   git:    https://github.com/abelgacem/topix-jk-site-it
 
 # Collection udef

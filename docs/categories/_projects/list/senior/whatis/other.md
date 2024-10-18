@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: mustaph business
+  tag: mustaph business
 ---
 
 

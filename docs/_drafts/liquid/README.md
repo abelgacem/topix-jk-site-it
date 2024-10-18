@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: tool
+  tag: tool
   description: A templating language.
 ---
 

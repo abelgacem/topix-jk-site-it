@@ -1,6 +1,6 @@
 ---
 mx:
-  domain: mustaph business
+  tag: mustaph business
   description: création d'un centre de santé
   lp:
   ref: projet/senior

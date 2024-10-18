@@ -26,11 +26,12 @@
     <!-- list only whatis topic file for this category -->
     {% if  lFILE_DEPTH == 2  or lSTOPIC_CLASSIFIER == 'whatis' and lFILE.name == lFILE_EXPECTED %}
       {% assign lTOPIC_URL         = lFILE.url    %}
+      {% assign lTOPIC_TAG         = lFILE.mx.tag    %}
       {% assign lTOPIC_DESCRIPTION = lFILE.mx.description  %}
       <tr>
         <td translate='no'><a href='{{ lTOPIC_URL }}'>{{lTOPIC_NAME | capitalize}}</a></td>
-        <td>{{lSTOPIC_CLASSIFIER}}</a></td>
-        <td>tag</a></td>
+        <td>{{ lSTOPIC_CLASSIFIER }}</td>
+        <td>{{ lTOPIC_TAG }}</td>
         <td>{{ lTOPIC_DESCRIPTION }}</td>
         {%- comment -%} <td><li>depth = {{lFILE_DEPTH}}</li><li>title = {{ lFILE.title }}</li><li>type = {{lSTOPIC_CLASSIFIER}}</li> <li>url = {{ lTOPIC_URL }}</li><li>path = {{ lFILE_PATH }}</li></td> {%- endcomment -%}
       </tr>

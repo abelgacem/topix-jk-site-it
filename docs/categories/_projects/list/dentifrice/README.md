@@ -1,7 +1,7 @@
 ---
 layout: topic
 mx:
-  domain: mustaph business
+  tag: mustaph business
   description: vendre une crème anti moustique sous marque blanche
 ---
 
