@@ -6,16 +6,6 @@ mx:
   ref: projet/sante
 ---
 
-{% assign lTOPIC_CATEGORY =  page.collection  %}
-{% assign lTOPIC_SECTION  =  page.path | split: '/' | slice: 1 | first  | strip %}
-{% assign lTOPIC_NAME        =  page.path | split: '/' | slice: 2, 1 | first |  strip  %} 
-
-
-- {{ page.path }}
-- category = {{lTOPIC_CATEGORY}} 
-- section = {{lTOPIC_SECTION}} 
-- name = {{lSTOPIC_NAME}} 
-- link = <a href='/{{ lTOPIC_CATEGORY }}/{{lTOPIC_SECTION}}/{{lTOPIC_NAME}}/whatis/{{lTOPIC_NAME}}'></a>
 
 ### Modèle économique
 
