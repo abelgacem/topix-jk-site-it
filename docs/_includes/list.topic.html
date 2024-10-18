@@ -17,14 +17,15 @@
   <tbody>
   <!-- list all files of a specific category -->
   {% for lFILE in site[lTOPIC_CATEGORY] %}
-    {% assign lFILE_PATH   = lFILE.path %}
-    {% assign lFILE_DEPTH  = lFILE_PATH | split: '/' | size | minus: 2 %}
-    {% assign lTOPIC_NAME  = lFILE_PATH | split: '/' | slice: 2 | first | downcase | strip %}
-    {% assign lSTOPIC_CLASSIFIER = lFILE_PATH | split: '/' | slice: 3 | first | downcase | strip | remove: '.md' %}
-    {% assign lFILE_EXPECTED = lTOPIC_NAME | append: '.md' %}
+    {% assign lFILE_PATH           = lFILE.path %}
+    {% assign lFILE_DEPTH          = lFILE_PATH | split: '/' | size | minus: 2 %}
+    {% assign lTOPIC_NAME          = lFILE_PATH | split: '/' | slice: 2 | first | downcase | strip %}
+    {% assign lSTOPIC_CLASSIFIER   = lFILE_PATH | split: '/' | slice: 3 | first | downcase | strip | remove: '.md' %}
+    {% assign lTOPIC_NAME_EXPECTED = lTOPIC_NAME | append: '.md' %}
+    <!-- filter this file -->
     {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0  %}
-    <!-- list only whatis topic file for this category -->
-    {% if  lFILE_DEPTH == 2  or lSTOPIC_CLASSIFIER == 'whatis' and lFILE.name == lFILE_EXPECTED %}
+    <!-- list all whatis stopic file with a specific name for this category:topic -->
+    {% if  lFILE_DEPTH == 2  or lSTOPIC_CLASSIFIER == 'whatis' and lFILE.name == lTOPIC_NAME_EXPECTED %}
       {% assign lTOPIC_URL         = lFILE.url    %}
       {% assign lTOPIC_TAG         = lFILE.mx.tag    %}
       {% assign lTOPIC_DESCRIPTION = lFILE.mx.description  %}
@@ -35,9 +36,9 @@
         <td>{{ lTOPIC_DESCRIPTION }}</td>
         {%- comment -%} <td><li>depth = {{lFILE_DEPTH}}</li><li>title = {{ lFILE.title }}</li><li>type = {{lSTOPIC_CLASSIFIER}}</li> <li>url = {{ lTOPIC_URL }}</li><li>path = {{ lFILE_PATH }}</li></td> {%- endcomment -%}
       </tr>
-      {% endif %}
-      {% endunless %}
-    {% endfor %}
+    {% endif %}
+    {% endunless %}
+  {% endfor %}
   </tbody>
 </table>
 </div>

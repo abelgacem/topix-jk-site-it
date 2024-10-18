@@ -24,6 +24,7 @@
       {% assign lFILE_DEPTH          = lFILE_PATH | split: '/' | size | minus: 2 %}
       {% assign lSTOPIC_CLASSIFIER   = lFILE_PATH | split: '/' | slice: 3, 1 | first | downcase | strip | remove: '.md' %}
       {% assign lTOPIC_NAME_EXPECTED = '/' | append: lTOPIC_NAME | append: '/' %}
+      <!-- filter this file -->
       {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
         <!-- list only stopic file for this category:topic -->
         {% if lFILE_PATH contains lTOPIC_NAME_EXPECTED %}
