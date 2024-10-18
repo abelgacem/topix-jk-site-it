@@ -12,7 +12,6 @@ mx:
 
 # container:all
 ```shell
-#
 docker container stop  $(docker container list -aq)
 docker container rm    $(docker container list -aq)√
 docker container rm -f $(docker container list -aq)
