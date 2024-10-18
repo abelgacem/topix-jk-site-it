@@ -34,7 +34,8 @@ github_username:  jekyll
 # markdown:  kramdown
 # permalink: pretty
 theme:    topix-jk-theme-01
-
+highlighter: rouge
+    input: GFM
 # plugins:
 #   - jekyll-feed
 
