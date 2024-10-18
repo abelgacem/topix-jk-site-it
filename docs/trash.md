@@ -1,4 +1,30 @@
 
+<h1>List classifier for a topic</h1>
+<li> page.path = {{ page.path }} </li>
+{% assign lTOPIC_NAME    = page.path | split: '/' | slice: 2, 1 | first | downcase | strip %}
+{% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
+{% assign lIST_CLASSIFIER = '' | split: ','%}
+{% assign lIST_CLASSIFIER = '' | split: ','%}
+{% for lFILE in site[page.collection] %}
+  {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
+  {% unless lCLASSIFIER.label == "posts" or lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
+    {% if lFILE.path contains lTOPIC_EXPECTED %}
+      {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip | remove: '.md' %}
+      {% assign lIST_CLASSIFIER = lIST_CLASSIFIER | push: lSTOPIC_CLASSIFIER %}
+      <!-- <li>{{ lIST_CLASSIFIER}} - {{ lFILE.path }}</li> -->
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+{% assign lIST2 = lIST_CLASSIFIER | sort | uniq %} </li>
+<li>{{ lIST2 }}</li>
+{% assign lIST2 = lIST_CLASSIFIER | sort | uniq | split: ',' %} </li>
+<li>{{lIST2 }}</li>
+{% assign lIST2 = lIST_CLASSIFIER | sort | uniq | split: ',' | join: ','%} </li>
+<li>{{lIST2 }}</li>
+
+
+
 # pretty table
 <div class="container my-4">
   <table class="table table-striped table-bordered sortable">
