@@ -1,5 +1,4 @@
 ---
-layout: topic
 mx:
   description:  The problem to solve or the needs to fulfill
 ---

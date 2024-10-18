@@ -1,5 +1,4 @@
 ---
-layout: topic
 mx:
   description:  what limit the project
 ---

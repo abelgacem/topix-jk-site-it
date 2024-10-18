@@ -1,5 +1,4 @@
 ---
-layout: topic
 mx:
   description:  what the projects need to be done
 ---

@@ -1,5 +1,4 @@
 ---
-layout: topic
 mx:
   description:  What the project must satisfy
 ---
