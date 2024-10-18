@@ -13,27 +13,34 @@
       <tr>
         <th>name</th>
         <th>kind</th>
-        <th>Description</th>
-        <th>Path</th>
+        <th>description</th>
+        <th>path</th>
       </tr>
     </thead>
     <tbody>
-      {% for lFILE in site[lTOPIC_CATEGORY] %}
-        {% assign lFILE_DEPTH        = lFILE.path | split: '/' | size | minus: 2 %}
-        {% assign lSTOPIC_CLASSIFIER = lFILE.path | split: '/' | slice: 3, 1 | first | downcase | strip | remove: '.md' %}
-        {% assign lTOPIC_EXPECTED    = '/' | append: lTOPIC_NAME | append: '/' %}
-        
-        {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
-          {% if lFILE.path contains lTOPIC_EXPECTED %}
-            <tr>
-              <td><a href="{{ lFILE.url }}" class="text-primary">{{ lFILE.title }}</a></td>
-              <td>{{ lSTOPIC_CLASSIFIER }}</td>
-              <td>{{ lFILE.mx.description }}</td>
-              <td>{{ lFILE.path }}</td>
-            </tr>
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
+    <!-- list all files of a specific category -->
+    {% for lFILE in site[lTOPIC_CATEGORY] %} 
+      {% assign lFILE_PATH           = lFILE.path %}
+      {% assign lFILE_DEPTH          = lFILE_PATH | split: '/' | size | minus: 2 %}
+      {% assign lSTOPIC_CLASSIFIER   = lFILE_PATH | split: '/' | slice: 3, 1 | first | downcase | strip | remove: '.md' %}
+      {% assign lTOPIC_NAME_EXPECTED = '/' | append: lTOPIC_NAME | append: '/' %}
+      {% unless lFILE.name == 'index.md' and lFILE_DEPTH == 0 %}
+        <!-- list only stopic file for this category:topic -->
+        {% if lFILE_PATH contains lTOPIC_NAME_EXPECTED %}
+          <!-- declare and define var -->
+          {% assign lSTOPIC_FILE_PATH   = lFILE.path   %}
+          {% assign lSTOPIC_URL         = lFILE.url    %}
+          {% assign lSTOPIC_NAME        = lFILE.title  %}
+          {% assign lSTOPIC_DESCRIPTION = lFILE.mx.description  %}
+          <tr>
+            <td><a href="{{ lSTOPIC_URL }}" class="text-primary">{{ lSTOPIC_NAME }}</a></td>
+            <td>{{ lSTOPIC_CLASSIFIER }}</td>
+            <td>{{ lSTOPIC_DESCRIPTION }}</td>
+            <td>{{ lSTOPIC_FILE_PATH }}</td>
+          </tr>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
     </tbody>
   </table>
 </div>
