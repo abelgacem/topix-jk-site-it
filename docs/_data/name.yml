@@ -25,6 +25,8 @@ yaml:         " `YAML.` "
 ## Tool
 ssg:          "SSG." # "Static Sites Generators"
 scm:          "SCM." # "Source Content Management"
+rmt:          "RMT." # "Requirements Management Tools"
+alm:          "ALM." # "Application Lifecycle Management Tools"
 ## Language
 dsl:          "DSL." # "Domain Specific Language"
 ml:           "ML."  # "Markup Language"

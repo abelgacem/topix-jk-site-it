@@ -21,4 +21,7 @@ mx:
 - Implement.
 
 # Tools for {{ site.data.name.requirement }}
-- Ensure that {{ site.data.name.requirement }}'s implementation is always align with stakeholders' expectations.
+- Ensures that {{ site.data.name.requirement }}'s implementation is always align with stakeholders' expectations.
+- Tracks changes and progress of {{ site.data.name.requirement }}. 
+- {{ site.data.name.eg }}:
+
