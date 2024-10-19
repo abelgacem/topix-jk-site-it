@@ -1,6 +1,9 @@
 ---
 mx:
   description:  What the project must satisfy
+  trail: 1
+  ref:
+    - list/tool
 ---
 
 
@@ -23,5 +26,4 @@ mx:
 # Tools for {{ site.data.name.requirement }}
 - Ensures that {{ site.data.name.requirement }}'s implementation is always align with stakeholders' expectations.
 - Tracks changes and progress of {{ site.data.name.requirement }}. 
-- {{ site.data.name.eg }}:
 
