@@ -2,9 +2,10 @@
 layout: topic
 mx:  
   ref:
-    root:
-      - concept/container/definition/container
-      - concept/container/definition/image
+      - whatis/container
+      - whatis/cli
+      - whatis/image
+      - whatis/project
 ---
 
 # Definition

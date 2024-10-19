@@ -3,9 +3,10 @@ mx:
   description:  a file for debug purpose
   trail:  x
   ref:
-    - whatis/project
+    - whatis/topix
     - whatis/tool
 ---
 
 
-{%- include list.reference.html -%}
+# {{ site.data.name.description}}
+- {{page.mx.description}}

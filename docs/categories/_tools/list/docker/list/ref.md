@@ -2,8 +2,6 @@
 mx:  
   lp:
   ref:
-    child: 
-      - definition/dind
 ---
 
 # Dockercompose
