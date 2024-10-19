@@ -1,7 +1,7 @@
 ---
 mx:
   description:  What the project must satisfy
-  trail: 1
+  trail: 2
   ref:
     - list/tool
 ---
@@ -10,7 +10,7 @@ mx:
 
 # {{ site.data.name.definition }}
 - {{ page.mx.description }}
-- Denotes a need of the project
+- Denotes the needs to be fulfilled
 - Meant to be implemented
 
 # {{ site.data.name.class }}

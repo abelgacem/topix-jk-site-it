@@ -1,15 +1,16 @@
 ---
 mx:
-  description:  Entity involved in a project
+  description:  Entity, person, teams involved in a project
+  trail: 0
 ---
 
 
 # {{ site.data.name.definition }}
 - {{ page.mx.description }}.
-- how the project will get done.
 
 # {{ site.data.name.class }}
-- limitation or restriction on any **resources** of the project.
-- **regulation** or **compliance** : Legal and industry-specific rules or standards ({{site.data.name.eg}}, data protection laws, safety codes).
-- **quality** : standards or benchmarks the project must meet.
+- stakeholders, contributors, partners, participants.
+- PO., developpers, architect, {{ site.data.name.etc }}.
+
+
 
