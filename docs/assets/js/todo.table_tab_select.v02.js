@@ -1,3 +1,4 @@
+// v02
 // Function to activate the tab based on the given tab ID
 function activateTab(tabId) {
   const tab = new bootstrap.Tab(document.querySelector(`#${tabId}-tab`));
