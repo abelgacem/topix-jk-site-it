@@ -1,5 +1,4 @@
 ---
-layout: domain
 title:  myIndex
 ---
 

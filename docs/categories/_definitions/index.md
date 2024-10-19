@@ -1,8 +1,9 @@
 ---
 layout: category
 title:  Projects title
-description:  Entry point for shared definitions, terms, and terminology across the company.
+mx:
+  description:  Entry point for shared definitions, terms, and terminology across the company.
 ---
 
 # {{ site.data.name.introduction }}
-- {{ page.description }}
+- {{ page.mx.description }}

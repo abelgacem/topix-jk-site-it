@@ -6,5 +6,5 @@ mx:
 ---
 
 # {{ site.data.name.introduction }}
-- {{ page.description }}
+- {{ page.mx.description }}
 

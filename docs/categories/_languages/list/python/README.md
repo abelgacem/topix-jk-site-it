@@ -5,7 +5,7 @@ mx:
 ---
 
 # {{ site.data.name.introduction }}
-- {{ page.description }}
+- {{ page.mx.description }}
 
 # {{ site.data.name.todo }}
 - `irb` a ruby shell interpreter like python

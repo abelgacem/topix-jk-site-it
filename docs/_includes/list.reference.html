@@ -1,0 +1,15 @@
+<!-- v01 -->
+<!-- declare and define var -->
+{% assign lFILE_PATH      = page.path %}
+{% assign lTOPIC_CATEGORY = page.collection %}
+{% assign lTOPIC_NAME     = lFILE_PATH | split: '/' | slice: 2 | first | downcase | strip %}
+
+
+<h1><span translation='no'>{{ lTOPIC_NAME }}</a> referenc</h1>
+
+{% for item in page.mx.ref %}
+  {% assign key = item | keys | first | strip %}
+  <li>1 - {{ item }}</li>
+  <li>2 - {{ key }} </li>
+  <li>3 - {{ key | split: ','}}</li>
+{% endfor %}

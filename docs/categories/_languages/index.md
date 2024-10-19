@@ -1,10 +1,14 @@
 ---
 layout: category
-title:  Projects title
-description:  Entry point for languages (eg. html, java, liquid)
+mx:
+  description:  Entry point for languages
+  ref: 
+    - definition/language
 ---
 
-[definition]: {}
+
 
 # {{ site.data.name.introduction }}
-- {{ page.description }}
+- {{ page.mx.description }}
+- Entry point for languages
+

@@ -1,8 +1,9 @@
 ---
 layout: category
 title:  Projects title
-description:  Entry point for cloud providers
+mx:
+  description:  Entry point for cloud providers
 ---
 
 # {{ site.data.name.introduction }}
-- {{ page.description }}
+- {{ page.mx.description }}

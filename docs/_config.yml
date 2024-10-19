@@ -73,9 +73,14 @@ collections:
 defaults:
   -
     scope:
-      path: ""      # Applies to all files posts, pages, collections
+      path: ""      # Applies to all files posts, pages, and collections
     values:
       layout: default
+  -    
+    scope:
+      path: "index.md"        # Applies only to index file in root folder
+    values:
+      layout: domain
 
 # defaults:
 #   - 

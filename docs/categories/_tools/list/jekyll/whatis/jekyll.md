@@ -4,6 +4,9 @@ mx:
   tag: 
   domain: tool
   description: A framework to create static website.
+  ref:
+    - category: language/liquid
+    - category: language/html
 ---
 
 
