@@ -5,7 +5,7 @@ mx:
 ---
 
 
-## The documentation model
+## The documentation modelo
 The application defines the following concepts:
 
 - {{site.data.topix.domain}}:   
