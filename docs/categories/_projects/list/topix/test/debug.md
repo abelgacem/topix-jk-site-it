@@ -2,9 +2,10 @@
 mx:
   description:  a file for debug purpose
   trail:  x
+  ref:
+    - whatis/project
+    - whatis/tool
 ---
 
 
-
-{%- include todo.list.reference.html -%}
-{%- include debug.html -%}
+{%- include list.reference.html -%}
