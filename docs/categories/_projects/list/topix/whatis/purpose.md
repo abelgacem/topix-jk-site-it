@@ -1,11 +1,13 @@
 ---
-layout: topic
+mx:
+  trail:  1
 ---
 
 
 # {{ site.data.name.purpose }}
 This hub:  
 
+- Is a trail.
 - Is the entry point for the company's documentation.
 - Defines a common terminology accessible and shared by all.
 - Unifies the writing and conception of documents.
