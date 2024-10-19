@@ -47,7 +47,7 @@ mx:
 
 |name|description|comment|
 |-|-|-|
-|Technical|anyone that is not only functional ({{site.data.name.eg}} PO.)|should use {{site.data.name.vscode}} + {{site.data.name.git}} to interact with {{site.data.topix.topix}}|
+|Technical|anyone that is not only functional ({{site.data.name.eg}} PO.)|should use {{site.data.name.vscode}} + {{site.data.name.git}} to interact with {{site.data.name.topix}}|
 |Functiunal|anyone that is not a Tech. user|should use a {{site.data.name.gui}} to interact with {{site.data.name.topix}}|
 
 <br>
