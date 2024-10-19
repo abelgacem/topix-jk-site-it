@@ -1,0 +1,85 @@
+<!-- v01 -->
+<!-- declare and define var -->
+{% assign lFILE_PATH      = page.path %}
+{% assign lTOPIC_CATEGORY = page.collection %}
+{% assign lTOPIC_NAME     = lFILE_PATH | split: '/' | slice: 2 | first | downcase | strip %}
+
+
+<h1>DEBUG DEBUG DEBUG </h1>
+<h2>manage collections</h2>
+
+<p>
+<li>a <b>topix:category</b> is a <b>jekyll:collections</b></li>
+</p>
+
+<h3>List of all categories</h3>
+<ul>
+  {% for collection in site.collections %}
+  <li>{{collection.label}}</li>
+  {% endfor %}
+</ul>
+
+<h3>List all categories unless sdef collection posts</h3>
+<h4>method</h4>
+<ul>
+  {% for lCATEGORY in site.collections %}{% unless  lCATEGORY.label == 'posts' %}
+    <li>{{ lCATEGORY.label }}</li>
+  {% endunless %}{% endfor %}
+</ul>
+
+<h4>method</h4>
+{% assign lLIST_CATEGORY = site.collections | where_exp: 'collection', 'collection.label != "posts"' %}
+<ul>
+  {% for lCATEGORY in lLIST_CATEGORY %}
+    <li>{{ lCATEGORY.label }}</li>
+  {% endfor %}
+</ul>
+
+<h3>object of each category</h3>
+<h4>for collection:posts</h4>
+{% assign lLIST_CATEGORY = site.collections | where_exp: 'collection', 'collection.label == "posts"' %}
+<ul>
+{% for lCATEGORY in lLIST_CATEGORY %}
+  {% for property in lCATEGORY %}
+    <li>{{ property }}</li>
+  {% endfor %}
+{% endfor %}
+</ul>
+<b>permalink</b> exists only in the <b>jekyll:collection:posts</b>
+
+<h4>for category udef</h4>
+{% assign lLIST_CATEGORY = site.collections | where_exp: 'collection', 'collection.label == "projects"' %}
+<ul>
+{% for lCATEGORY in lLIST_CATEGORY %}
+  {% for property in lCATEGORY %}
+    <li>{{ property }}</li>
+  {% endfor %}
+{% endfor %}
+</ul>
+
+
+<h3>property of each category.object except docs</h3>
+{% assign lLIST_CATEGORY = site.collections | where_exp: 'collection', 'collection.label != "posts"' %}
+{% for lCATEGORY in lLIST_CATEGORY %}
+lCATEGORY.label  = {{ lCATEGORY.label }}
+<ul>
+  <li>lCATEGORY.label              = {{ lCATEGORY.label }}</li>
+  <li>lCATEGORY.output             = {{ lCATEGORY.output }}</li>
+  <li>lCATEGORY.directory          = {{ lCATEGORY.directory }}</li>
+  <li>lCATEGORY.relative_directory = {{ lCATEGORY.relative_directory }}</li>
+  <li>lCATEGORY.files = {{ lCATEGORY.files }}</li>
+</ul>
+{% endfor %}
+
+<h3>docs property for each category</h3>
+<b>list all files of all udef categories</b>
+{% assign lLIST_CATEGORY = site.collections | where_exp: 'collection', 'collection.label != "posts"' %}
+{% for lCATEGORY in lLIST_CATEGORY %}
+{{ lCATEGORY.label }} : 
+<ul>
+  {% for doc in lCATEGORY.docs %}
+    <li>{{ doc.collection }} - {{ doc.path }} - {{ doc.url }}</li>
+  {% endfor %}
+</ul>
+{% endfor %}
+

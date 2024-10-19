@@ -3,7 +3,8 @@ mx:
 ---
 
 
-# list
+# {{site.data.name.list}}
+
 |name|tag|link|
 |-|-|-|
 |permalink|tag|[editor](https://jekyllrb.com/docs/permalinks/)|
