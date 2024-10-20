@@ -3,7 +3,8 @@ mx:
   description:  What the project must satisfy
   trail: 2
   ref:
-    - list/tool
+    - whatis/objective
+    - whatis/purpose
 ---
 
 
@@ -12,6 +13,9 @@ mx:
 - {{ page.mx.description }}
 - Denotes the needs to be fulfilled
 - Meant to be implemented
+- A detailed specification or condition that must be met to achieve an objective. 
+- the necessary actions, conditions, or resources needed to accomplish an objective.
+- Are the conditions or steps needed to reach an objective.
 
 # {{ site.data.name.class }}
 - functional
@@ -27,3 +31,5 @@ mx:
 - Ensures that {{ site.data.name.requirement }}'s implementation is always align with stakeholders' expectations.
 - Tracks changes and progress of {{ site.data.name.requirement }}. 
 
+# {{ site.data.name.example }}
+cf. purpose

@@ -22,6 +22,9 @@ mermaid:      " `Mermaid` "
 markdown:     " `Markdown` "
 yaml:         " `YAML.` "
 # name@acronym 
+## project
+smart:        "SMART" # "Simple Measurable Achievable Relevant Time-Bound"
+kpi:          "KPI."  # "Key Process Indicator"
 ## Tool
 pm:           "PM."  # "Package Managers"
 ssg:          "SSG." # "Static Sites Generators"
