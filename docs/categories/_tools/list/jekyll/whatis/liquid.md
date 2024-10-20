@@ -1,9 +1,5 @@
 ---
 mx:
   ref:
-    - tool/liquid/whatis
+    - whatis/liquid
 ---
-
-
-# Do
-

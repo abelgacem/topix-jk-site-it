@@ -10,5 +10,4 @@ mx:
 
 # {{ site.data.name.introduction }}
 - {{ page.mx.description }}
-- Entry point for languages
 
