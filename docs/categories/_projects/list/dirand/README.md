@@ -2,6 +2,7 @@
 layout: topic
 mx:
   description:  anti spam tool.
+  tag:  tool
 ---
 
 # {{ site.data.name.description }}

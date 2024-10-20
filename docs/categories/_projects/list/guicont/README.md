@@ -2,6 +2,7 @@
 layout: topic
 mx:
   description:  GUI. in container
+  tag:  tool
 ---
 
 # {{ site.data.name.description }}

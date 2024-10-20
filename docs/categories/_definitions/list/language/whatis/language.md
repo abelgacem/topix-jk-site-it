@@ -1,7 +1,9 @@
 ---
 layout: topic
 mx:
-  description:  used to create a program to be executed 
+  description:  the grammar used to create a tool
+  ref:
+    whatis/tool
 ---
 
 
@@ -10,14 +12,9 @@ mx:
 - {{ page.mx.description }}.
 
 ## {{ site.data.name.lexicalfield }}
-
-- code, instruction, statement.
-- methode, function, procedure.
-- algorithm, program, application.
-- task, operation.
 - grammar, sentence.
 
 # {{ site.data.name.class }}
 - templating
 - programming
-- {{ site.data.name.dsl }}
+- {{ site.data.name.dsl }} (ie. **D**omain **S**pecific **L**anguage)

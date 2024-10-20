@@ -2,8 +2,8 @@
 mx:
   tag: mustaph business
   description: création d'un centre de santé
-  lp:
-  ref: projet/senior
+  ref: 
+    - whatis/senior
 ---
 
 # {{ site.data.name.description }}

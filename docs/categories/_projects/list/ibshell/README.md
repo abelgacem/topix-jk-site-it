@@ -2,6 +2,7 @@
 layout: topic
 mx:
   description:  A custom universal CLI written in bash.
+  tag:  tool
 ---
 
 

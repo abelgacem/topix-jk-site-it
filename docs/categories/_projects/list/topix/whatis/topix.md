@@ -5,7 +5,8 @@ mx:
   tag:  tool
   trail:  0
   ref:
-    - whatis/project
+    - whatis/topix
+    - whatis/tool
 ---
 
 # {{ site.data.name.description }}

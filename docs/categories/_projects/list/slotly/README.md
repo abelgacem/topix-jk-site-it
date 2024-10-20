@@ -2,6 +2,7 @@
 layout: topic
 mx:
   description:  A time slot booking written using Django.
+  tag: tool
 ---
 
 

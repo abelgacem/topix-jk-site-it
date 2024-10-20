@@ -23,6 +23,7 @@ markdown:     " `Markdown` "
 yaml:         " `YAML.` "
 # name@acronym 
 ## Tool
+pm:           "PM."  # "Package Managers"
 ssg:          "SSG." # "Static Sites Generators"
 scm:          "SCM." # "Source Content Management"
 rmt:          "RMT." # "Requirements Management Tools"

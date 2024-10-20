@@ -1,13 +1,11 @@
 ---
 mx:
   trail:  0
-  description:  Requirement mannagement tools
+  description:  List of Requirement Mannagement tools
 ---
 
 
 # {{ site.data.name.list }}
-
-
 
 |Name|Location|Type of Tool|Description|
 |-|-|-|-|

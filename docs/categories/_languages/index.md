@@ -3,7 +3,7 @@ layout: category
 mx:
   description:  Entry point for languages
   ref: 
-    - definition/language
+    - whatis/language
 ---
 
 
