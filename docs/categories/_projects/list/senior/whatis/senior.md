@@ -12,6 +12,8 @@ mx:
 
 # Public cible
 - principalement les seniors
+- ville ayant une grande proporiton de sénior
+  - Nord: Marcq-en-baroeul, St Andé
 
 # Type d'asistance et de support
 
