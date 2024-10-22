@@ -9,7 +9,7 @@ mx:
 ## Machine learning
 - ML. is acronym for **M**achine **L**earning.
 - A domain in computer science. A subdomain of {{ site.data.name.ai }}
-- The object of study is algorthims that gives the computer:
+- The object of study is algorthims that gives {{ site.data.name.ais }}:
   - the abilities to **learn**
   - the abilities to **make decision** on data and not on **explicit instructions**
 - Is about:
@@ -18,27 +18,16 @@ mx:
 
 ## Machine Learning Model
 - {{ site.data.name.aka }} Machine Learning algorithm.
-- An algorithm used by an {{ site.data.name.ais }}. 
-- Usually a mathamatical framework, designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
-  - Generating data, information, or documents.
-  - Producing various types of content, including text, images, and videos.
-- Uses data called **training data**.
+- An algorithm used by an {{ site.data.name.ais }} that was feed with data called **training data**.
 - Allows an {{ site.data.name.ais }} to:
   - **Learn** and **improve** its performance over time. 
   - **Recognize** some patterns in data it receives ({{ site.data.name.ie }} training, test or unknow Data).
-- Leverages learned patterns from training data to make **predictions** or **decisions**.
-- This learning ({{ site.data.name.aka }} training) enables an {{ site.data.name.ais }} to use the patterns it has learned to:
-  - Make **inferences** and **predictions**  on new, previously **unseen data**.
-  - Automate some tasks.
-- TODO: models a distribution
-- TODO: An algorithm or a mathematical framework designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
-  - Generating data, information, or documents.
-  - Producing various types of content, including text, images, and videos.
 
-
-
-
-
+## The Training
+- The {{ site.data.name.ais }} leverages **learned patterns** from **training data** to make predictions and decisions on some new input data.
+- This learning enables the {{ site.data.name.ais }}
+  - to make inferences on new, unseen data.
+  - to automate various tasks.
 
 
 # {{ site.data.name.class }} of Machine Learning Model
@@ -97,6 +86,15 @@ mx:
 - A Generative model models a joint distribution
 - The Generative model then generate some data that can be uses in many use case. {{site.data.name.eg}} 
   - Train another model called a discriminative AI model.
+
+- Usually a mathamatical framework, designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
+  - Generating data, information, or documents.
+  - Producing various types of content, including text, images, and videos.
+## Todo
+- models a distribution
+- An algorithm or a mathematical framework designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
+  - Generating data, information, or documents.
+  - Producing various types of content, including text, images, and videos.
 
 
 ## {{ site.data.name.class }}

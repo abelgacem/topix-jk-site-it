@@ -19,10 +19,9 @@ a set of abilities:
 
 ## {{ site.data.name.ais }}
 
-- A sytem ({{ site.data.name.eg }} entity, computer, {{ site.data.name.vm }}, application) that 
+- An application, a computer, a {{ site.data.name.vm }}, a set of resources that:
   - Has intelligence abilities.
   - Mimics human intelligence.
-  - TODO: Implement one or several AI models
 
 # {{ site.data.name.class }} of {{ site.data.name.ais }}
 The 2 main categories are:
