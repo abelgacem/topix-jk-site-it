@@ -1,1 +1,0 @@
-../list/tutorial_list.md

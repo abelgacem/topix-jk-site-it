@@ -1,5 +1,0 @@
----
-mx:
-  ref:
-    - whatis/liquid
----
