@@ -12,32 +12,33 @@ a set of abilities:
 - **Adapt** the behaviour to a changing environment or context.
 - **Solve** new problmems, **Adress** new situations and **Learn** from them.
 
-## AI
+## {{ site.data.name.ai }}
+- Acronym for **A**rtificial **I**ntelligence
 - A domain in computer science
-- The object of study is AI System
+- The object of study is {{ site.data.name.ais }}
 
 ## AI System
 
-Also know as **AI system** ({{ site.data.name.eg }} entity, computer, {{ site.data.name.vm }}, application) that 
+- A sytem ({{ site.data.name.eg }} entity, computer, {{ site.data.name.vm }}, application) that 
   - Has intelligence abilities.
-  - Mimics human intelligence
-- Implement one or several AI models
+  - Mimics human intelligence.
+  - TODO: Implement one or several AI models
 
 # {{ site.data.name.class }}
-The 2 **main categories** of IA: are:
+The 2 main categories are:
 
 |name|description|comment|
 |-|-|-|
 |General AI (AGI)|Aims to perform any intellectual task that a human can, with the ability to generalize knowledge.|Still theoretical|
 |Specialized AI (Narrow AI)|Designed to perform a specific task or a set of narrow tasks with high efficiency.|Siri, facial recognition systems|
 
-The **other categories** include:
+The other categories include:
 
 |name|description|comment|
 |-|-|-|
-|Generative AI (GenAI)|Generates new data based on learned patterns from training data.|GANs (Generative Adversarial Networks)|
-|Discriminative AI|Classifies data by learning decision boundaries between different categories.|Logistic regression, Random forest decision trees, SVMs, Simple neural networks|
-|Supervised Learning AI|Learns from labeled datasets to predict outputs for new data.|Image classification|
+|Generative AI (GenAI)|**Generates** new data by learning patterns from training data.|GANs (Generative Adversarial Networks)|
+|Discriminative AI|**Classifies** data by learning decision boundaries between different categories.|Logistic regression, Random forest decision trees, SVMs, Simple neural networks|
+|Supervised Learning AI|**Predicts** outputs for new data by learning from labeled datasets.|Image classification|
 |Unsupervised Learning AI|Finds patterns and structures in unlabeled data without explicit outputs.|Clustering (e.g., k-means)|
 |Reinforcement Learning AI|Learns by interacting with an environment and receiving feedback in the form of rewards.|AlphaGo, robotics|
 |Self-supervised Learning AI|Uses part of the data as labels, combining aspects of supervised and unsupervised learning.|GPT (pre-training language models)|
