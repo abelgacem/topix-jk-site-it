@@ -5,18 +5,21 @@ mx:
 ---
 
 # {{ site.data.name.definition }}
-- Acronym for **M**achine **L**earning.
-- a subdomain of {{ site.data.name.ai }}: the study of algorthims that gives the computer:
-  - the abilities to **learn**
-  - the abilities to **make decision** on data and **not explicit instructions**
-- The core of ML is about
-  - Training a computer to classify New inputs OR
-  - Predict new outputs based on existing inputs and outputs.  
 
-# Machine Learning model
+## Machine learning
+- ML. is acronym for **M**achine **L**earning.
+- A domain in computer science. a subdomain of {{ site.data.name.ai }}
+- The object of study is algorthims that gives the computer:
+  - the abilities to **learn**
+  - the abilities to **make decision** on data and not on **explicit instructions**
+- Is about:
+  - Training a computer to **classify** New inputs
+  - Learning a computer to **predict** new outputs based on existing inputs and outputs.  
+
+## Machine Learning model
 - {{ site.data.name.aka }} Machine Learning algorithm.
-- Consists of creating **Machine Learning algorthim/model** that are techiques, mechanisms used by an {{ site.data.name.ais }}.
-- These **Machine Learning model** Uses data called **training data**.
+- An algorithm used by an {{ site.data.name.ais }}.
+- Uses data called **training data**.
 - Allows an {{ site.data.name.ais }} to:
   - **Learn** and **improve** its performance over time. 
   - Recognize patterns.
