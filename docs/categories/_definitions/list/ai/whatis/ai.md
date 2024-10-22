@@ -60,5 +60,6 @@ The other categories include:
 |Computer that trains AI or humans|Specialized AI, nearly General AI|Reinforcement Learning, Transfer Learning, Hybrid AI|AutoML, AI teaching assistants|
 
 # {{site.data.name.toknow}}
+- Currently, most of {{site.data.name.ais}} used in IT. are **specialized {{site.data.name.ai}}**
 - **AutoML**: AI models that optimize another AI systems.
 - **Reinforcement Learning AI** AI models that teach itself and others.
