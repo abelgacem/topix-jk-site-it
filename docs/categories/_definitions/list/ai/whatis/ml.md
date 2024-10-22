@@ -1,7 +1,7 @@
 ---
 mx:
   description:  Machine Learning
-  trail: 2
+  trail: 1
 ---
 
 # {{ site.data.name.definition }}

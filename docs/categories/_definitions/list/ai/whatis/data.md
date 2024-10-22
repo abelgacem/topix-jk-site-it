@@ -1,7 +1,7 @@
 ---
 mx:
   description:  intelligence
-  trail: 3
+  trail: 2
 ---
 
 
