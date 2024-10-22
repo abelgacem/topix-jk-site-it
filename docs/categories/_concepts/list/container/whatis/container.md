@@ -1,11 +1,13 @@
 ---
 layout: topic
+mx:
+  trail: 0
 ---
 
 
 # Definition
 - 1 instance of 1 image
-- 1 evolution of the `linux`:concept:process to `linux`:concept:container
+- 1 evolution of the {{site.data.name.linux}}:concept:{{site.data.name.process}} to {{site.data.name.linux}}:concept:{{site.data.name.container}}
 - allows to 
   - Iisolate a tree of process
   - Run Applications's processes in 1 isolated environment

@@ -4,7 +4,6 @@ mx:
   trail: 2
 ---
 
-
 # {{ site.data.name.definition }}
 - Any quantity of image, text, audio, or video
 - The type of data used by an {{ site.data.name.ais }} depends on its purpose.
