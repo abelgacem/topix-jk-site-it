@@ -18,7 +18,7 @@ mx:
 
 ## Machine Learning Model
 - {{ site.data.name.aka }} Machine Learning algorithm.
-- An algorithm used by an {{ site.data.name.ais }} that was feed with data called **training data**.
+- An algorithm used by an {{ site.data.name.ais }} which is fed with data called **training data**.
 - Allows an {{ site.data.name.ais }} to:
   - **Learn** and **improve** its performance over time. 
   - **Recognize** some patterns in data it receives ({{ site.data.name.ie }} training, test or unknow Data).
