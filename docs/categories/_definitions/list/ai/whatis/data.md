@@ -4,7 +4,6 @@ mx:
   trail: 2
 ---
 
-hello $$a+b = 3$$
 
 # {{ site.data.name.definition }}
 - Any quantity of image, text, audio, or video
