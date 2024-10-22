@@ -12,3 +12,6 @@ mx:
 # docker desktop
 open -a Docker
 ```
+
+# solve copy/past in iTerm2
+- type : CTRL + R or reset
