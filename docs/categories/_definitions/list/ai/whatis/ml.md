@@ -44,15 +44,22 @@ mx:
   - usually works with a system of rewards and punishements.
 
 # {{ site.data.name.process }}
-Learning phase
-1. An {{ site.data.name.ais }} receives **training data**. 
-1. It learns from them
-1. How : it identifies **patterns**.
+- Learning phase
+  1. An {{ site.data.name.ais }} receives **training data**. 
+  1. It learns from them
+  1. How : it identifies **patterns**.
 
-Recognition phase
-1. The {{ site.data.name.ais }} receives **unseen data**. 
-1. It make predictions or infers something on the data.
-1. How : by recognizing the **patterns** it has learned.
+- Test phase
+  1. An {{ site.data.name.ais }} receives **test data**. 
+  1. It make predictions or infers something on the data.
+  1. How : it recognizes the **patterns** it has learned.
+  1. we compare it prediction or inference with the expected one
+
+- Recognition phase
+  1. The {{ site.data.name.ais }} receives **unseen data**. 
+  1. It make predictions or infers something on the data.
+  1. How : it recognizes the **patterns** it has learned.
+  1. we ises it prediction or inference in other system
 
 # {{ site.data.name.example }}
 - Learn to predict if an email is a spam or not, by reading many different emails of these 2 types
