@@ -1,7 +1,7 @@
 ---
 layout: topic
 mx:
-  description:  artificial intelligence system
+  description:  artificial intelligence
   trail: 0
 ---
 
@@ -61,5 +61,7 @@ The other categories that fall into General or Specialized {{ site.data.name.ais
 
 # {{site.data.name.toknow}}
 - Currently, most of {{site.data.name.ais}} used in IT. are **specialized {{site.data.name.ai}}**
+
+# {{site.data.name.todo}}
 - **AutoML**: AI models that optimize another AI systems.
 - **Reinforcement Learning AI** AI models that teach itself and others.

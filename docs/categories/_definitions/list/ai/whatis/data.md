@@ -22,10 +22,14 @@ mx:
 - The trained {{ site.data.name.ais }} search the underlying **patterns** within these data.
 
 # Synthetic data
+- {{site.data.name.aka}} 
+  - generated data
+  - outcome
 - Data produced by an {{ site.data.name.ais }}.
 - The data are completely new.
 
 # Test data
+A subset of the training data
 - Data used by an {{ site.data.name.ais }} to **test** what it learned.
 - The Data are well known to the human or {{ site.data.name.ais }} driving the training.
 - The trained {{ site.data.name.ais }} applies the **patterns** it has found to provide an outcomes.
