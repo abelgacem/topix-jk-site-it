@@ -31,13 +31,17 @@ mx:
 - supervised
   - the computer learns by making use of **labeled data**
   - each training data is labeled
-    - Example: mail that is spam or not. We feed the computer with mail that we know are spam are not
+    - Example: 
+      - mail that is spam or not. 
+      - We train the computer with mail that we know they are spam are not
 - unsupervised
   - the computer learns by making use of **unlabeled data**
-    - Example: categorize a book on basis of title and other infos
+    - Example: 
+      - categorize a book on basis of title and other infos.
+      - We train the computer with book we suppose it category.
 - enforcement
   - intelligent software agents take actions in 1 env and automatically try to improve its behavior
-  - usually works with a system of rewards and punishement
+  - usually works with a system of rewards and punishements.
 
 # {{ site.data.name.process }}
 Learning phase
