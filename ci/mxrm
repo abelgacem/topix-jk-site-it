@@ -1,0 +1,13 @@
+# Purpose:
+# - delete empty lines in jekyll site
+
+
+## user input
+lFOLDER_SITE_JK_NAME_SUFFIX=${1:-tool}
+
+## var for site
+lFOLDER_SITE="/tmp/site/${lFOLDER_SITE_JK_NAME_SUFFIX}"
+
+# action - delete empty lines
+echo -e "\n---- delete empty lines for files in  \e[31m${lFOLDER_SITE}\e[0m ----\n"
+find ${lFOLDER_SITE} -type f -name "*.html" -exec sed -i '/^[[:space:]]*$/d; /^\s*<!--.*-->$/d' {} +
