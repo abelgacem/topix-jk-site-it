@@ -3,7 +3,7 @@ mx:
   description:  Tools for AI
 ---
 
-{ {site.data.name.list }}
+# {{ site.data.name.list }}
 
 |name|tag|Url|description|
 |-|-|-|-|

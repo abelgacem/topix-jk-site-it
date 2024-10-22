@@ -4,7 +4,7 @@ mx:
 ---
 
 # {{ site.data.name.definition }}
-- A type of AI.
+- A type of {{ site.data.name.ai }} system
 - Made of 2 neural networks:
   - A generator
   - A dicriminator
