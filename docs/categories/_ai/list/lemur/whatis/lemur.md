@@ -1,4 +1,5 @@
 ---
+layout: topic
 mx:
   description:  intelligence
   trail: 1

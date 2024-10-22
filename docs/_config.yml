@@ -54,6 +54,8 @@ mx:
 # Collection udef
 collections_dir: categories
 collections:
+  ai: 
+    output: true
   clouds: 
     output: true
   concepts: 
