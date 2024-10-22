@@ -18,35 +18,46 @@ mx:
 
 ## Machine Learning Model
 - {{ site.data.name.aka }} Machine Learning algorithm.
-- An algorithm used by an {{ site.data.name.ais }}.
+- An algorithm used by an {{ site.data.name.ais }}. 
+- Usually a mathamatical framework, designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
+  - Generating data, information, or documents.
+  - Producing various types of content, including text, images, and videos.
 - Uses data called **training data**.
 - Allows an {{ site.data.name.ais }} to:
   - **Learn** and **improve** its performance over time. 
   - **Recognize** some patterns in data it receives ({{ site.data.name.ie }} training, test or unknow Data).
+- Leverages learned patterns from training data to make **predictions** or **decisions**.
 - This learning ({{ site.data.name.aka }} training) enables an {{ site.data.name.ais }} to use the patterns it has learned to:
   - Make **inferences** and **predictions**  on new, previously **unseen data**.
   - Automate some tasks.
+- TODO: models a distribution
+- TODO: An algorithm or a mathematical framework designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
+  - Generating data, information, or documents.
+  - Producing various types of content, including text, images, and videos.
+
+
+
+
+
+
 
 # {{ site.data.name.class }} of Machine Learning Model
-- supervised
+- supervised ML.
   - the computer learns by making use of **labeled data**
   - each training data is labeled
     - Example: 
       - mail that is spam or not. 
       - The computer is trained with mail that we know they are spam are not.
-- unsupervised
+- unsupervised ML.
   - the computer learns by making use of **unlabeled data**
     - Example: 
       - categorize a book on basis of title and other infos.
       - the computer is trained with books that we ignore their category.
-- enforcement
+- enforcement ML.
   - intelligent software agents take actions in 1 env and automatically try to improve its behavior
   - usually works with a system of rewards and punishements.
-
-# {{ site.data.name.class }}
-- Supervised Machine Learning
-- Unsupervised Machine Learning
 - Bias and Variance
+
 - Evaluation Metrics.
 
 
@@ -69,6 +80,27 @@ mx:
   1. we ises it prediction or inference in other system
 
 
+# {{ site.data.name.example }}
+- Model that generate images to create avatar for a game
+
+# {{ site.data.name.toknow }}
+- The {{ site.data.name.ml }} models that makes prediction are **disciminator model**.
+- The mathematical framework could be:
+  - Linear regression.
+  - Decision trees.
+  - Neural networks.
+
+
 # {{ site.data.name.todo }}
 - model can be overfit or underfit to the training data
 - datapoint
+- A Generative model models a joint distribution
+- The Generative model then generate some data that can be uses in many use case. {{site.data.name.eg}} 
+  - Train another model called a discriminative AI model.
+
+
+## {{ site.data.name.class }}
+- Generative
+- Discriminative
+- Large Language
+

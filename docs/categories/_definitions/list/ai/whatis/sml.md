@@ -9,15 +9,20 @@ mx:
 - text, images, videos.
 
 ## {{ site.data.name.usecase }}
-- we want to recognize 1 type of flower ({{ site.data.name.aka }} **target, class or label**)
-- these flowers has attributes ({{ site.data.name.aka }} **features,attributes, predictors**) 
+### Purpose of the {{ site.data.name.ais }}
+- Recognize 1 type of flower ({{ site.data.name.aka }} **target, class or label**)
+### The data
+- these flowers have attributes ({{ site.data.name.aka }} **features,attributes, predictors**) 
   - att1 : sepal length
   - att2 : sepal width
   - att3 : petal length
   - att4 : petal width
 - each set of **features** for 1 **flower** define 1 **target**
 
-## mathematical model
+### mathematical objects
+- the **target** ({{ site.data.name.aka }} **class or label**) one category of flowers
+- the **features** ({{ site.data.name.aka }} **attributes, predictors**) the set of attributes for 1 flowers.
+
 
 |real life object||mathematical object|
 |-|-|-|
