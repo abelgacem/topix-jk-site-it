@@ -22,7 +22,7 @@ mx:
 - Uses data called **training data**.
 - Allows an {{ site.data.name.ais }} to:
   - **Learn** and **improve** its performance over time. 
-  - Recognize patterns.
+  - **Recognize** patterns in data it receives ({{ site.data.name.ais }} training, test or unknow Data).
 - This learning ({{ site.data.name.aka }} training) enables an {{ site.data.name.ais }} to use the patterns it has learned to:
   - Make **inferences** and **predictions**  on new, previously **unseen data**.
   - Automate some tasks.
