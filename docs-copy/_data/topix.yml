@@ -1,0 +1,15 @@
+# name@common
+## object
+domain:     " `Domain` "
+config:     " `_config.yml` "
+category:   " `Category` "
+section:    " `Section` "
+topic:      " `Topic` "
+stopic:     " `STopic` "
+classifier: " `Classifier` "
+list:       " `List` "
+howto:      " `Howto` "
+whatis:     " `Whatis` "
+tutorial:   " `Tutorial` "
+## acronym
+dom:        " Documentation Model"

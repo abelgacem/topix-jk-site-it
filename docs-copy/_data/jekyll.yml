@@ -1,0 +1,7 @@
+# name@common
+
+## object
+layout:     " `Layout` "
+
+## folder
+include:     " `_includes` "

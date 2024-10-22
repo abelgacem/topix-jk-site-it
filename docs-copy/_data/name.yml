@@ -1,0 +1,48 @@
+# name@common
+## 
+framework:    " `framework` "
+front:        " `front` "
+back:         " `back` "
+## tool
+anthora:      " `Anthora` "
+bootstrap:    " `Bootstrap` "
+docusaurus:   " `Docusaurus` "
+git:          " `Git` "
+hugo:         " `Hugo` "
+jekyll:       " `Jekyll` "
+topix:        " `Topix` "
+vscode:       " `VSCode` "
+## language
+bash:         " `Bash` "
+java:         " `Java` "
+jinja:        " `Jinja` "
+latex:        " `Latex` "
+liquid:       " `Liquid` "
+mermaid:      " `Mermaid` "
+markdown:     " `Markdown` "
+yaml:         " `YAML.` "
+
+# name@acronym 
+## project
+smart:        "SMART" # "Simple Measurable Achievable Relevant Time-Bound"
+kpi:          "KPI."  # "Key Process Indicator"
+## Tool
+pm:           "PM."  # Package Managers
+ssg:          "SSG." # Static Sites Generators
+scm:          "SCM." # Source Content Management
+rmt:          "RMT." # Requirements Management Tools
+alm:          "ALM." # Application Lifecycle Management Tools
+## Computer
+vm:           "VM."  # Virtual Machine
+api:          "API." # Application Programing Interface
+cli:          "CLI." # Command Line Interface
+## AI
+ai:           "AI."  # Artificial Intelligence
+ais:          "AI. System"  # Artificial Intelligence
+llm:          "LLM." # Large Language Model
+ml:           "ML."  # Machine Learning 
+nlp:          "NLP." # Natural Language Processing
+gan:          "GAN." # Generative Adversarial Network
+## Language
+dsl:          "DSL." # "Domain Specific Language"
+ml:           "ML."  # "Markup Language"

@@ -1,0 +1,6 @@
+- ${HOME%/}/${gd_FOLDER_USER_SSH}/config.d
+- ${HOME%/}/${gd_FOLDER_USER_WKSPC}
+- ${HOME%/}/${gd_FOLDER_USER_GIT}
+- ${HOME%/}/${gd_FOLDER_USER_LIB}
+- ${HOME%/}/${gd_FOLDER_USER_VAR}
+- ${HOME%/}/${gd_FOLDER_USER_ALIAS}

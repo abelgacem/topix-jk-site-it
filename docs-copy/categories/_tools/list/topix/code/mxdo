@@ -1,0 +1,55 @@
+# Purpose:
+# - build theme (ie. gem)
+# - install theme in local gem repo
+# - build and publish jk site
+
+# define var
+lFOLDER_CURRENT="${HOME}"
+
+## user input
+lFOLDER_SITE_JK_NAME_SUFFIX=${1:-tool}
+
+## var for site
+lFOLDER_SITE="/tmp/site/${lFOLDER_SITE_JK_NAME_SUFFIX}"
+## var for theme
+lFOLDER_THEME_JK_ROOT="${HOME}/wkspc/git/jekyll/theme"
+lFOLDER_THEME_JK_NAME="topix-jk-theme-01"
+lFOLDER_THEME_JK_PATH="${lFOLDER_THEME_JK_ROOT}/${lFOLDER_THEME_JK_NAME}"
+lFILE_GEMSPEC_THEME="${lFOLDER_THEME_JK_NAME}.gemspec"
+lFILE_GEM_THEME_NAME="${lFOLDER_THEME_JK_NAME}$(ls -l $lFOLDER_THEME_JK_PATH/* | grep gem$ | awk -F '-' '{print "-"$NF}')"
+lVERSION_THEME="${lFOLDER_THEME_JK_NAME}.gemspec"
+## var for project
+lFOLDER_SITE_JK_ROOT="${HOME}/wkspc/git/jekyll/site"
+lFOLDER_SITE_JK_NAME="topix-jk-site-${lFOLDER_SITE_JK_NAME_SUFFIX}/docs"
+lFOLDER_SITE_JK_PATH="${lFOLDER_SITE_JK_ROOT}/${lFOLDER_SITE_JK_NAME}"
+
+
+# action
+cd ${lFOLDER_THEME_JK_PATH}
+echo -e "\n---- build theme from $lFILE_GEMSPEC_THEME ----\n"
+gem build ${lFILE_GEMSPEC_THEME}    && \
+echo -e "\n---- install theme $lFILE_GEM_THEME_NAME ----\n"
+gem install ${lFILE_GEM_THEME_NAME} && \
+cd ${lFOLDER_CURRENT}
+
+# action
+echo -e "\n---- kill existing server ----\n"
+# kill server if exists 
+ps -ef | grep jekyll | grep serve | awk '{print $2}' | xargs -r kill -9
+
+
+# action
+cd ${lFOLDER_SITE_JK_PATH}
+echo -e "\n---- build and serve site \e[31m${lFOLDER_SITE_JK_NAME}\e[0m ----\n"
+bundle exec jekyll serve --livereload &
+# bundle exec jekyll serve --detach # does not authorized --livereload
+
+# Wait until at least one .html file is created
+while [ ! "$(find ${lFOLDER_SITE} -type f -name "*.html" -print -quit)" ]; do
+    sleep 1  # Check every second
+done
+
+# action - delete empty lines
+sleep 2
+echo -e "\n---- delete empty lines for files in  \e[31m${lFOLDER_SITE}\e[0m ----\n"
+find ${lFOLDER_SITE} -type f -name "*.html" -exec sed -i '/^[[:space:]]*$/d' {} +
