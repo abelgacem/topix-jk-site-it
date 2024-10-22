@@ -52,21 +52,21 @@ mx:
 
 # {{ site.data.name.process }}
 - Learning phase
-  1. An {{ site.data.name.ais }} receives **training data**. 
-  1. It learns from them
-  1. How : it identifies **patterns**.
+  1. The {{ site.data.name.ais }} receives **training data**. 
+  1. It learns from this **dataset**
+  1. How : it identifies **patterns** inside the data.
 
 - Test phase
-  1. An {{ site.data.name.ais }} receives **test data**. 
+  1. The {{ site.data.name.ais }} receives **test data**. 
   1. It make predictions or infers something on the data.
-  1. How : it recognizes the **patterns** it has learned.
-  1. we compare it prediction or inference with the expected one
+  1. How : it identifies **patterns** it has learned from **training data** inside the data.
+  1. check: compare prediction or inference with the expected oneoutcome.
 
 - Recognition phase
   1. The {{ site.data.name.ais }} receives **unseen data**. 
   1. It make predictions or infers something on the data.
-  1. How : it recognizes the **patterns** it has learned.
-  1. we ises it prediction or inference in other system
+  1. How : it recognizes the **patterns** it has learned from **training data** inside **unseen data**.
+  1. Use this predictions or inferences in other system.
 
 
 # {{ site.data.name.example }}
@@ -90,6 +90,7 @@ mx:
 - Usually a mathamatical framework, designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
   - Generating data, information, or documents.
   - Producing various types of content, including text, images, and videos.
+
 ## Todo
 - models a distribution
 - An algorithm or a mathematical framework designed to perform specific tasks or functiuns. {{site.data.name.eg}}:
