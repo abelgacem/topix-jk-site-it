@@ -1,8 +1,0 @@
----
-mx:
-  description:  intelligence
-  trail: 
----
-
-
-
