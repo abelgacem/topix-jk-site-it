@@ -14,6 +14,7 @@ mx:
 - synthetic
 - test
 - unknow
+- labeled vs unlabeled
 
 # Training data
 - Data used by an {{ site.data.name.ais }} to **learn**.
@@ -33,3 +34,8 @@ mx:
 - Data used by an {{ site.data.name.ais }} that is not **test** data nor **training** data.
 - The Data is partially known by the human or {{ site.data.name.ais }}.
 - The trained {{ site.data.name.ais }} applies the **patterns** it has found to provide an outcomes.
+
+# Labeled data
+
+
+# Unlabeled data
