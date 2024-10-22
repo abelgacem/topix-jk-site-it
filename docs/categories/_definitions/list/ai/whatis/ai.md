@@ -17,14 +17,14 @@ a set of abilities:
 - A domain in computer science
 - The object of study is {{ site.data.name.ais }}
 
-## AI System
+## {{ site.data.name.ais }}
 
 - A sytem ({{ site.data.name.eg }} entity, computer, {{ site.data.name.vm }}, application) that 
   - Has intelligence abilities.
   - Mimics human intelligence.
   - TODO: Implement one or several AI models
 
-# {{ site.data.name.class }}
+# {{ site.data.name.class }} of {{ site.data.name.ais }}
 The 2 main categories are:
 
 |name|description|comment|
@@ -32,7 +32,7 @@ The 2 main categories are:
 |General AI (AGI)|Aims to perform any intellectual task that a human can, with the ability to generalize knowledge.|Still theoretical|
 |Specialized AI (Narrow AI)|Designed to perform a specific task or a set of narrow tasks with high efficiency.|Siri, facial recognition systems|
 
-The other categories include:
+The other categories that fall into General {{ site.data.name.ais }} or specialized {{ site.data.name.ais }}include:
 
 |name|description|comment|
 |-|-|-|
