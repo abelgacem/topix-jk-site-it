@@ -32,7 +32,7 @@ The 2 main categories are:
 |General AI (AGI)|Aims to perform any intellectual task that a human can, with the ability to generalize knowledge.|Still theoretical|
 |Specialized AI (Narrow AI)|Designed to perform a specific task or a set of narrow tasks with high efficiency.|Siri, facial recognition systems|
 
-The other categories that fall into General {{ site.data.name.ais }} or specialized {{ site.data.name.ais }}include:
+The other categories that fall into General or Specialized {{ site.data.name.ais }} include:
 
 |name|description|comment|
 |-|-|-|
