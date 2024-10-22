@@ -6,6 +6,18 @@ mx:
 ---
 
 # {{ site.data.name.definition }}
+## Inteligence
+a set of abilities:
+- **Learn** new informations, knowledges, skills or understanding.
+- **Adapt** the behaviour to a changing environment or context.
+- **Solve** new problmems, **Adress** new situations and **Learn** from them.
+
+## AI
+- A domain in computer science
+- The object of study is AI System
+
+## AI System
+
 Also know as **AI system** ({{ site.data.name.eg }} entity, computer, {{ site.data.name.vm }}, application) that 
   - Has intelligence abilities.
   - Mimics human intelligence
