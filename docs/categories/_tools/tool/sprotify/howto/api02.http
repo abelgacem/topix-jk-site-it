@@ -1,0 +1,15 @@
+# File to use with Vscode:Extension:REST CLIENT
+
+#Define Var - 
+@MyHost01=https://api.funtranslations.com
+@EP01=translate
+@EP0101=pirate
+@Param_Text=text
+###
+POST {{MyHost01}}/{{EP01}}/{{EP0101}}
+Content-Type: application/json
+
+{
+    "text":"Hello man"
+}
+###
