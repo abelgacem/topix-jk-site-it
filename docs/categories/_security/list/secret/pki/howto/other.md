@@ -1,6 +1,4 @@
 ---
-draft : true
-mx:  
 ---
 
 # Crypt and decrypt in python

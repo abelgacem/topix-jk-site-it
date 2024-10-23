@@ -1,8 +1,4 @@
 ---
-draft : false
-mx:
-  lp: 0
-  ref:
 ---
 
 # Acronym

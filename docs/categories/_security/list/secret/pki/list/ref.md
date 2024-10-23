@@ -1,6 +1,4 @@
 ---
-draft : true
-mx:  
 ---
 
 # List

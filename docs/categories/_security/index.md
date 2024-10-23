@@ -1,7 +1,7 @@
 ---
 layout: category
 mx:
-  description:  Entry point for Security
+  description:  Entry point for Security and items to secure
 ---
 
 

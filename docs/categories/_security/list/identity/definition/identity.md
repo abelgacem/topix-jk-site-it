@@ -1,10 +1,4 @@
 ---
-draft : false
-mx:
-  lp: 0
-  ref:
-    child:
-      - definition/provider
 ---
 
 # Defiition

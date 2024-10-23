@@ -1,8 +1,4 @@
 ---
-draft : false
-mx:
-  lp:
-  ref:
 ---
 
 # Defiition

@@ -1,10 +1,4 @@
 ---
-draft : false
-mx:
-  index: list
-  ref:
-    child:
-      - definition/mfa
 ---
 
 # Acronym
