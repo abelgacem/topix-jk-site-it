@@ -2,8 +2,8 @@
 ---
 
 # Definition
-- is one acronym (Common Vulnerabilities and Exposures)
-- identifies a publicly known cybersecurity vulnerabilities
+- Acronym for Common Vulnerabilities and Exposures.
+- identifies a publicly known cybersecurity vulnerabilities.
 
 # Member
 - id

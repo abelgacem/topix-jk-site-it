@@ -3,7 +3,7 @@
 
 # {{site.data.name.definition}}
 - A set of functions, capacities to support specific needs.
-- Usually offered by a provider.
+- Usually offered by a provider or a server.
 - Typically delivered through a platform or network.
 - Is characterized by 
   - its purpose (what it accomplishes).

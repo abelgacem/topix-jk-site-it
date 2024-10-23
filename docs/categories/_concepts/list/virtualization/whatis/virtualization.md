@@ -8,36 +8,40 @@ mx:
 - Derived from the verb "virtualize".
 - It consists of **abstracting** ({{site.data.name.ie}} replacing) one or more concrete, physical resources by code ({{site.data.name.ie}} algorithms).
 
-# How to Virtualize
+# How it works
 The virtualization process typically involves these phases:
   - Modeling the physical resource.
-    - Creating a digital representation of the physical resource.
+    - Concepting a digital representation of the physical resource.
   - Coding the Model.
-    - Implementing the model through code: 
+    - Implementing the model through code. 
     - Developing software that **mimics** the behavior of the resource.
   - **Runing the Code**
     - Integrating the virtual resource into a broader {{site.data.name.it}} system, allowing it to function as part of the overall infrastructure.
 
 # What can be and is virtualized
 - memory, processor, storage.
-- Network and network device.
-- applications, commonly referred to as **containerized applicarion**.
+- Network and network devices.
+- applications, commonly referred to as **containerized application**.
+  - client application.
+  - server application.
 - computers, commonly referred to as {{site.data.name.vm}} (**Virtual Machines**).
-- Desktops computer (VDI. Virtual Desktop Infrastructure).
-- Datacenter (SDDC. Software-defined data centers).
-- And more recently, **intelligence** with the rise of {{site.data.name.ai} and {site.data.name.ml}}. Such resource are refered as {{site.data.name.ais}}.
+- Desktop computers, referred to as VDI. (Virtual Desktop Infrastructure).
+- Datacenter, referred to as VDI SDDC. (Software-defined data centers).
+- And more recently, **intelligence** with the rise of {{site.data.name.ai} and {site.data.name.ml}},  commonly referred to as {{site.data.name.ais}}.
 
 # What mean "run the code"
 It means
-- The code runs in an **isolated environment**.
-- The isolated environment runs inside another environment refered as the Host Environment.
-- The isolated environment needs a runtime on the Host.
+- The code is an **isolated environment** OR 
+- The code runs inside an **isolated environment**.
 
-# What mean "isolated environement"
-It depends:
-- if it is a virtual os:   it is an  **hypervisor**
-- if it is virtual   application, it can be a **{{site.data.name.vm}}** or a **container**
-- if it is a container, it can be a **{{site.data.name.vm}}** or a **container**
+
+# What is an "isolated environement"
+- Is often refered as the **Guest**.
+- Runs inside another environment refered as the **Host**.
+- Needs a dependency on the **Host** to run, refered as 
+  - the **container runtime** (for a container)
+  - the **hypervisor**        (for a {{site.data.name.vm}}).
+
 
 # Why Virtualize
 
@@ -59,26 +63,31 @@ Virtualization offers several key advantages:
 - However, due to the numerous benefits and the flexibility it offers, virtualization is adopted wherever possible.
 
 
-# Definition
+# {{site.data.name.toknow}}
 
-- VM runs 1 OS among N
-- VM in VM
-- Container in VM
-- Container in Container
+- {{site.data.name.vm}} runs 1 {{site.data.name.os}} with its own kernel.
+- Container runs 1 lightweight {{site.data.name.os}} and share the Host {{site.data.name.os}} kernel.
+- {{site.data.name.vm}} can run within a {{site.data.name.vm}}. It's rarely recomended
+- Container usually runs within a {{site.data.name.vm}}.
+- Container can run within a container (in very specific context).
+- Historcally:
+  - Linux Guest OS (Linux) runs inside a Linux Host
+  - Linux Guest OS (Linux) runs inside a Windows Host (WSL)
+  - The concept of isolated environments began with Linux cgroups (control groups), which enabled process and resource isolation.
 
 
 # Example
-- Microsoft 365 or Google Workspace, allow users to run applications in a virtualized environment through a browser
-- Container allows applications to be virtualized by packaging them along with all their dependencies.
+- Microsoft 365 or Google Workspace, allow users to run applications in a virtualized environment streamed through a browser.
 - VDI  - virtual desktop interface are virtual desktop computer hosted on a central server streamed to the end user (e.g., Citrix, VMware Horizon).
 - Tools like Salesforce or Adobe Creative Cloud allow users to work from a browser or thin client without worrying about local hardware compatibility.
 - Software like VMware ThinApp or Microsoft App-V lets businesses package applications so that they can run in isolated virtual environments on different devices.
 
 # Historically
-- Run a Guest OS (eg. Linux)) inside a Host OS (eg. Windows/Linux) 
-  - Isolate processes that runs inside the Guest FROM the processes that run inside the Host OS
-  - Windows WSL 
 
+- 1 evolution of the {{site.data.name.linux}}:concept:{{site.data.name.process}} to {{site.data.name.linux}}:concept:{{site.data.name.container}}
+- allows to 
+  - Iisolate a tree of process
+  - Run Applications's processes in 1 isolated environment
 
 
 # Additional Key Questions

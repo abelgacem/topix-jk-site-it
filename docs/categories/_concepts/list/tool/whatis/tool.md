@@ -6,7 +6,7 @@ layout: topic
 ## synonym
 - software
 - application
-- service
+- service, server
 - Api
 
 # Type

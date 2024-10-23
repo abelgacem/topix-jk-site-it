@@ -1,5 +1,0 @@
----
----
-
-# definition
-- synoym fo naming

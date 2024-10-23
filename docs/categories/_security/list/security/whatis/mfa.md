@@ -2,4 +2,9 @@
 ---
 
 # Definition
-- Users must authenticate with another a second source of trust (eg. samrtphone:sms, samrtphone:app)
+- Acronym for Multi Factor Authentication.
+- Users must authenticate with a second source of trust
+
+# Source of trust
+- samrtphone sms, mail or app
+- computer mail, app or message.
