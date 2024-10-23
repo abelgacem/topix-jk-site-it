@@ -1,6 +1,10 @@
 ---
+draft : true
+mx: 
+  index:  list
+  
+  lp: 1
 ---
-   
 
 # Definition
 common def

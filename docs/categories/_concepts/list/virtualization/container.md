@@ -1,11 +1,28 @@
 ---
-layout: topic
 mx:
-  trail: 0
+  ref:
+    - whatis/containerization
 ---
 
 
-# Definition
+# {{site.data.name.definition}}
+- An isolated environment
+- An instance of an image
+- Runs in a {{site.data.name.vm}} or in a container
+- Light (compare to VM)
+- Portable across OS
+- Only needs a **container runtime**
+- Shares resources with the Host {{site.data.name.vm}} OS:
+  - kernel
+- Can define specific resources:
+  - User space
+  - process space
+
+- Provide its own 
+  - libraries
+  - binaries
+  - configuration files
+
 - 1 instance of 1 image
 - 1 evolution of the {{site.data.name.linux}}:concept:{{site.data.name.process}} to {{site.data.name.linux}}:concept:{{site.data.name.container}}
 - allows to 

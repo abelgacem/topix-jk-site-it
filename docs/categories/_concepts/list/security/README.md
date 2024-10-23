@@ -2,6 +2,9 @@
 layouy: topic
 ---
 
+# iam
+- define who can access what
+
 # definition
 ## use case
 HashiCorp 

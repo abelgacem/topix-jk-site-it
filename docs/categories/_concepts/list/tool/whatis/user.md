@@ -6,7 +6,7 @@
 
 # Type
 
-- [not]real
+- [not]real (aka. virtual)
 
 ## do action
 lexical field

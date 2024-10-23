@@ -3,16 +3,10 @@ layout: topic
 ---
 
 # Term
-- Pm = Physical machine
-- Vm = Virtual machine
-- Os = Operating system
+- PM = Physical Machine
+- VM = Virtual Machine
+- OS = Operating System
 
-# Definition
-
-- Vm need an 1..N OS
-- Vm vs Pm
-- Vm in Vm
-- docker container in one VM
 
 # Good container
 - any services
@@ -26,20 +20,15 @@ layout: topic
   - ...
 
 # To know
-- the continer is or not the same in 
-  - dev
-  - uat
-  - staging
-  - prod
-  - test
-  - homol
-  - preprod
+- The container should or not the same in the different environment (eg. test, dev, uat, staging, prod, test, homol, preprod, isoprod)
+
 # Todo
 - dind = docker in docker
-- vnv = vm in vm
+- vnv  = vm in vm
+# container as a services
+a container that provide one or more services. eg.
 - container:ansible   as a service to provision          1 Vm or Container
 - container:vault     as a service to provide secret to  1 Vm or Container
 - container:terraform as a service to provision infra on 1 Vm or Container
 - container:aws       as a service to act on 1 Aws
-- 1 container for 1 service
-- 1 container for 1 service
+
