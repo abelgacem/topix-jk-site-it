@@ -33,7 +33,7 @@ github_username:  jekyll
 # Build settings
 # permalink: pretty
 # markdown:  kramdown
-highlighter: rouge
+# highlighter: rouge
 # kramdown:
 #   input: GFM
 #   syntax_highlighter_opts:
