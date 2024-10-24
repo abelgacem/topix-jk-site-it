@@ -3,5 +3,6 @@ mx:
 ---
 
 # {{site.data.name.list}}
-- VM
-
+- single VM
+- Mx plan
+- Domain name
