@@ -1,7 +1,6 @@
 ---
 mx:
-  ref:
-    - whatis/virtualization
+  trail: 2
 ---
 
 

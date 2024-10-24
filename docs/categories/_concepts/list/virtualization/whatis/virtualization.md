@@ -1,22 +1,13 @@
 ---
 layout: topic
 mx:
+  trail: 0
 ---
 
 
 # {{site.data.name.definition}}
 - Derived from the verb "virtualize".
 - It consists of **abstracting** ({{site.data.name.ie}} replacing) one or more concrete, physical resources by code ({{site.data.name.ie}} algorithms).
-
-# How it works
-The virtualization process typically involves these phases:
-  - Modeling the physical resource.
-    - Concepting a digital representation of the physical resource.
-  - Coding the Model.
-    - Implementing the model through code. 
-    - Developing software that **mimics** the behavior of the resource.
-  - **Runing the Code**
-    - Integrating the virtual resource into a broader {{site.data.name.it}} system, allowing it to function as part of the overall infrastructure.
 
 # What can be and is virtualized
 - memory, processor, storage.
@@ -26,21 +17,30 @@ The virtualization process typically involves these phases:
   - server application.
 - computers, commonly referred to as {{site.data.name.vm}} (**Virtual Machines**).
 - Desktop computers, referred to as VDI. (Virtual Desktop Infrastructure).
-- Datacenter, referred to as VDI SDDC. (Software-defined data centers).
-- And more recently, **intelligence** with the rise of {{site.data.name.ai}} and {site.data.name.ml}},  commonly referred to as {{site.data.name.ais}}.
+- Datacenter, referred to as SDDC. (Software-defined data centers).
+- And more recently, **intelligence** in {{site.data.name.ais}} with the rise of {{site.data.name.ai}} and {{site.data.name.ml}}.
 
-# What mean "run the code"
-It means
-- The code is an **isolated environment** OR 
-- The code runs inside an **isolated environment**.
+# How it works
+The virtualization process typically involves these phases:
+  - Model the physical resource.
+    - Concepting a digital representation of the physical resource.
+  - Code the Model.
+    - Implement the model through code. 
+    - Develope software that **mimics** the behavior of the resource.
+  - **Runing the Code**
+    - Integrating the virtual resource into a broader {{site.data.name.it}} system, allowing it to function as part of the overall infrastructure.
+
+## What mean "run the code"
+It means that the code is an **isolated environment** OR that it runs within an **isolated environment**.
 
 
-# What is an "isolated environement"
-- Is often refered as the **Guest**.
-- Runs inside another environment refered as the **Host**.
-- Needs a dependency on the **Host** to run, refered as 
+## What is an "isolated environement"
+- It is often refered as the **Guest** because it runs within another environment refered as the **Host**.
+- To run on the **Host**, it needs a dependency called 
   - the **container runtime** (for a container)
   - the **hypervisor**        (for a {{site.data.name.vm}}).
+
+
 
 
 # Why Virtualize
@@ -65,15 +65,16 @@ Virtualization offers several key advantages:
 
 # {{site.data.name.toknow}}
 
-- {{site.data.name.vm}} runs 1 {{site.data.name.os}} with its own kernel.
-- Container runs 1 lightweight {{site.data.name.os}} and share the Host {{site.data.name.os}} kernel.
-- {{site.data.name.vm}} can run within a {{site.data.name.vm}}. It's rarely recomended
-- Container usually runs within a {{site.data.name.vm}}.
-- Container can run within a container (in very specific context).
+- A {{site.data.name.vm}} runs 1 {{site.data.name.os}} with its own kernel.
+- A Container runs 1 lightweight {{site.data.name.os}} and share the Host {{site.data.name.os}} kernel.
+- A {{site.data.name.vm}} can run within a {{site.data.name.vm}} (in very specific context).
+- A Container usually run within a {{site.data.name.vm}}.
+- A Container can run within a container (in very specific context).
 - Historcally:
+  - The conternairization is the evolution of the concept of isolating a tree of process or runs an applications's processes in 1 isolated environment.
+  - The concept of isolated environments began with Linux cgroups (control groups), which enabled process and resource isolation.
   - Linux Guest OS (Linux) runs inside a Linux Host
   - Linux Guest OS (Linux) runs inside a Windows Host (WSL)
-  - The concept of isolated environments began with Linux cgroups (control groups), which enabled process and resource isolation.
 
 
 # Example
@@ -82,12 +83,7 @@ Virtualization offers several key advantages:
 - Tools like Salesforce or Adobe Creative Cloud allow users to work from a browser or thin client without worrying about local hardware compatibility.
 - Software like VMware ThinApp or Microsoft App-V lets businesses package applications so that they can run in isolated virtual environments on different devices.
 
-# Historically
 
-- 1 evolution of the {{site.data.name.linux}}:concept:{{site.data.name.process}} to {{site.data.name.linux}}:concept:{{site.data.name.container}}
-- allows to 
-  - Iisolate a tree of process
-  - Run Applications's processes in 1 isolated environment
 
 
 # Additional Key Questions

@@ -1,34 +1,35 @@
 ---
 mx:
-  ref:
-    - whatis/containerization
+  trail: 1
 ---
 
 
 # {{site.data.name.definition}}
+
+## Containerization
+- Derived from the noun "container".
+- {{site.data.name.aka}} application's virtualization
+- It consists of packaging an application and its dependencies into a image then instanciate a container from that image
+
+## Container
 - An isolated environment
-- An instance of an image
-- Allows applications to be virtualized by packaging them along with all their dependencies.
-- Often run whtitn a {{site.data.name.vm}}.
+- An instance of an **image**
+- Allows applications to be virtualized.
+- Usually run whtitn a {{site.data.name.vm}}.
 - Can run within a container in very specific contexts (k8s).
-- Needs a **container `runtime`** to be installed on the {{site.data.name.vm}}.
+- Needs a **container runtime** to be installed on the {{site.data.name.vm}}.
 - Shares resources with the {{site.data.name.vm}}:
   - the kernel's {{site.data.name.os}}. 
-- Have specific resources:
+- Has specific resources:
   - The Process space
 - Can define specific resources:
   - User space
-  - process space
   - libraries
   - binaries
   - configuration files
 
 
-To simplify the presentation, we can reduce the complexity by focusing on clarity and using a cleaner layout. Here's an approach where the information is split into clear, well-defined blocks with minimal overlap, more like a flowchart or segmented diagram:
-
----
-
-# {{site.date.name.class}}
+# {{site.data.name.class}}
 Containers can be categorized based on some of their charasteritics.
 
 ## Container Runtimes
@@ -50,10 +51,31 @@ The category of application they host:
 
 ## Security Features
 The security model they use:
-- Root containers (run as root user, elevated privileges)
-- Rootless containers (do not require root user, providing enhanced security)
+- `Root` containers (run as root user, elevated privileges)
+- `Rootless` containers (do not require root user, providing enhanced security)
+
+## {{site.data.name.toknow}}
+
+- 1 container of type `rootless` is 1 container for which the root user within the container is not the root user within the Host.
 
 
-# {{site.data.name.toknow}}
-container of type  `rootless` 
-- 1 rootless container is 1 container for which the root user within the container is not the root user within the Host.
+
+
+# Todo
+- Should the container be the same in the all environment (eg. test, dev, uat, staging, prod, test, homol, preprod, isoprod).
+- what must guide the choice of the container runtime (Eg: Docker, CRI-O, containerd)
+- when used 
+  - dind = docker in docker
+  - vnv  = vm in vm
+
+# Container Image
+- create a sevtion on this topic
+
+
+# container as a services
+interresting service image to build:
+- {{site.data.name.git}}       as a service to manage             any Git repository
+- {{site.data.name.ansible}}   as a service to provision          a fleet of {{site.data.name.vm}} or container
+- {{site.data.name.vault}}     as a service to provide secret to  1 application
+- {{site.data.name.terraform}} as a service to provision infra on 1 cloud
+- {{site.data.name.aws}}       as a {{site.data.name.cli}} to act on             1 Aws cloud

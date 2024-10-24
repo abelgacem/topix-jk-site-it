@@ -4,20 +4,24 @@ framework:    " `framework` "
 front:        " `front` "
 back:         " `back` "
 ## tool
+aws:          " `Aws` "
 anthora:      " `Anthora` "
+ansible:      " `Ansible` "
+buildah:      " `Buildah` "
 bootstrap:    " `Bootstrap` "
 docusaurus:   " `Docusaurus` "
+docker:      " `Docker` "
 git:          " `Git` "
 hugo:         " `Hugo` "
 jekyll:       " `Jekyll` "
-topix:        " `Topix` "
-vscode:       " `VSCode` "
-buildah:      " `Buildah` "
-docker:      " `Docker` "
 lxc:         " `LXC.` "
 lxd:         " `LXD.` "
+terraform:   " `Terraform` "
+topix:        " `Topix` "
+vault:        " `Vault` "
+vscode:       " `VSCode` "
 ## specification
-oci:         " `OCI.` "
+oci:          " `OCI.` "
 ## language
 bash:         " `Bash` "
 java:         " `Java` "
@@ -30,26 +34,27 @@ yaml:         " `YAML.` "
 
 # name@acronym 
 ## project
-smart:        "SMART" # "Simple Measurable Achievable Relevant Time-Bound"
+smart:        "S.M.A.R.T." # "Simple Measurable Achievable Relevant Time-Bound"
 kpi:          "KPI."  # "Key Process Indicator"
-## Tool
+## Tool category
 pm:           "PM."  # Package Managers
 ssg:          "SSG." # Static Sites Generators
 scm:          "SCM." # Source Content Management
 rmt:          "RMT." # Requirements Management Tools
 alm:          "ALM." # Application Lifecycle Management Tools
 ## Computer
-os:           "OS."  # Virtual Machine
-vm:           "VM."  # Virtual Machine
-api:          "API." # Application Programing Interface
-cli:          "CLI." # Command Line Interface
+api:          "Application programing Interface"
+cli:          "Command Line Interface"
+os:           "Operating System"
+vm:           "Virtual Machine"
 ## AI
-ai:           "AI."  # Artificial Intelligence
-ais:          "AI. System"  # Artificial Intelligence
-llm:          "LLM." # Large Language Model
-ml:           "ML."  # Machine Learning 
-nlp:          "NLP." # Natural Language Processing
+ai:           "Artificial Intelligence."  # Artificial Intelligence
+ais:          "Artificial Intelligence System"  # Artificial Intelligence
 gan:          "GAN." # Generative Adversarial Network
+llm:          "LLM." # Large Language Model
+ml:           "Machine Learning"  # Machine Learning 
+nlp:          "NLP." # Natural Language Processing
 ## Language
-dsl:          "DSL." # "Domain Specific Language"
-ml:           "ML."  # "Markup Language"
+language:
+  dsl:          "Domain Specific Language" # "Domain Specific Language"
+  ml:           "Markup Language"  # "Markup Language"
