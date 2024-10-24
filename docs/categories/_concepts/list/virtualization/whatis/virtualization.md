@@ -27,7 +27,7 @@ The virtualization process typically involves these phases:
 - computers, commonly referred to as {{site.data.name.vm}} (**Virtual Machines**).
 - Desktop computers, referred to as VDI. (Virtual Desktop Infrastructure).
 - Datacenter, referred to as VDI SDDC. (Software-defined data centers).
-- And more recently, **intelligence** with the rise of {{site.data.name.ai} and {site.data.name.ml}},  commonly referred to as {{site.data.name.ais}}.
+- And more recently, **intelligence** with the rise of {{site.data.name.ai}} and {site.data.name.ml}},  commonly referred to as {{site.data.name.ais}}.
 
 # What mean "run the code"
 It means
