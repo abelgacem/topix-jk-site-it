@@ -1,4 +1,5 @@
 ---
+layout: topic
 ---
 
 # {{site.data.name.definition}}
